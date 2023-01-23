@@ -1,0 +1,42 @@
+@use '/src/styles/theme-helper' as *;
+
+.flag {
+    @include font-style($family: standard, $weight: bold, $height: normal, $size: 75);
+    border-radius: 6px;
+    color: $dark-text-primary;
+    display: inline-block;
+    font-size: $font-size-75;
+    font-weight: $font-weight-bold;
+    letter-spacing: $letter-spacing-none;
+    padding: 4px 8px;
+    text-transform: uppercase;
+
+    // The following is how our devs nest their CSS classes
+    &__live {
+        background-color: $dark-utility-status-graphic-alert;
+        color: $dark-text-primary;
+    }
+
+    &__upcoming {
+        background-color: $light-brand-primary;
+        color: $dark-text-primary;
+    }
+
+    &__duration {
+        background-color: $dark-surface-tertiary;
+        color: $dark-text-primary
+    }
+
+    &__queue {
+        color: $dark-text-primary;
+        text-transform: capitalize;
+    }
+
+    &__network {
+        background-color: $paramount-peak-blue;
+
+        .logo {
+            height: 12px;
+        }
+    }
+}

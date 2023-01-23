@@ -1,0 +1,124 @@
+@use '/src/styles/theme-helper' as *;
+
+.button {
+    @include font-style($family: standard, $weight: medium, $height: normal);
+    border-radius: 8px;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-block;
+    padding-left: $spacing-75;
+    padding-right: $spacing-75;
+    text-align: center;
+    text-decoration: none;
+
+    &__large {
+        @include font-style($size: 100);
+        padding: $spacing-75 $spacing-150;
+        height: 48px;
+        icon {
+            width: 18px;
+            height: 18px;
+        }
+    }
+
+    &__medium {
+        @include font-style($size: 90);
+        padding: $spacing-50 $spacing-75;
+        height: 32px;
+    }
+    
+    &__small {
+        @include font-style($size: 75);
+        height: 28px;
+        padding: $spacing-50 $spacing-75;
+    }
+
+    &__hug {
+
+    }
+
+    &__full-width {
+        width: 100%;
+    }
+    
+    &__light {
+
+        &__primary {
+            background: $light-button-primary-background;
+            border: none;
+            color: $light-button-primary-text;
+    
+            &:hover {
+                transition-duration: 200ms;
+                background: $light-button-primary-background-hover;
+            }
+
+            &:focus {
+                border: 3px solid #ffffff;
+                background: $light-button-primary-background-hover;
+                text-decoration: underline;
+                transition-duration: 200ms;
+                transition-property: border;
+            }
+        }
+    
+        &__secondary {
+            background: $light-button-secondary-background;
+            border: 1px solid $light-button-secondary-border;
+            color: $light-button-secondary-text;
+    
+            &:hover {
+                transition-duration: 200ms;
+                background: $light-button-secondary-background-hover;
+            }
+        }
+    
+        &__tertiary {
+            background: none;
+            border: 1px solid rgb(0,0,0,0);
+            color: $light-button-tertiary-text;
+    
+            &:hover {
+                transition-duration: 200ms;
+                border: 1px solid $light-button-tertiary-border-hover;
+            }
+        }
+    }
+
+    &__dark {
+
+        &__primary {
+            background: $dark-button-primary-background;
+            border: none;
+            color: $dark-button-primary-text;
+    
+            &:hover {
+                transition-duration: 200ms;
+                background: $dark-button-primary-background-hover;
+            }
+        }
+    
+        &__secondary {
+            background: $dark-button-secondary-background;
+            border: 1px solid $dark-button-secondary-border;
+            color: $dark-button-secondary-text;
+    
+            &:hover {
+                transition-duration: 200ms;
+                background: $dark-button-secondary-background-hover;
+                color: $dark-button-secondary-text-hover;
+            }
+        }
+    
+        &__tertiary {
+            background: none;
+            border: none;
+            color: $dark-button-tertiary-text;
+    
+            &:hover {
+                transition-duration: 200ms;
+                border: 1px solid $dark-button-tertiary-border-hover;
+            }
+        }
+    }
+}

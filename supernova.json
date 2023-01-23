@@ -1,0 +1,13 @@
+{
+  "workspaceId": "2612",
+  "designSystemId": "3099",
+  "designSystemVersionId": "3179",
+  "brandId": "8321",
+  "exporterId": "25",
+  "workspaceName": "Playbook",
+  "designSystemName": "CBS Sports",
+  "designSystemVersionName": "Shared draft",
+  "exporterName": "SCSS",
+  "write_to": "./src/styles/supernova",
+  "description": "Note to our fellow developers: Install Supernova integration from the VSCode marketplace and then our  SCSS exporter will synchronize design data and generate appropriate code from the  Shared draft design system every time you request it through the extension interface, fully automatically."
+}

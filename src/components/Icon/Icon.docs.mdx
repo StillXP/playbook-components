@@ -1,0 +1,21 @@
+<!-- documentation.mdx -->
+
+# `Icons` component:
+
+Icons is the new generic component created to render all the iconMoons. The new component supports all the svg properties along with any custom property.
+
+### Properties:
+```
+interface SVGRProps {
+    title?: string;
+    width?: string;
+    height?: string;
+}
+```
+**Note:** All the [SVG Properties](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/svg) are supported.
+
+### Render:
+```
+import { CbsIcon } from '../Icons';
+<CbsIcon width="40" height="40" title="CBS Icon" className="myCustomIcon" />
+```
