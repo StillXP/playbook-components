@@ -7,9 +7,11 @@ const meta: Meta = {
     component: Button,
     args: {
         children: 'Button',
+        disabled: false,
         size: 'large',
         theme: 'light',
         width: 'hug',
+        type: 'button'
     }
 }
 
@@ -24,13 +26,13 @@ export const Secondary = Template.bind({})
 export const Tertiary = Template.bind({})
 
 Primary.args = {
-    type: 'primary',
+    style: 'primary'
 }
 
 Secondary.args = {
-    type: 'secondary',
+    style: 'secondary',
 }
 
 Tertiary.args = {
-    type: 'tertiary',
+    style: 'tertiary',
 }

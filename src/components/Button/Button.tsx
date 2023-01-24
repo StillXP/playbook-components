@@ -1,12 +1,15 @@
 import React, { MouseEventHandler, ReactNode } from 'react';
 import classNames from 'classnames';
 import './Button.scss';
-import { ButtonSizes, ButtonTypes, ButtonWidth, Themes } from 'src/constants/constants';
+import { ButtonSizes, ButtonStyles, ButtonWidth, Themes } from 'src/constants/constants';
 import { ChevronLeft } from '../Icon/Icon';
 export interface Props {
-    
+
     /** Button Text */
     children: ReactNode;
+
+    /** Disabled State */
+    disabled: boolean;
 
     /** URL */
     url?: string;
@@ -14,11 +17,14 @@ export interface Props {
     /** Click Handler */
     onClick?: MouseEventHandler<HTMLButtonElement>;
 
-    /** Button Types */
-    type: ButtonTypes;
+    /** Button Type */
+    type: "button";
 
     /** Button Sizes */
     size: ButtonSizes;
+
+    /** Button Styles */
+    style: ButtonStyles;
 
     /** Theme */
     theme: Themes;
@@ -33,16 +39,17 @@ export interface Props {
 /** Foundational set of buttons that are used for primary, secondary, and tertiary actions within a page */
 export const Button = ({
     children,
-    type = 'primary',
+    disabled = false,
+    style = 'primary',
     size = 'large',
     theme = 'light',
     url,
     width,
-    icon,
+    icon = false,
 }: Props) => {
     const buttonClasses = classNames(
         `button`,
-        `button__${theme}__${type}`,
+        `button__${theme}__${style}`,
         `button__${size}`,
         `button__${width}`,
     )
@@ -64,6 +71,15 @@ export const Button = ({
             </button>   
         )
 
+    } else if (disabled) {
+        content = (
+            <button 
+            className={buttonClasses}
+            disabled
+        >
+            {children}
+        </button>  
+        )
     } else { 
         content = (
             <button 
