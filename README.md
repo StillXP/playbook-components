@@ -1,5 +1,1 @@
-Playbook Component Library
-
-Currently Includes 
-  Buttons
-  Flags
+TODO: Write setup tutorial
