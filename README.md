@@ -22,6 +22,8 @@ If you'd like to create a new directory, use the `mkdir {directory-name}` comman
 
 ## Cloning the repository
 
+By default, git should be included with the command line tools in OS X. Run the `git --version` command to check if it's installed. If it's not, running this command should run the installer for you!
+
 Run the following command to clone the repo into your selected directory:
 
 `git clone https://github.com/StillXP/playbook-components`
