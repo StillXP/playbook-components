@@ -1,0 +1,426 @@
+{
+  "color": {
+    "android-os": {
+      "label": {
+        "secondary": {
+          "value": "#3c3c4399",
+          "type": "color"
+        }
+      },
+      "white": {
+        "value": "#ffffffff",
+        "type": "color"
+      },
+      "black": {
+        "value": "#000000ff",
+        "type": "color"
+      },
+      "black-60": {
+        "value": "#00000099",
+        "type": "color"
+      },
+      "white-60": {
+        "value": "#ffffff99",
+        "type": "color"
+      }
+    },
+    "light": {
+      "text": {
+        "primary": {
+          "value": "#202121ff",
+          "type": "color",
+          "comment": "Default text color"
+        },
+        "secondary": {
+          "value": "#656667ff",
+          "type": "color",
+          "comment": "Supplementary Info (diminished contrast)"
+        },
+        "tertiary": {
+          "value": "#757678ff",
+          "type": "color",
+          "comment": "*Only used on Primary Surface. Commonly used for metadata."
+        },
+        "disabled": {
+          "value": "#a6a9adff",
+          "type": "color",
+          "comment": "Not actionable. Does not need to meet AA contrast"
+        },
+        "selected": {
+          "value": "#202121ff",
+          "type": "color",
+          "comment": "Selected date in calendar, selected tab menu item or dropdown"
+        },
+        "unselected": {
+          "value": "#656667ff",
+          "type": "color",
+          "comment": "Unselected date in calendar, unselected tab menu item or dropdown"
+        },
+        "action-link-primary": {
+          "value": "#004aceff",
+          "type": "color",
+          "comment": "Primary link color"
+        },
+        "positive": {
+          "value": "#04802dff",
+          "type": "color",
+          "comment": "Positive status such as a win (W)"
+        },
+        "negative": {
+          "value": "#cc0e00ff",
+          "type": "color",
+          "comment": "Negative status such as a loss (L)"
+        },
+        "alert": {
+          "value": "#e10500ff",
+          "type": "color",
+          "comment": "Urgent info like watch now & live events"
+        }
+      },
+      "surface": {
+        "primary": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Baseline for surfaces"
+        },
+        "secondary": {
+          "value": "#edeef2ff",
+          "type": "color",
+          "comment": "The lowest & darkest surface, usually used to lift the primary surface"
+        },
+        "tertiary": {
+          "value": "#f5f6f7ff",
+          "type": "color",
+          "comment": "Additional surface color for contrast"
+        }
+      },
+      "utility": {
+        "border": {
+          "value": "#d9dbdeff",
+          "type": "color",
+          "comment": "Default border color"
+        },
+        "disabled": {
+          "value": "#a6a9adff",
+          "type": "color",
+          "comment": "Graphics that need a disabled color"
+        },
+        "ui-element-active": {
+          "value": "#004aceff",
+          "type": "color",
+          "comment": "Indicate tab is active, radio button is on"
+        },
+        "icon-primary": {
+          "value": "#202121ff",
+          "type": "color",
+          "comment": "Default icon color"
+        },
+        "icon-secondary": {
+          "value": "#656667ff",
+          "type": "color",
+          "comment": "Icon color when primary cannot be used"
+        },
+        "graphic-positive": {
+          "value": "#059646ff",
+          "type": "color",
+          "comment": "Can be used to show a positive trajectory"
+        },
+        "graphic-negative": {
+          "value": "#cc0e00ff",
+          "type": "color",
+          "comment": "Can be used to show a negative trajectory"
+        },
+        "graphic-info": {
+          "value": "#ebaa17ff",
+          "type": "color",
+          "comment": "Can be used for weather, yellow cards"
+        },
+        "graphic-alert": {
+          "value": "#e10500ff",
+          "type": "color",
+          "comment": "Watch or live icons"
+        }
+      },
+      "brand": {
+        "primary": {
+          "value": "#004aceff",
+          "type": "color",
+          "comment": "Can be used to promote brand where other colors cannot be used"
+        }
+      },
+      "button": {
+        "primary": {
+          "background": {
+            "value": "#004aceff",
+            "type": "color"
+          },
+          "text": {
+            "value": "#ffffffff",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "#ffffff00",
+            "type": "color"
+          },
+          "border": {
+            "value": "#004aceff",
+            "type": "color"
+          },
+          "text": {
+            "value": "#004aceff",
+            "type": "color"
+          }
+        }
+      },
+      "table": {
+        "table-header-row-background-primary": {
+          "value": "#f5f6f7ff",
+          "type": "color"
+        },
+        "table-body-background-active": {
+          "value": "#f5f8ffff",
+          "type": "color"
+        },
+        "table-header-row-background-secondary": {
+          "value": "#edeef2ff",
+          "type": "color"
+        },
+        "table-body-row-background-primary": {
+          "value": "#ffffffff",
+          "type": "color"
+        },
+        "table-body-row-background-secondary": {
+          "value": "#f5f6f7ff",
+          "type": "color"
+        }
+      }
+    },
+    "dark": {
+      "text": {
+        "primary": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Default text color"
+        },
+        "secondary": {
+          "value": "#c2c4c7ff",
+          "type": "color",
+          "comment": "Supplementary Info (diminished contrast)"
+        },
+        "tertiary": {
+          "value": "#8e9194ff",
+          "type": "color",
+          "comment": "*Only used on Primary Surface. Commonly used for metadata."
+        },
+        "disabled": {
+          "value": "#656667ff",
+          "type": "color",
+          "comment": "Not actionable. Does not need to meet AA contrast"
+        },
+        "selected": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Selected date in calendar, selected tab menu item or dropdown"
+        },
+        "unselected": {
+          "value": "#8e9194ff",
+          "type": "color",
+          "comment": "Eg. Unselected date in calendar, unselected tab menu item or dropdown"
+        },
+        "action-link-primary": {
+          "value": "#4383faff",
+          "type": "color",
+          "comment": "Default link color"
+        },
+        "positive": {
+          "value": "#0dc45fff",
+          "type": "color",
+          "comment": "Positive status such as a win (W)"
+        },
+        "negative": {
+          "value": "#f94343ff",
+          "type": "color",
+          "comment": "Do not use on tertiary surfaces. Negative status such as a loss (L). "
+        },
+        "alert": {
+          "value": "#f94343ff",
+          "type": "color",
+          "comment": "Do not use on tertiary surfaces. Urgent info like watch now & live events."
+        }
+      },
+      "table": {
+        "table-header-row-background-primary": {
+          "value": "#2a2b2bff",
+          "type": "color"
+        },
+        "table-body-background-active": {
+          "value": "#3d3f40ff",
+          "type": "color"
+        },
+        "table-header-row-background-secondary": {
+          "value": "#101010ff",
+          "type": "color"
+        },
+        "table-body-row-background-primary": {
+          "value": "#101010ff",
+          "type": "color"
+        },
+        "table-body-row-background-secondary": {
+          "value": "#2a2b2bff",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "primary": {
+          "value": "#202121ff",
+          "type": "color",
+          "comment": "Baseline for surfaces"
+        },
+        "secondary": {
+          "value": "#101010ff",
+          "type": "color",
+          "comment": "The lowest & darkest surface, usually used to lift the primary surface"
+        },
+        "tertiary": {
+          "value": "#2a2b2bff",
+          "type": "color",
+          "comment": "Additional surface color for contrast"
+        }
+      },
+      "utility": {
+        "border": {
+          "value": "#3d3f40ff",
+          "type": "color",
+          "comment": "Default border color"
+        },
+        "disabled": {
+          "value": "#656667ff",
+          "type": "color",
+          "comment": "Any graphics that need a disabled color"
+        },
+        "ui-element-active": {
+          "value": "#4383faff",
+          "type": "color",
+          "comment": "Indicate tab is active, radio button is on"
+        },
+        "icon-primary": {
+          "value": "#f5f6f7ff",
+          "type": "color",
+          "comment": "Default icon color"
+        },
+        "icon-secondary": {
+          "value": "#c2c4c7ff",
+          "type": "color",
+          "comment": "Icon color when primary cannot be used"
+        },
+        "graphic-positive": {
+          "value": "#0dc45fff",
+          "type": "color",
+          "comment": "Can be used to show a positive trajectory"
+        },
+        "graphic-negative": {
+          "value": "#f94343ff",
+          "type": "color",
+          "comment": "Can be used to show a negative trajectory"
+        },
+        "graphic-info": {
+          "value": "#f2ce3fff",
+          "type": "color",
+          "comment": "Can be used for weather, yellow cards"
+        },
+        "graphic-alert": {
+          "value": "#e10500ff",
+          "type": "color",
+          "comment": "Watch or live icons"
+        }
+      },
+      "brand": {
+        "primary": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Can be used to promote brand where other colors cannot be used"
+        }
+      },
+      "button": {
+        "primary": {
+          "background": {
+            "value": "#0d55d9ff",
+            "type": "color"
+          },
+          "text": {
+            "value": "#ffffffff",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "background": {
+            "value": "#20212100",
+            "type": "color"
+          },
+          "border": {
+            "value": "#4383faff",
+            "type": "color"
+          },
+          "text": {
+            "value": "#4383faff",
+            "type": "color"
+          }
+        }
+      }
+    },
+    "dynamic-text": {
+      "primary": {
+        "value": "#ffffffff",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "#ffffffd9",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffffbf",
+        "type": "color"
+      },
+      "selected": {
+        "value": "#ffffffff",
+        "type": "color"
+      },
+      "unselected": {
+        "value": "#ffffffd9",
+        "type": "color"
+      }
+    },
+    "dynamic-utility": {
+      "border-primary": {
+        "value": "#ffffff4d",
+        "type": "color"
+      },
+      "border-secondary": {
+        "value": "#ffffff1a",
+        "type": "color"
+      },
+      "disabled": {
+        "value": "#ffffffbf",
+        "type": "color"
+      },
+      "ui-element-active": {
+        "value": "#ffffffff",
+        "type": "color"
+      },
+      "icon-primary": {
+        "value": "#ffffffff",
+        "type": "color"
+      },
+      "icon-secondary": {
+        "value": "#ffffffbf",
+        "type": "color"
+      }
+    },
+    "component-border": {
+      "value": "#9747ffff",
+      "type": "color"
+    }
+  }
+}
