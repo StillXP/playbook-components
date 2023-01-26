@@ -1,334 +1,5 @@
 {
   "shadow": {
-    "android": {
-      "bottom-app-bar-shadow": {
-        "value": {
-          "color": {
-            "type": "color",
-            "value": "#0000001f"
-          },
-          "x": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "y": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -4
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "radius": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "spread": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "opacity": {
-            "type": "size",
-            "value": 1
-          }
-        },
-        "type": "shadow"
-      },
-      "snackbar-shadow": {
-        "value": {
-          "color": {
-            "type": "color",
-            "value": "#00000033"
-          },
-          "x": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "y": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 3
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "radius": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 5
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "spread": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "opacity": {
-            "type": "size",
-            "value": 1
-          }
-        },
-        "type": "shadow"
-      },
-      "snackbar-shadow-2": {
-        "value": {
-          "color": {
-            "type": "color",
-            "value": "#0000001f"
-          },
-          "x": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "y": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 1
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "radius": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 18
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "spread": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "opacity": {
-            "type": "size",
-            "value": 1
-          }
-        },
-        "type": "shadow"
-      },
-      "snackbar-shadow-3": {
-        "value": {
-          "color": {
-            "type": "color",
-            "value": "#00000024"
-          },
-          "x": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "y": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 6
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "radius": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 10
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "spread": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "opacity": {
-            "type": "size",
-            "value": 1
-          }
-        },
-        "type": "shadow"
-      }
-    },
-    "ios": {
-      "tabbar-shadow": {
-        "value": {
-          "color": {
-            "type": "color",
-            "value": "#0000000a"
-          },
-          "x": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "y": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "radius": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 10
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "spread": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "opacity": {
-            "type": "size",
-            "value": 1
-          }
-        },
-        "type": "shadow"
-      }
-    },
     "elevation": {
       "light": {
         "0": {
@@ -564,6 +235,201 @@
                 "measure": {
                   "type": "size",
                   "value": 12
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "spread": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "opacity": {
+              "type": "size",
+              "value": 1
+            }
+          },
+          "type": "shadow"
+        },
+        "30": {
+          "value": {
+            "color": {
+              "type": "color",
+              "value": "#00000033"
+            },
+            "x": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "y": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 12
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 16
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "spread": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "opacity": {
+              "type": "size",
+              "value": 1
+            }
+          },
+          "type": "shadow"
+        },
+        "40": {
+          "value": {
+            "color": {
+              "type": "color",
+              "value": "#00000033"
+            },
+            "x": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "y": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 16
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 20
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "spread": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "opacity": {
+              "type": "size",
+              "value": 1
+            }
+          },
+          "type": "shadow"
+        },
+        "50": {
+          "value": {
+            "color": {
+              "type": "color",
+              "value": "#00000033"
+            },
+            "x": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "y": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 20
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 24
                 },
                 "unit": {
                   "type": "string",
@@ -852,403 +718,203 @@
             }
           },
           "type": "shadow"
+        },
+        "30": {
+          "value": {
+            "color": {
+              "type": "color",
+              "value": "#000000ff"
+            },
+            "x": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "y": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 12
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 16
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "spread": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "opacity": {
+              "type": "size",
+              "value": 1
+            }
+          },
+          "type": "shadow"
+        },
+        "40": {
+          "value": {
+            "color": {
+              "type": "color",
+              "value": "#000000ff"
+            },
+            "x": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "y": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 16
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 20
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "spread": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "opacity": {
+              "type": "size",
+              "value": 1
+            }
+          },
+          "type": "shadow"
+        },
+        "50": {
+          "value": {
+            "color": {
+              "type": "color",
+              "value": "#000000ff"
+            },
+            "x": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "y": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 20
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "radius": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 24
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "spread": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "opacity": {
+              "type": "size",
+              "value": 1
+            }
+          },
+          "type": "shadow"
         }
       }
-    },
-    "tile-shadow": {
-      "value": {
-        "color": {
-          "type": "color",
-          "value": "#0000001f"
-        },
-        "x": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "y": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 1
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "radius": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 4
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "spread": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "opacity": {
-          "type": "size",
-          "value": 1
-        }
-      },
-      "type": "shadow"
-    },
-    "filter-shadow-light-theme-": {
-      "value": {
-        "color": {
-          "type": "color",
-          "value": "#0000001f"
-        },
-        "x": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 1
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "y": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 2
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "radius": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "spread": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "opacity": {
-          "type": "size",
-          "value": 1
-        }
-      },
-      "type": "shadow",
-      "comment": "Used on Filter Pills"
-    },
-    "filter-shadow-light-theme-2": {
-      "value": {
-        "color": {
-          "type": "color",
-          "value": "#0000001f"
-        },
-        "x": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "y": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 1
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "radius": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 4
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "spread": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "opacity": {
-          "type": "size",
-          "value": 1
-        }
-      },
-      "type": "shadow",
-      "comment": "Used on Filter Pills"
-    },
-    "filter-shadow-dark-theme-": {
-      "value": {
-        "color": {
-          "type": "color",
-          "value": "#ffffff1f"
-        },
-        "x": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 1
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "y": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 2
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "radius": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "spread": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "opacity": {
-          "type": "size",
-          "value": 1
-        }
-      },
-      "type": "shadow",
-      "comment": "Used on Filter Pills"
-    },
-    "filter-shadow-dark-theme-2": {
-      "value": {
-        "color": {
-          "type": "color",
-          "value": "#ffffff1f"
-        },
-        "x": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "y": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 1
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "radius": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 4
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "spread": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "opacity": {
-          "type": "size",
-          "value": 1
-        }
-      },
-      "type": "shadow",
-      "comment": "Used on Filter Pills"
-    },
-    "modal-navbar-light-theme-": {
-      "value": {
-        "color": {
-          "type": "color",
-          "value": "#0000001a"
-        },
-        "x": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "y": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": -4
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "radius": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "spread": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "opacity": {
-          "type": "size",
-          "value": 1
-        }
-      },
-      "type": "shadow",
-      "comment": "This drop shadow should appears for modals"
     }
   }
 }

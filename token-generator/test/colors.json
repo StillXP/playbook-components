@@ -1,11 +1,57 @@
 {
   "color": {
-    "android-os": {
-      "label": {
-        "secondary": {
-          "value": "#3c3c4399",
-          "type": "color"
-        }
+    "neutral": {
+      "0": {
+        "value": "#f5f6f7ff",
+        "type": "color"
+      },
+      "5": {
+        "value": "#edeef2ff",
+        "type": "color"
+      },
+      "10": {
+        "value": "#d9dbdeff",
+        "type": "color"
+      },
+      "20": {
+        "value": "#c2c4c7ff",
+        "type": "color"
+      },
+      "30": {
+        "value": "#a6a9adff",
+        "type": "color"
+      },
+      "40": {
+        "value": "#8e9194ff",
+        "type": "color"
+      },
+      "50": {
+        "value": "#757678ff",
+        "type": "color"
+      },
+      "60": {
+        "value": "#656667ff",
+        "type": "color"
+      },
+      "70": {
+        "value": "#4b4c4dff",
+        "type": "color"
+      },
+      "80": {
+        "value": "#3d3f40ff",
+        "type": "color"
+      },
+      "90": {
+        "value": "#2a2b2bff",
+        "type": "color"
+      },
+      "95": {
+        "value": "#202121ff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#101010ff",
+        "type": "color"
       },
       "white": {
         "value": "#ffffffff",
@@ -14,148 +60,714 @@
       "black": {
         "value": "#000000ff",
         "type": "color"
-      },
-      "black-60": {
-        "value": "#00000099",
+      }
+    },
+    "fantasy-games": {
+      "golf-props-1": {
+        "value": "#45cc56ff",
         "type": "color"
       },
-      "white-60": {
-        "value": "#ffffff99",
+      "golf-props-2": {
+        "value": "#469944ff",
+        "type": "color"
+      },
+      "golf-props-3": {
+        "value": "#a5f40cff",
+        "type": "color"
+      },
+      "parlay-pickem-1": {
+        "value": "#1699dcff",
+        "type": "color"
+      },
+      "parlay-pickem-2": {
+        "value": "#ff4c00ff",
+        "type": "color"
+      },
+      "parlay-pickem-3": {
+        "value": "#d0c1c9ff",
+        "type": "color"
+      },
+      "bracket-games-1": {
+        "value": "#e06817ff",
+        "type": "color"
+      },
+      "bracket-games-2": {
+        "value": "#cb3735ff",
+        "type": "color"
+      },
+      "football-pickem-1": {
+        "value": "#1a69b7ff",
+        "type": "color"
+      },
+      "football-pickem-2": {
+        "value": "#dd0000ff",
+        "type": "color"
+      },
+      "football-pickem-3": {
+        "value": "#b4b7c0ff",
+        "type": "color"
+      },
+      "college-pickem-1": {
+        "value": "#dbb809ff",
+        "type": "color"
+      },
+      "college-pickem-2": {
+        "value": "#d2a628ff",
+        "type": "color"
+      },
+      "football-props-1": {
+        "value": "#00bc6fff",
+        "type": "color"
+      },
+      "football-props-2": {
+        "value": "#077b49ff",
+        "type": "color"
+      },
+      "soccer-props-1": {
+        "value": "#9d22ffff",
+        "type": "color"
+      },
+      "soccer-props-2": {
+        "value": "#adafb2ff",
         "type": "color"
       }
     },
-    "light": {
-      "text": {
-        "primary": {
-          "value": "#202121ff",
+    "green": {
+      "0": {
+        "value": "#f7fff9ff",
+        "type": "color"
+      },
+      "5": {
+        "value": "#dcf2e0ff",
+        "type": "color"
+      },
+      "10": {
+        "value": "#c3faccff",
+        "type": "color"
+      },
+      "20": {
+        "value": "#8df7a0ff",
+        "type": "color"
+      },
+      "30": {
+        "value": "#58ed78ff",
+        "type": "color"
+      },
+      "40": {
+        "value": "#10d669ff",
+        "type": "color",
+        "comment": "Sportsline primary color"
+      },
+      "50": {
+        "value": "#0dc45fff",
+        "type": "color"
+      },
+      "60": {
+        "value": "#09b054ff",
+        "type": "color"
+      },
+      "70": {
+        "value": "#059646ff",
+        "type": "color"
+      },
+      "80": {
+        "value": "#04802dff",
+        "type": "color"
+      },
+      "90": {
+        "value": "#005922ff",
+        "type": "color"
+      },
+      "95": {
+        "value": "#004017ff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#00260bff",
+        "type": "color"
+      }
+    },
+    "blue": {
+      "0": {
+        "value": "#f5f8ffff",
+        "type": "color"
+      },
+      "5": {
+        "value": "#dfe6f5ff",
+        "type": "color"
+      },
+      "10": {
+        "value": "#bdd0f2ff",
+        "type": "color"
+      },
+      "20": {
+        "value": "#88b0f7ff",
+        "type": "color"
+      },
+      "30": {
+        "value": "#4383faff",
+        "type": "color"
+      },
+      "40": {
+        "value": "#2268e5ff",
+        "type": "color"
+      },
+      "50": {
+        "value": "#0d55d9ff",
+        "type": "color"
+      },
+      "60": {
+        "value": "#004aceff",
+        "type": "color",
+        "comment": "CBS Sports primary color"
+      },
+      "70": {
+        "value": "#0036b5ff",
+        "type": "color"
+      },
+      "80": {
+        "value": "#00259eff",
+        "type": "color",
+        "comment": "247 Sports primary color"
+      },
+      "90": {
+        "value": "#001373ff",
+        "type": "color"
+      },
+      "95": {
+        "value": "#000640ff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#050d27ff",
+        "type": "color"
+      }
+    },
+    "yellow": {
+      "0": {
+        "value": "#fcfbf5ff",
+        "type": "color"
+      },
+      "5": {
+        "value": "#faf7ebff",
+        "type": "color"
+      },
+      "10": {
+        "value": "#f2e7bdff",
+        "type": "color"
+      },
+      "20": {
+        "value": "#f2dd8aff",
+        "type": "color"
+      },
+      "30": {
+        "value": "#f2ce3fff",
+        "type": "color"
+      },
+      "40": {
+        "value": "#f2be2cff",
+        "type": "color"
+      },
+      "50": {
+        "value": "#ebaa17ff",
+        "type": "color"
+      },
+      "60": {
+        "value": "#cc9618ff",
+        "type": "color"
+      },
+      "70": {
+        "value": "#996c05ff",
+        "type": "color"
+      },
+      "80": {
+        "value": "#805804ff",
+        "type": "color"
+      },
+      "90": {
+        "value": "#593c00ff",
+        "type": "color"
+      },
+      "95": {
+        "value": "#402a00ff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#2b1c00ff",
+        "type": "color"
+      }
+    },
+    "leagues": {
+      "soccer": {
+        "champions-league": {
+          "value": "#00004bff",
           "type": "color",
-          "comment": "Default text color"
+          "comment": "UEFA Champions League (UCL)"
+        },
+        "europa-league-primary": {
+          "value": "#ff6900ff",
+          "type": "color",
+          "comment": "UEFA Europa League (UEL)"
+        },
+        "europa-league-secondary": {
+          "value": "#000000ff",
+          "type": "color"
+        },
+        "europa-conference-primary": {
+          "value": "#00be14ff",
+          "type": "color"
+        },
+        "europa-conference-secondary": {
+          "value": "#000000ff",
+          "type": "color"
+        },
+        "english-premier-league": {
+          "value": "#3d195bff",
+          "type": "color",
+          "comment": "England's Football League (EPL)"
+        },
+        "la-liga": {
+          "value": "#0c1b23ff",
+          "type": "color",
+          "comment": "Spanish Football (soccer) League"
+        },
+        "serie-a": {
+          "value": "#00197dff",
+          "type": "color"
+        },
+        "bundesliga": {
+          "value": "#d20515ff",
+          "type": "color",
+          "comment": "German Football (soccer) League"
+        },
+        "ligue-1": {
+          "value": "#091c3eff",
+          "type": "color",
+          "comment": "French Football (soccer) League"
+        },
+        "liga-mx": {
+          "value": "#072146ff",
+          "type": "color",
+          "comment": "Mexican Football (soccer) League"
+        },
+        "mls": {
+          "value": "#e22319ff",
+          "type": "color",
+          "comment": "Major League Soccer (US)"
+        },
+        "nwsl-primary": {
+          "value": "#1d2d53ff",
+          "type": "color",
+          "comment": "National Women's Soccer League"
+        },
+        "nwsl-secondary": {
+          "value": "#d22030ff",
+          "type": "color"
+        },
+        "world-cup-light": {
+          "value": "#9a1032ff",
+          "type": "color",
+          "comment": "Currently being used as a light background for World Cup Brackets"
+        },
+        "world-cup-dark": {
+          "value": "#50b0a0ff",
+          "type": "color",
+          "comment": "Currently being used as a dark background for World Cup Brackets"
+        }
+      },
+      "bellator": {
+        "primary": {
+          "value": "#ed1c24ff",
+          "type": "color"
         },
         "secondary": {
-          "value": "#656667ff",
-          "type": "color",
-          "comment": "Supplementary Info (diminished contrast)"
-        },
-        "tertiary": {
-          "value": "#757678ff",
-          "type": "color",
-          "comment": "*Only used on Primary Surface. Commonly used for metadata."
-        },
-        "disabled": {
-          "value": "#a6a9adff",
-          "type": "color",
-          "comment": "Not actionable. Does not need to meet AA contrast"
-        },
-        "selected": {
-          "value": "#202121ff",
-          "type": "color",
-          "comment": "Selected date in calendar, selected tab menu item or dropdown"
-        },
-        "unselected": {
-          "value": "#656667ff",
-          "type": "color",
-          "comment": "Unselected date in calendar, unselected tab menu item or dropdown"
-        },
-        "action-link-primary": {
-          "value": "#004aceff",
-          "type": "color",
-          "comment": "Primary link color"
-        },
-        "positive": {
-          "value": "#04802dff",
-          "type": "color",
-          "comment": "Positive status such as a win (W)"
-        },
-        "negative": {
-          "value": "#cc0e00ff",
-          "type": "color",
-          "comment": "Negative status such as a loss (L)"
-        },
-        "alert": {
-          "value": "#e10500ff",
-          "type": "color",
-          "comment": "Urgent info like watch now & live events"
+          "value": "#000000ff",
+          "type": "color"
         }
       },
-      "surface": {
+      "olympics": {
+        "gold": {
+          "value": "#cc9618ff",
+          "type": "color"
+        },
+        "silver": {
+          "value": "#a6a9adff",
+          "type": "color"
+        },
+        "bronze": {
+          "value": "#805804ff",
+          "type": "color"
+        },
+        "brand": {
+          "value": "#0078d0ff",
+          "type": "color"
+        }
+      },
+      "nfl": {
         "primary": {
-          "value": "#ffffffff",
+          "value": "#013369ff",
           "type": "color",
-          "comment": "Baseline for surfaces"
+          "comment": "National Football League"
+        },
+        "afc-conference": {
+          "value": "#ce202cff",
+          "type": "color"
+        },
+        "nfc-conference": {
+          "value": "#003b66ff",
+          "type": "color"
+        }
+      },
+      "nba": {
+        "primary": {
+          "value": "#1d428aff",
+          "type": "color",
+          "comment": "Men's NBA"
         },
         "secondary": {
-          "value": "#edeef2ff",
-          "type": "color",
-          "comment": "The lowest & darkest surface, usually used to lift the primary surface"
-        },
-        "tertiary": {
-          "value": "#f5f6f7ff",
-          "type": "color",
-          "comment": "Additional surface color for contrast"
+          "value": "#c8102eff",
+          "type": "color"
         }
       },
-      "utility": {
-        "border": {
-          "value": "#d9dbdeff",
-          "type": "color",
-          "comment": "Default border color"
-        },
-        "disabled": {
-          "value": "#a6a9adff",
-          "type": "color",
-          "comment": "Graphics that need a disabled color"
-        },
-        "ui-element-active": {
-          "value": "#004aceff",
-          "type": "color",
-          "comment": "Indicate tab is active, radio button is on"
-        },
-        "icon-primary": {
-          "value": "#202121ff",
-          "type": "color",
-          "comment": "Default icon color"
-        },
-        "icon-secondary": {
-          "value": "#656667ff",
-          "type": "color",
-          "comment": "Icon color when primary cannot be used"
-        },
-        "graphic-positive": {
-          "value": "#059646ff",
-          "type": "color",
-          "comment": "Can be used to show a positive trajectory"
-        },
-        "graphic-negative": {
-          "value": "#cc0e00ff",
-          "type": "color",
-          "comment": "Can be used to show a negative trajectory"
-        },
-        "graphic-info": {
-          "value": "#ebaa17ff",
-          "type": "color",
-          "comment": "Can be used for weather, yellow cards"
-        },
-        "graphic-alert": {
-          "value": "#e10500ff",
-          "type": "color",
-          "comment": "Watch or live icons"
-        }
-      },
-      "brand": {
+      "golf": {
         "primary": {
-          "value": "#004aceff",
+          "value": "#285f61ff",
+          "type": "color"
+        },
+        "lpga": {
+          "value": "#005288ff",
           "type": "color",
-          "comment": "Can be used to promote brand where other colors cannot be used"
+          "comment": "Ladies Professional Golf Association"
+        },
+        "masters-green-1": {
+          "value": "#518d47ff",
+          "type": "color"
+        },
+        "masters-green-2": {
+          "value": "#7ba67bff",
+          "type": "color"
+        },
+        "masters-green-3": {
+          "value": "#185c2aff",
+          "type": "color"
+        },
+        "masters-green-4": {
+          "value": "#1f3b22ff",
+          "type": "color"
+        },
+        "masters-green-5": {
+          "value": "#1a3a36ff",
+          "type": "color"
+        },
+        "masters-green-6": {
+          "value": "#bdc9c9ff",
+          "type": "color"
+        },
+        "masters-green-7": {
+          "value": "#0a2f16ff",
+          "type": "color"
+        },
+        "masters-green-8": {
+          "value": "#1e3f40ff",
+          "type": "color"
+        },
+        "masters-green-9": {
+          "value": "#234b4bff",
+          "type": "color"
+        },
+        "masters-yellow-1": {
+          "value": "#faf8a5ff",
+          "type": "color"
+        },
+        "masters-yellow-2": {
+          "value": "#fff200ff",
+          "type": "color"
+        },
+        "masters-yellow-3": {
+          "value": "#e3e902ff",
+          "type": "color"
+        },
+        "pga-white": {
+          "value": "#cfdce6ff",
+          "type": "color"
+        },
+        "pga-green-1": {
+          "value": "#1e3f40ff",
+          "type": "color"
+        },
+        "pga-green-2": {
+          "value": "#234b4bff",
+          "type": "color"
+        },
+        "pga-green-3": {
+          "value": "#185c2aff",
+          "type": "color"
+        },
+        "pga-green-4": {
+          "value": "#306c6cff",
+          "type": "color"
+        },
+        "pga-green-5": {
+          "value": "#99a3a4ff",
+          "type": "color"
+        },
+        "pga-green-6": {
+          "value": "#14312eff",
+          "type": "color"
         }
       },
+      "big-3": {
+        "value": "#002b5cff",
+        "type": "color",
+        "comment": "Basketball"
+      },
+      "boxing": {
+        "value": "#db2126ff",
+        "type": "color"
+      },
+      "mlb": {
+        "value": "#041e42ff",
+        "type": "color",
+        "comment": "Major League Baseball"
+      },
+      "mma": {
+        "value": "#771b1bff",
+        "type": "color",
+        "comment": "Mixed Martial Arts"
+      },
+      "nascar": {
+        "value": "#000000ff",
+        "type": "color"
+      },
+      "ncaa": {
+        "value": "#005eb8ff",
+        "type": "color",
+        "comment": "Applies to both basketball (NCAAB) and football (NCAAF)"
+      },
+      "nhl": {
+        "value": "#000000ff",
+        "type": "color",
+        "comment": "National Hockey League"
+      },
+      "tennis": {
+        "value": "#275b4dff",
+        "type": "color"
+      },
+      "wnba": {
+        "value": "#fa4d00ff",
+        "type": "color",
+        "comment": "Women's NBA"
+      },
+      "wwe": {
+        "value": "#222222ff",
+        "type": "color",
+        "comment": "World Wrestling Entertainment"
+      },
+      "xfl": {
+        "value": "#02214fff",
+        "type": "color"
+      },
+      "formula-1": {
+        "value": "#000000ff",
+        "type": "color",
+        "comment": "F1"
+      }
+    },
+    "caesars": {
+      "pine": {
+        "value": "#173432ff",
+        "type": "color",
+        "comment": "For use on:\n- Light surfaces as a logo color\n- as a background color"
+      },
+      "gold": {
+        "value": "#c5a459ff",
+        "type": "color",
+        "comment": "For use on:\n- Light surfaces as a logo color\n- Dark surfaces as a logo color\n\nAlso known as: Caesars Gold"
+      },
+      "cool-gray": {
+        "value": "#e8e3deff",
+        "type": "color",
+        "comment": "For use on:\n- Dark surfaces as a logo color"
+      },
+      "bg-black": {
+        "value": "#070607ff",
+        "type": "color"
+      },
+      "bg-white": {
+        "value": "#ffffffff",
+        "type": "color"
+      },
+      "gold-on-white": {
+        "value": "#98845aff",
+        "type": "color"
+      },
+      "gold-on-black": {
+        "value": "#cbaa65ff",
+        "type": "color"
+      }
+    },
+    "orange": {
+      "0": {
+        "value": "#faf7f5ff",
+        "type": "color"
+      },
+      "5": {
+        "value": "#f7f0e9ff",
+        "type": "color"
+      },
+      "10": {
+        "value": "#f2d5bdff",
+        "type": "color"
+      },
+      "20": {
+        "value": "#f2b98aff",
+        "type": "color"
+      },
+      "30": {
+        "value": "#f2903fff",
+        "type": "color"
+      },
+      "40": {
+        "value": "#f08024ff",
+        "type": "color"
+      },
+      "50": {
+        "value": "#d9690dff",
+        "type": "color"
+      },
+      "60": {
+        "value": "#bf5804ff",
+        "type": "color"
+      },
+      "70": {
+        "value": "#a34905ff",
+        "type": "color"
+      },
+      "80": {
+        "value": "#803704ff",
+        "type": "color"
+      },
+      "90": {
+        "value": "#592400ff",
+        "type": "color"
+      },
+      "95": {
+        "value": "#401a00ff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#2b1400ff",
+        "type": "color"
+      }
+    },
+    "red": {
+      "0": {
+        "value": "#fff7f7ff",
+        "type": "color"
+      },
+      "5": {
+        "value": "#f2dfdfff",
+        "type": "color"
+      },
+      "10": {
+        "value": "#fac3c3ff",
+        "type": "color"
+      },
+      "20": {
+        "value": "#f78d8dff",
+        "type": "color"
+      },
+      "30": {
+        "value": "#f94343ff",
+        "type": "color"
+      },
+      "40": {
+        "value": "#eb2a2aff",
+        "type": "color"
+      },
+      "50": {
+        "value": "#e10500ff",
+        "type": "color",
+        "comment": "Maxpreps primary color"
+      },
+      "60": {
+        "value": "#cc0e00ff",
+        "type": "color"
+      },
+      "70": {
+        "value": "#ad1100ff",
+        "type": "color"
+      },
+      "80": {
+        "value": "#941100ff",
+        "type": "color"
+      },
+      "90": {
+        "value": "#730b00ff",
+        "type": "color"
+      },
+      "95": {
+        "value": "#400c06ff",
+        "type": "color"
+      },
+      "100": {
+        "value": "#2b0604ff",
+        "type": "color"
+      }
+    },
+    "fubo": {
+      "primary": {
+        "value": "#e7542fff",
+        "type": "color"
+      }
+    },
+    "internal-brands": {
+      "hq-am-pm": {
+        "value": "#004482ff",
+        "type": "color"
+      },
+      "pick-six": {
+        "value": "#035d10ff",
+        "type": "color"
+      },
+      "fantasy-football-today": {
+        "value": "#043762ff",
+        "type": "color"
+      },
+      "fantasy-baseball-today": {
+        "value": "#ff0000ff",
+        "type": "color"
+      },
+      "the-first-cut": {
+        "value": "#0e6011ff",
+        "type": "color"
+      }
+    },
+    "dark": {
       "button": {
-        "primary": {
-          "background": {
-            "value": "#004aceff",
+        "tertiary": {
+          "border": {
+            "value": "#2268e5ff",
+            "type": "color"
+          },
+          "border-hover": {
+            "value": "#88b0f7ff",
             "type": "color"
           },
           "text": {
-            "value": "#ffffffff",
+            "value": "#4383faff",
+            "type": "color"
+          },
+          "text-hover": {
+            "value": "#88b0f7ff",
+            "type": "color"
+          },
+          "background": {
+            "value": "#00000000",
+            "type": "color"
+          },
+          "border-focused": {
+            "value": "#4383faff",
             "type": "color"
           }
         },
@@ -164,189 +776,938 @@
             "value": "#ffffff00",
             "type": "color"
           },
+          "background-hover": {
+            "value": "#ffffffff",
+            "type": "color"
+          },
           "border": {
-            "value": "#004aceff",
+            "value": "#ffffffff",
             "type": "color"
           },
           "text": {
-            "value": "#004aceff",
+            "value": "#ffffffff",
+            "type": "color"
+          },
+          "text-hover": {
+            "value": "#4b4c4dff",
+            "type": "color"
+          },
+          "border-focused": {
+            "value": "#ffffffff",
+            "type": "color"
+          }
+        },
+        "primary": {
+          "background": {
+            "value": "#0d55d9ff",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "#2268e5ff",
+            "type": "color"
+          },
+          "border": {
+            "value": "#0d55d9ff",
+            "type": "color"
+          },
+          "text": {
+            "value": "#ffffffff",
+            "type": "color"
+          },
+          "border-focused": {
+            "value": "#ffffffff",
+            "type": "color"
+          }
+        },
+        "promo": {
+          "primary": {
+            "background": {
+              "value": "#05a342ff",
+              "type": "color"
+            },
+            "background-hover": {
+              "value": "#04802dff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#05a342ff",
+              "type": "color"
+            },
+            "text": {
+              "value": "#ffffffff",
+              "type": "color"
+            }
+          },
+          "secondary": {
+            "background": {
+              "value": "#d9690dff",
+              "type": "color"
+            },
+            "background-hover": {
+              "value": "#bf5804ff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#d9690dff",
+              "type": "color"
+            },
+            "text": {
+              "value": "#ffffffff",
+              "type": "color"
+            }
+          }
+        },
+        "live": {
+          "background": {
+            "value": "#e10500ff",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "#cc0e00ff",
+            "type": "color"
+          },
+          "border": {
+            "value": "#e10500ff",
+            "type": "color"
+          },
+          "text": {
+            "value": "#ffffffff",
             "type": "color"
           }
         }
       },
-      "table": {
-        "table-header-row-background-primary": {
-          "value": "#f5f6f7ff",
-          "type": "color"
-        },
-        "table-body-background-active": {
-          "value": "#f5f8ffff",
-          "type": "color"
-        },
-        "table-header-row-background-secondary": {
-          "value": "#edeef2ff",
-          "type": "color"
-        },
-        "table-body-row-background-primary": {
-          "value": "#ffffffff",
-          "type": "color"
-        },
-        "table-body-row-background-secondary": {
-          "value": "#f5f6f7ff",
-          "type": "color"
-        }
-      }
-    },
-    "dark": {
-      "text": {
-        "primary": {
-          "value": "#ffffffff",
-          "type": "color",
-          "comment": "Default text color"
-        },
-        "secondary": {
-          "value": "#c2c4c7ff",
-          "type": "color",
-          "comment": "Supplementary Info (diminished contrast)"
-        },
-        "tertiary": {
-          "value": "#8e9194ff",
-          "type": "color",
-          "comment": "*Only used on Primary Surface. Commonly used for metadata."
-        },
-        "disabled": {
-          "value": "#656667ff",
-          "type": "color",
-          "comment": "Not actionable. Does not need to meet AA contrast"
-        },
-        "selected": {
-          "value": "#ffffffff",
-          "type": "color",
-          "comment": "Selected date in calendar, selected tab menu item or dropdown"
-        },
-        "unselected": {
-          "value": "#8e9194ff",
-          "type": "color",
-          "comment": "Eg. Unselected date in calendar, unselected tab menu item or dropdown"
-        },
-        "action-link-primary": {
-          "value": "#4383faff",
-          "type": "color",
-          "comment": "Default link color"
-        },
-        "positive": {
-          "value": "#0dc45fff",
-          "type": "color",
-          "comment": "Positive status such as a win (W)"
-        },
-        "negative": {
-          "value": "#f94343ff",
-          "type": "color",
-          "comment": "Do not use on tertiary surfaces. Negative status such as a loss (L). "
-        },
-        "alert": {
-          "value": "#f94343ff",
-          "type": "color",
-          "comment": "Do not use on tertiary surfaces. Urgent info like watch now & live events."
-        }
-      },
-      "table": {
-        "table-header-row-background-primary": {
-          "value": "#2a2b2bff",
-          "type": "color"
-        },
-        "table-body-background-active": {
-          "value": "#3d3f40ff",
-          "type": "color"
-        },
-        "table-header-row-background-secondary": {
-          "value": "#101010ff",
-          "type": "color"
-        },
-        "table-body-row-background-primary": {
-          "value": "#101010ff",
-          "type": "color"
-        },
-        "table-body-row-background-secondary": {
-          "value": "#2a2b2bff",
-          "type": "color"
-        }
-      },
-      "surface": {
-        "primary": {
-          "value": "#202121ff",
-          "type": "color",
-          "comment": "Baseline for surfaces"
-        },
-        "secondary": {
-          "value": "#101010ff",
-          "type": "color",
-          "comment": "The lowest & darkest surface, usually used to lift the primary surface"
-        },
-        "tertiary": {
-          "value": "#2a2b2bff",
-          "type": "color",
-          "comment": "Additional surface color for contrast"
-        }
-      },
       "utility": {
+        "status": {
+          "graphic-positive": {
+            "value": "{color.green.50.value}",
+            "type": "color",
+            "comment": "Can be used to show a positive trajectory"
+          },
+          "graphic-positive-hover": {
+            "value": "{color.green.40.value}",
+            "type": "color"
+          },
+          "graphic-negative": {
+            "value": "{color.red.30.value}",
+            "type": "color",
+            "comment": "Can be used to show a negative trajectory"
+          },
+          "graphic-negative-hover": {
+            "value": "{color.red.20.value}",
+            "type": "color"
+          },
+          "graphic-info": {
+            "value": "{color.yellow.30.value}",
+            "type": "color",
+            "comment": "Can be used for weather, yellow cards"
+          },
+          "graphic-info-hover": {
+            "value": "{color.yellow.20.value}",
+            "type": "color"
+          },
+          "graphic-cool": {
+            "value": "{color.blue.30.value}",
+            "type": "color",
+            "comment": "Can be used to show a cooling down trajectory"
+          },
+          "graphic-alert": {
+            "value": "{color.red.50.value}",
+            "type": "color",
+            "comment": "Watch or live icons"
+          }
+        },
+        "ui-background-hover": {
+          "value": "#2a2b2bff",
+          "type": "color",
+          "comment": "Dropdown hover, calendar hover, switch hover"
+        },
         "border": {
-          "value": "#3d3f40ff",
+          "value": "{color.neutral.80.value}",
           "type": "color",
           "comment": "Default border color"
         },
+        "border-hover": {
+          "value": "{color.blue.40.value}",
+          "type": "color",
+          "comment": "Checkbox hover, radio hover"
+        },
         "disabled": {
-          "value": "#656667ff",
+          "value": "{color.neutral.60.value}",
           "type": "color",
           "comment": "Any graphics that need a disabled color"
         },
+        "ui-background": {
+          "value": "{color.neutral.100.value}",
+          "type": "color",
+          "comment": "Calendar bg, radio button bg, checkbox bg, form fields bg"
+        },
+        "ui-background-disabled": {
+          "value": "{color.neutral.95.value}",
+          "type": "color",
+          "comment": "Disabled UI like checkboxes, calendars or fields"
+        },
         "ui-element-active": {
-          "value": "#4383faff",
+          "value": "{color.blue.30.value}",
           "type": "color",
           "comment": "Indicate tab is active, radio button is on"
         },
         "icon-primary": {
-          "value": "#f5f6f7ff",
+          "value": "{color.neutral.0.value}",
           "type": "color",
           "comment": "Default icon color"
         },
         "icon-secondary": {
-          "value": "#c2c4c7ff",
+          "value": "{color.neutral.20.value}",
           "type": "color",
           "comment": "Icon color when primary cannot be used"
+        }
+      },
+      "table": {
+        "body": {
+          "row-background-secondary": {
+            "value": "#2a2b2b80",
+            "type": "color"
+          },
+          "column-background-1": {
+            "value": "#2a2a2b80",
+            "type": "color"
+          },
+          "column-background-2": {
+            "value": "#3d3f4080",
+            "type": "color"
+          },
+          "row-background-primary": {
+            "value": "{color.dark.surface.secondary.value}",
+            "type": "color"
+          },
+          "row-background-hover": {
+            "value": "{color.neutral.80.value}",
+            "type": "color"
+          },
+          "column-background-active": {
+            "value": "{color.neutral.80.value}",
+            "type": "color"
+          },
+          "text-primary": {
+            "value": "{color.dark.text.primary.value}",
+            "type": "color"
+          },
+          "text-secondary": {
+            "value": "{color.dark.text.secondary.value}",
+            "type": "color"
+          }
         },
-        "graphic-positive": {
-          "value": "#0dc45fff",
-          "type": "color",
-          "comment": "Can be used to show a positive trajectory"
+        "base": {
+          "background": {
+            "value": "#f5f6f700",
+            "type": "color"
+          },
+          "border-secondary": {
+            "value": "#656667ff",
+            "type": "color"
+          },
+          "border-primary": {
+            "value": "{color.dark.utility.border.value}",
+            "type": "color"
+          }
         },
-        "graphic-negative": {
-          "value": "#f94343ff",
-          "type": "color",
-          "comment": "Can be used to show a negative trajectory"
+        "header": {
+          "row-background": {
+            "value": "#2a2b2bff",
+            "type": "color"
+          },
+          "column-background-1": {
+            "value": "#3d3f4080",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.neutral.10.value}",
+            "type": "color"
+          },
+          "text-hover": {
+            "value": "{color.blue.20.value}",
+            "type": "color"
+          },
+          "column-background-2": {
+            "value": "{color.neutral.80.value}",
+            "type": "color"
+          }
+        }
+      },
+      "surface": {
+        "overlay": {
+          "darken": {
+            "value": "#10101099",
+            "type": "color"
+          },
+          "modal-background": {
+            "value": "#10101099",
+            "type": "color"
+          }
         },
-        "graphic-info": {
-          "value": "#f2ce3fff",
+        "primary": {
+          "value": "{color.neutral.95.value}",
           "type": "color",
-          "comment": "Can be used for weather, yellow cards"
+          "comment": "Baseline for surfaces"
         },
-        "graphic-alert": {
-          "value": "#e10500ff",
+        "secondary": {
+          "value": "{color.neutral.100.value}",
           "type": "color",
-          "comment": "Watch or live icons"
+          "comment": "The lowest & darkest surface, usually used to lift the primary surface"
+        },
+        "tertiary": {
+          "value": "{color.neutral.90.value}",
+          "type": "color",
+          "comment": "Additional surface color for contrast"
+        },
+        "brand": {
+          "value": "{color.blue.30.value}",
+          "type": "color"
+        }
+      },
+      "text": {
+        "primary": {
+          "value": "{color.neutral.white.value}",
+          "type": "color",
+          "comment": "Default text color"
+        },
+        "secondary": {
+          "value": "{color.neutral.20.value}",
+          "type": "color",
+          "comment": "Supplementary Info (diminished contrast)"
+        },
+        "tertiary": {
+          "value": "{color.neutral.40.value}",
+          "type": "color",
+          "comment": "*Only used on Primary Surface. Commonly used for metadata."
+        },
+        "disabled": {
+          "value": "{color.neutral.60.value}",
+          "type": "color",
+          "comment": "Not actionable. Does not need to meet AA contrast"
+        },
+        "selected": {
+          "value": "{color.neutral.white.value}",
+          "type": "color",
+          "comment": "Selected date in calendar, selected tab menu item or dropdown"
+        },
+        "unselected": {
+          "value": "{color.neutral.40.value}",
+          "type": "color",
+          "comment": "Eg. Unselected date in calendar, unselected tab menu item or dropdown"
+        },
+        "positive": {
+          "value": "{color.green.50.value}",
+          "type": "color",
+          "comment": "Positive status such as a win (W)"
+        },
+        "positive-hover": {
+          "value": "{color.green.40.value}",
+          "type": "color"
+        },
+        "negative": {
+          "value": "{color.red.30.value}",
+          "type": "color",
+          "comment": "Do not use on tertiary surfaces. Negative status such as a loss (L). "
+        },
+        "negative-hover": {
+          "value": "{color.red.20.value}",
+          "type": "color"
+        },
+        "alert": {
+          "value": "{color.red.30.value}",
+          "type": "color",
+          "comment": "Do not use on tertiary surfaces. Urgent info like watch now & live events."
+        },
+        "action-link-primary": {
+          "value": "{color.neutral.white.value}",
+          "type": "color",
+          "comment": "Default link color"
+        },
+        "action-link-primary-hover": {
+          "value": "{color.neutral.40.value}",
+          "type": "color"
+        },
+        "action-link-secondary": {
+          "value": "{color.blue.30.value}",
+          "type": "color",
+          "comment": "Alternate link color"
+        },
+        "action-link-secondary-hover": {
+          "value": "{color.blue.20.value}",
+          "type": "color"
         }
       },
       "brand": {
         "primary": {
-          "value": "#ffffffff",
+          "value": "{color.neutral.white.value}",
           "type": "color",
           "comment": "Can be used to promote brand where other colors cannot be used"
+        },
+        "secondary": {
+          "value": "{color.blue.40.value}",
+          "type": "color",
+          "comment": "Promote brand where primary brand cannot be used"
+        },
+        "tertiary": {
+          "value": "{color.blue.20.value}",
+          "type": "color",
+          "comment": "Promote brand where primary & seceondary brand cannot be used"
+        },
+        "247sports": {
+          "value": "{color.blue.40.value}",
+          "type": "color"
+        },
+        "maxpreps": {
+          "value": "{color.red.50.value}",
+          "type": "color"
+        },
+        "sportsline": {
+          "value": "{color.green.40.value}",
+          "type": "color"
+        }
+      }
+    },
+    "light": {
+      "text": {
+        "primary": {
+          "value": "{color.neutral.95.value}",
+          "type": "color",
+          "comment": "Default text color"
+        },
+        "secondary": {
+          "value": "{color.neutral.60.value}",
+          "type": "color",
+          "comment": "Supplementary Info (diminished contrast)"
+        },
+        "tertiary": {
+          "value": "{color.neutral.50.value}",
+          "type": "color",
+          "comment": "*Only used on Primary Surface. Commonly used for metadata."
+        },
+        "disabled": {
+          "value": "{color.neutral.30.value}",
+          "type": "color",
+          "comment": "Not actionable. Does not need to meet AA contrast"
+        },
+        "selected": {
+          "value": "{color.neutral.95.value}",
+          "type": "color",
+          "comment": "Selected date in calendar, selected tab menu item or dropdown"
+        },
+        "unselected": {
+          "value": "{color.neutral.60.value}",
+          "type": "color",
+          "comment": "Unselected date in calendar, unselected tab menu item or dropdown"
+        },
+        "positive": {
+          "value": "{color.green.80.value}",
+          "type": "color",
+          "comment": "Positive status such as a win (W)"
+        },
+        "positive-hover": {
+          "value": "{color.green.90.value}",
+          "type": "color"
+        },
+        "negative": {
+          "value": "{color.red.60.value}",
+          "type": "color",
+          "comment": "Negative status such as a loss (L)"
+        },
+        "negative-hover": {
+          "value": "{color.red.70.value}",
+          "type": "color"
+        },
+        "alert": {
+          "value": "{color.red.50.value}",
+          "type": "color",
+          "comment": "Urgent info like watch now & live events"
+        },
+        "action-link-primary": {
+          "value": "{color.neutral.95.value}",
+          "type": "color",
+          "comment": "Default link color"
+        },
+        "action-link-primary-hover": {
+          "value": "{color.blue.70.value}",
+          "type": "color",
+          "comment": "Default link hover"
+        },
+        "action-link-secondary": {
+          "value": "{color.blue.60.value}",
+          "type": "color",
+          "comment": "Alternate link color"
+        },
+        "action-link-secondary-hover": {
+          "value": "{color.blue.70.value}",
+          "type": "color",
+          "comment": "Alternate link hover"
         }
       },
       "button": {
-        "primary": {
+        "tertiary": {
+          "text": {
+            "value": "#656667ff",
+            "type": "color"
+          },
           "background": {
-            "value": "#0d55d9ff",
+            "value": "#ffffff00",
+            "type": "color"
+          },
+          "border-focused": {
+            "value": "#656667ff",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.neutral.10.value}",
+            "type": "color"
+          },
+          "border-hover": {
+            "value": "{color.blue.70.value}",
+            "type": "color"
+          },
+          "text-hover": {
+            "value": "{color.blue.70.value}",
+            "type": "color"
+          }
+        },
+        "secondary": {
+          "border-focused": {
+            "value": "#202121ff",
+            "type": "color"
+          },
+          "text-hover": {
+            "value": "#202121ff",
+            "type": "color"
+          },
+          "background": {
+            "value": "{color.neutral.white.value}",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "{color.blue.0.value}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.neutral.10.value}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.neutral.95.value}",
+            "type": "color"
+          }
+        },
+        "live": {
+          "background": {
+            "value": "{color.red.60.value}",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "{color.red.70.value}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.red.60.value}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.neutral.white.value}",
+            "type": "color"
+          }
+        },
+        "promo": {
+          "secondary": {
+            "background": {
+              "value": "{color.orange.50.value}",
+              "type": "color"
+            },
+            "background-hover": {
+              "value": "{color.orange.60.value}",
+              "type": "color"
+            },
+            "border": {
+              "value": "{color.orange.50.value}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{color.neutral.white.value}",
+              "type": "color"
+            }
+          },
+          "primary": {
+            "background": {
+              "value": "#05a342ff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#05a342ff",
+              "type": "color"
+            },
+            "background-hover": {
+              "value": "{color.green.80.value}",
+              "type": "color"
+            },
+            "text": {
+              "value": "{color.neutral.white.value}",
+              "type": "color"
+            }
+          }
+        },
+        "primary": {
+          "border-focused": {
+            "value": "#ffffffff",
+            "type": "color"
+          },
+          "background": {
+            "value": "{color.blue.60.value}",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "{color.blue.70.value}",
+            "type": "color"
+          },
+          "border": {
+            "value": "{color.blue.60.value}",
+            "type": "color"
+          },
+          "text": {
+            "value": "{color.neutral.white.value}",
+            "type": "color"
+          }
+        }
+      },
+      "brand": {
+        "primary": {
+          "value": "{color.blue.60.value}",
+          "type": "color",
+          "comment": "Can be used to promote brand where other colors cannot be used"
+        },
+        "secondary": {
+          "value": "{color.blue.80.value}",
+          "type": "color",
+          "comment": "Promote brand where primary brand cannot be used"
+        },
+        "tertiary": {
+          "value": "{color.blue.100.value}",
+          "type": "color",
+          "comment": "Promote brand where primary & seceondary brand cannot be used"
+        },
+        "maxpreps": {
+          "value": "{color.red.50.value}",
+          "type": "color"
+        },
+        "247sports": {
+          "value": "{color.blue.80.value}",
+          "type": "color"
+        },
+        "sportsline": {
+          "value": "{color.green.40.value}",
+          "type": "color"
+        }
+      },
+      "table": {
+        "base": {
+          "border-primary": {
+            "value": "#d9dbdeff",
+            "type": "color",
+            "comment": "Default border color for tables"
+          },
+          "background": {
+            "value": "{color.neutral.white.value}",
+            "type": "color",
+            "comment": "Default background colors for tables"
+          },
+          "border-secondary": {
+            "value": "{color.neutral.20.value}",
+            "type": "color",
+            "comment": "A secondary border color may be required for darker rows or cols"
+          }
+        },
+        "header": {
+          "column-background-1": {
+            "value": "#d9dbde66",
+            "type": "color",
+            "comment": "First tinted column"
+          },
+          "row-background": {
+            "value": "{color.neutral.0.value}",
+            "type": "color",
+            "comment": "Default header row background"
+          },
+          "text": {
+            "value": "{color.neutral.70.value}",
+            "type": "color",
+            "comment": "Default header row text color"
+          },
+          "text-hover": {
+            "value": "{color.blue.70.value}",
+            "type": "color",
+            "comment": "For links in header rows"
+          },
+          "column-background-2": {
+            "value": "{color.neutral.10.value}",
+            "type": "color",
+            "comment": "Second tinted column"
+          }
+        },
+        "body": {
+          "row-background-secondary": {
+            "value": "#f5f6f780",
+            "type": "color",
+            "comment": "For striped table rows or accent rows"
+          },
+          "text-secondary": {
+            "value": "#656667ff",
+            "type": "color",
+            "comment": "Secondary body text color when default cannot be used"
+          },
+          "column-background-1": {
+            "value": "#f5f6f780",
+            "type": "color",
+            "comment": "First tint for table body column"
+          },
+          "column-background-2": {
+            "value": "#edeef280",
+            "type": "color",
+            "comment": "Second tint for table body column"
+          },
+          "row-background-primary": {
+            "value": "{color.neutral.white.value}",
+            "type": "color",
+            "comment": "Default body row background color"
+          },
+          "row-background-hover": {
+            "value": "{color.blue.0.value}",
+            "type": "color",
+            "comment": "Default hover color for body rows"
+          },
+          "column-background-active": {
+            "value": "{color.blue.0.value}",
+            "type": "color",
+            "comment": "For sort columns"
+          },
+          "text-primary": {
+            "value": "{color.neutral.95.value}",
+            "type": "color",
+            "comment": "Default body text color"
+          }
+        }
+      },
+      "surface": {
+        "overlay": {
+          "darken": {
+            "value": "#10101099",
+            "type": "color"
+          },
+          "modal-background": {
+            "value": "#10101099",
+            "type": "color",
+            "comment": "Default bg for modal popups to sit on"
+          }
+        },
+        "primary": {
+          "value": "{color.neutral.white.value}",
+          "type": "color",
+          "comment": "Baseline for surfaces"
+        },
+        "secondary": {
+          "value": "{color.neutral.5.value}",
+          "type": "color",
+          "comment": "The lowest & darkest surface, usually used to lift the primary surface"
+        },
+        "tertiary": {
+          "value": "{color.neutral.0.value}",
+          "type": "color",
+          "comment": "Additional surface color for contrast"
+        },
+        "brand": {
+          "value": "{color.blue.60.value}",
+          "type": "color",
+          "comment": "Can be used for nav or areas to promote brand"
+        }
+      },
+      "utility": {
+        "status": {
+          "graphic-positive": {
+            "value": "{color.green.70.value}",
+            "type": "color",
+            "comment": "Can be used to show a positive trajectory"
+          },
+          "graphic-positive-hover": {
+            "value": "{color.green.80.value}",
+            "type": "color"
+          },
+          "graphic-negative": {
+            "value": "{color.red.60.value}",
+            "type": "color",
+            "comment": "Can be used to show a negative trajectory"
+          },
+          "graphic-negative-hover": {
+            "value": "{color.red.70.value}",
+            "type": "color"
+          },
+          "graphic-info": {
+            "value": "{color.yellow.50.value}",
+            "type": "color",
+            "comment": "Can be used for weather, yellow cards"
+          },
+          "graphic-info-hover": {
+            "value": "{color.yellow.60.value}",
+            "type": "color"
+          },
+          "graphic-cool": {
+            "value": "{color.blue.40.value}",
+            "type": "color",
+            "comment": "Can be used to show a cooling down trajectory"
+          },
+          "graphic-alert": {
+            "value": "{color.red.50.value}",
+            "type": "color",
+            "comment": "Watch or live icons"
+          }
+        },
+        "border": {
+          "value": "{color.neutral.10.value}",
+          "type": "color",
+          "comment": "Default border color"
+        },
+        "border-hover": {
+          "value": "{color.blue.70.value}",
+          "type": "color",
+          "comment": "Checkbox hover, radio hover"
+        },
+        "disabled": {
+          "value": "{color.neutral.30.value}",
+          "type": "color",
+          "comment": "Graphics that need a disabled color"
+        },
+        "ui-background": {
+          "value": "{color.neutral.white.value}",
+          "type": "color",
+          "comment": "Calendar bg, radio button bg, checkbox bg, form fields bg"
+        },
+        "ui-background-disabled": {
+          "value": "{color.neutral.0.value}",
+          "type": "color",
+          "comment": "Disabled UI like checkboxes, calendars or fields"
+        },
+        "ui-background-hover": {
+          "value": "{color.blue.0.value}",
+          "type": "color",
+          "comment": "Dropdown hover, calendar hover, switch hover"
+        },
+        "ui-element-active": {
+          "value": "{color.blue.60.value}",
+          "type": "color",
+          "comment": "Indicate tab is active, radio button is on"
+        },
+        "icon-primary": {
+          "value": "{color.neutral.95.value}",
+          "type": "color",
+          "comment": "Default icon color"
+        },
+        "icon-secondary": {
+          "value": "{color.neutral.60.value}",
+          "type": "color",
+          "comment": "Icon color when primary cannot be used"
+        }
+      }
+    },
+    "brand": {
+      "utility": {
+        "status": {
+          "graphic-positive": {
+            "value": "#58ed78ff",
+            "type": "color",
+            "comment": "Can be used to show a positive trajectory"
+          },
+          "graphic-positive-hover": {
+            "value": "#8df7a0ff",
+            "type": "color"
+          },
+          "graphic-negative": {
+            "value": "#f94343ff",
+            "type": "color",
+            "comment": "Can be used to show a negative trajectory"
+          },
+          "graphic-negative-hover": {
+            "value": "#f78d8dff",
+            "type": "color"
+          },
+          "graphic-info": {
+            "value": "#f2ce3fff",
+            "type": "color",
+            "comment": "Can be used for weather, yellow cards"
+          },
+          "graphic-info-hover": {
+            "value": "#f2dd8aff",
+            "type": "color"
+          },
+          "graphic-cool": {
+            "value": "#bdd0f2ff",
+            "type": "color"
+          },
+          "graphic-alert": {
+            "value": "#f94343ff",
+            "type": "color",
+            "comment": "Watch or live icons"
+          }
+        },
+        "border": {
+          "value": "#2268e5ff",
+          "type": "color"
+        },
+        "disabled": {
+          "value": "#4383faff",
+          "type": "color"
+        },
+        "ui-background": {
+          "value": "#004aceff",
+          "type": "color",
+          "comment": "Calendar bg, radio button bg, checkbox bg, form fields bg"
+        },
+        "ui-background-disabled": {
+          "value": "#004aceff",
+          "type": "color",
+          "comment": "Disabled UI like checkboxes, calendars or fields"
+        },
+        "ui-background-hover": {
+          "value": "#0d55d9ff",
+          "type": "color",
+          "comment": "Dropdown hover, calendar hover, switch hover"
+        },
+        "border-hover": {
+          "value": "#ffffffff",
+          "type": "color"
+        },
+        "ui-element-active": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Indicate tab is active, radio button is on"
+        },
+        "icon-primary": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Default icon color"
+        },
+        "icon-secondary": {
+          "value": "#bdd0f2ff",
+          "type": "color",
+          "comment": "Icon color when primary cannot be used"
+        }
+      },
+      "button": {
+        "live": {
+          "background": {
+            "value": "#e10500ff",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "#cc0e00ff",
+            "type": "color"
+          },
+          "border": {
+            "value": "#e10500ff",
             "type": "color"
           },
           "text": {
@@ -354,73 +1715,277 @@
             "type": "color"
           }
         },
-        "secondary": {
+        "promo": {
+          "secondary": {
+            "background": {
+              "value": "#d9690dff",
+              "type": "color"
+            },
+            "background-hover": {
+              "value": "#b85804ff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#d9690dff",
+              "type": "color"
+            },
+            "text": {
+              "value": "#ffffffff",
+              "type": "color"
+            }
+          },
+          "primary": {
+            "background": {
+              "value": "#05a342ff",
+              "type": "color"
+            },
+            "background-hover": {
+              "value": "#048209ff",
+              "type": "color"
+            },
+            "border": {
+              "value": "#05a342ff",
+              "type": "color"
+            },
+            "text": {
+              "value": "#ffffffff",
+              "type": "color"
+            }
+          }
+        },
+        "primary": {
           "background": {
-            "value": "#20212100",
+            "value": "#0049ce00",
+            "type": "color"
+          },
+          "background-hover": {
+            "value": "#2268e5ff",
             "type": "color"
           },
           "border": {
-            "value": "#4383faff",
+            "value": "#dfe6f5ff",
             "type": "color"
           },
           "text": {
-            "value": "#4383faff",
+            "value": "#dfe6f5ff",
             "type": "color"
           }
         }
+      },
+      "text": {
+        "primary": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Default text color"
+        },
+        "secondary": {
+          "value": "#dfe6f5ff",
+          "type": "color",
+          "comment": "Supplementary Info (diminished contrast)"
+        },
+        "tertiary": {
+          "value": "#bdd0f2ff",
+          "type": "color",
+          "comment": "Lowest level of importance"
+        },
+        "disabled": {
+          "value": "#88b0f7ff",
+          "type": "color",
+          "comment": "Does not need to meet AA contrast"
+        },
+        "selected": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Selected date in calendar, selected tab menu item or dropdown"
+        },
+        "unselected": {
+          "value": "#bdd0f2ff",
+          "type": "color",
+          "comment": "Unselected date in calendar, unselected tab menu item or dropdown"
+        },
+        "action-link-primary": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Default link color"
+        },
+        "action-link-primary-hover": {
+          "value": "#bdd0f2ff",
+          "type": "color",
+          "comment": "Default link hover"
+        },
+        "action-link-secondary": {
+          "value": "#bdd0f2ff",
+          "type": "color",
+          "comment": "Alternate link color"
+        },
+        "action-link-secondary-hover": {
+          "value": "#ffffffff",
+          "type": "color",
+          "comment": "Alternate link hover"
+        },
+        "positive": {
+          "value": "#58ed78ff",
+          "type": "color",
+          "comment": "Positive status such as a win (W)"
+        },
+        "positive-hover": {
+          "value": "#8df7a0ff",
+          "type": "color"
+        },
+        "negative": {
+          "value": "#f78d8dff",
+          "type": "color",
+          "comment": "Negative status such as a loss (L)"
+        },
+        "negative-hover": {
+          "value": "#fac3c3ff",
+          "type": "color"
+        },
+        "alert": {
+          "value": "#f78d8dff",
+          "type": "color",
+          "comment": "Urgent info like watch now & live events"
+        }
+      },
+      "brand": {
+        "primary": {
+          "value": "#ffffffff",
+          "type": "color"
+        },
+        "secondary": {
+          "value": "#bdd0f2ff",
+          "type": "color"
+        },
+        "247-sports": {
+          "value": "#ffffffff",
+          "type": "color"
+        },
+        "maxpreps": {
+          "value": "#ffffffff",
+          "type": "color"
+        },
+        "sportsline": {
+          "value": "#ffffffff",
+          "type": "color"
+        }
+      },
+      "surface": {
+        "primary": {
+          "value": "#004aceff",
+          "type": "color",
+          "comment": "Baseline for surfaces"
+        },
+        "secondary": {
+          "value": "#0036b5ff",
+          "type": "color",
+          "comment": "Surface below primary"
+        },
+        "tertiary": {
+          "value": "#00259eff",
+          "type": "color",
+          "comment": "Additional surface color for constrast"
+        }
       }
     },
-    "dynamic-text": {
-      "primary": {
+    "paramount-": {
+      "peak-blue": {
+        "value": "#0064ffff",
+        "type": "color"
+      },
+      "secondary-blue-1": {
+        "value": "#1996ffff",
+        "type": "color"
+      },
+      "secondary-blue-2": {
+        "value": "#003296ff",
+        "type": "color"
+      },
+      "secondary-blue-3": {
+        "value": "#00004bff",
+        "type": "color"
+      },
+      "snowcap-white": {
         "value": "#ffffffff",
         "type": "color"
       },
-      "secondary": {
-        "value": "#ffffffd9",
+      "basalt-black": {
+        "value": "#000000ff",
         "type": "color"
       },
-      "disabled": {
-        "value": "#ffffffbf",
+      "gray-1": {
+        "value": "#e9eaecff",
         "type": "color"
       },
-      "selected": {
-        "value": "#ffffffff",
+      "gray-2": {
+        "value": "#e0e3eaff",
         "type": "color"
       },
-      "unselected": {
-        "value": "#ffffffd9",
+      "gray-3": {
+        "value": "#d7dce7ff",
+        "type": "color"
+      },
+      "gray-4": {
+        "value": "#9ba8bdff",
+        "type": "color"
+      },
+      "gray-5": {
+        "value": "#5b626eff",
+        "type": "color"
+      },
+      "gray-6": {
+        "value": "#1b1c1eff",
         "type": "color"
       }
     },
-    "dynamic-utility": {
-      "border-primary": {
-        "value": "#ffffff4d",
+    "social": {
+      "facebook": {
+        "value": "#1877f2ff",
         "type": "color"
       },
-      "border-secondary": {
-        "value": "#ffffff1a",
+      "twitter": {
+        "value": "#1da1f2ff",
         "type": "color"
       },
-      "disabled": {
-        "value": "#ffffffbf",
+      "youtube": {
+        "value": "#ff0000ff",
         "type": "color"
       },
-      "ui-element-active": {
-        "value": "#ffffffff",
+      "instagram": {
+        "value": "#c32aa3ff",
         "type": "color"
       },
-      "icon-primary": {
-        "value": "#ffffffff",
+      "pinterest": {
+        "value": "#bd081cff",
         "type": "color"
       },
-      "icon-secondary": {
-        "value": "#ffffffbf",
+      "linkedin": {
+        "value": "#007bb5ff",
+        "type": "color"
+      },
+      "google": {
+        "value": "#4285f4ff",
+        "type": "color"
+      },
+      "flipboard": {
+        "value": "#e12828ff",
+        "type": "color"
+      },
+      "reddit": {
+        "value": "#ff4500ff",
+        "type": "color"
+      },
+      "rss": {
+        "value": "#f26522ff",
+        "type": "color"
+      },
+      "snapchat": {
+        "value": "#fffc00ff",
+        "type": "color"
+      },
+      "tiktok": {
+        "value": "#000000ff",
         "type": "color"
       }
-    },
-    "component-border": {
-      "value": "#9747ffff",
-      "type": "color"
     }
   }
 }

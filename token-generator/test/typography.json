@@ -1,15 +1,15 @@
 {
   "typography": {
-    "ui": {
-      "tab": {
-        "active": {
+    "font": {
+      "size": {
+        "90": {
           "value": {
             "font": {
               "type": "font",
               "value": {
                 "family": {
                   "type": "string",
-                  "value": "FS Industrie"
+                  "value": "FS Industrie Nw"
                 },
                 "subfamily": {
                   "type": "string",
@@ -37,7 +37,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 1.79
+                  "value": 8
                 },
                 "unit": {
                   "type": "string",
@@ -63,25 +63,171 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 16
+                  "value": 120.00000762939453
                 },
                 "unit": {
                   "type": "string",
-                  "value": "pixels"
+                  "value": "percent"
                 }
               }
             }
           },
           "type": "typography"
-        },
-        "inactive": {
+        }
+      },
+      "weight": {
+        "black": {
           "value": {
             "font": {
               "type": "font",
               "value": {
                 "family": {
                   "type": "string",
-                  "value": "FS Industrie"
+                  "value": "FS Industrie VF Std"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Black"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": -3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "bold": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie VF Std"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Bold"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": -3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "medium": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie VF Std"
                 },
                 "subfamily": {
                   "type": "string",
@@ -94,7 +240,297 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 14
+                  "value": 96
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": -3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "regular": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie VF Std"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Regular"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": -3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "light": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie Var Std"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Light"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": -3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        }
+      },
+      "family": {
+        "standard": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Bold"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 16
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "narrow": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie Nw"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Bold"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 16
                 },
                 "unit": {
                   "type": "string",
@@ -109,7 +545,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 1.79
+                  "value": 4
                 },
                 "unit": {
                   "type": "string",
@@ -135,817 +571,22 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 16
+                  "value": 120.00000762939453
                 },
                 "unit": {
                   "type": "string",
-                  "value": "pixels"
+                  "value": "percent"
                 }
               }
             }
           },
           "type": "typography"
         }
-      },
-      "label": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Black"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 18
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Upper",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 24
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "button-large": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 18
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -1.39
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 125
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "button-medium": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 14
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 14
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "action": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 14
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Upper",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 1.79
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "bottom-bar": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 11
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Camel",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "detail-1": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie Nw"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Bold"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 10
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 5
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography",
-        "comment": "Use uppercase where possible"
-      },
-      "button-small": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "detail-2-": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie Nw"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Regular"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 10
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -5
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
       }
     },
-    "table": {
-      "column-title": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie Nw"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Bold"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Upper",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 2.08
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "row-title": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie Nw"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Bold"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 14
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -1.79
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "body": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie Nw"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 14
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 1.79
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      }
-    },
-    "no-line-height": {
-      "ui": {
-        "label": {
+    "letter": {
+      "spacing": {
+        "none": {
           "value": {
             "font": {
               "type": "font",
@@ -965,79 +606,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 18
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Upper",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 18
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        },
-        "button-large": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "FS Industrie"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Medium"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 18
+                  "value": 96
                 },
                 "unit": {
                   "type": "string",
@@ -1052,7 +621,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": -1.39
+                  "value": 0
                 },
                 "unit": {
                   "type": "string",
@@ -1078,18 +647,18 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 20
+                  "value": 120.00000762939453
                 },
                 "unit": {
                   "type": "string",
-                  "value": "pixels"
+                  "value": "percent"
                 }
               }
             }
           },
           "type": "typography"
         },
-        "action": {
+        "tight": {
           "value": {
             "font": {
               "type": "font",
@@ -1100,7 +669,7 @@
                 },
                 "subfamily": {
                   "type": "string",
-                  "value": "Medium"
+                  "value": "Black"
                 }
               }
             },
@@ -1109,7 +678,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 14
+                  "value": 96
                 },
                 "unit": {
                   "type": "string",
@@ -1118,13 +687,13 @@
               }
             },
             "textDecoration": "None",
-            "textCase": "Upper",
+            "textCase": "Original",
             "letterSpacing": {
               "type": "measure",
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 1.79
+                  "value": 2
                 },
                 "unit": {
                   "type": "string",
@@ -1150,31 +719,177 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 14
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "loose": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Black"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
                 },
                 "unit": {
                   "type": "string",
                   "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "xloose": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Black"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 6
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
                 }
               }
             }
           },
           "type": "typography"
         }
-      },
-      "table": {
-        "column-title": {
+      }
+    },
+    "line": {
+      "height": {
+        "none": {
           "value": {
             "font": {
               "type": "font",
               "value": {
                 "family": {
                   "type": "string",
-                  "value": "FS Industrie Nw"
+                  "value": "FS Industrie"
                 },
                 "subfamily": {
                   "type": "string",
-                  "value": "Bold"
+                  "value": "Black"
                 }
               }
             },
@@ -1183,79 +898,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 12
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "textDecoration": "None",
-            "textCase": "Upper",
-            "letterSpacing": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 2.08
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "percent"
-                }
-              }
-            },
-            "paragraphIndent": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 0
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            },
-            "lineHeight": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 12
-                },
-                "unit": {
-                  "type": "string",
-                  "value": "pixels"
-                }
-              }
-            }
-          },
-          "type": "typography"
-        },
-        "row-title": {
-          "value": {
-            "font": {
-              "type": "font",
-              "value": {
-                "family": {
-                  "type": "string",
-                  "value": "FS Industrie Nw"
-                },
-                "subfamily": {
-                  "type": "string",
-                  "value": "Bold"
-                }
-              }
-            },
-            "fontSize": {
-              "type": "measure",
-              "value": {
-                "measure": {
-                  "type": "size",
-                  "value": 14
+                  "value": 96
                 },
                 "unit": {
                   "type": "string",
@@ -1270,7 +913,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": -1.79
+                  "value": -3
                 },
                 "unit": {
                   "type": "string",
@@ -1296,11 +939,83 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 14
+                  "value": 100
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "normal": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Black"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
                 },
                 "unit": {
                   "type": "string",
                   "value": "pixels"
+                }
+              }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": -3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 120.00000762939453
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
                 }
               }
             }
@@ -1314,11 +1029,11 @@
               "value": {
                 "family": {
                   "type": "string",
-                  "value": "FS Industrie Nw"
+                  "value": "FS Industrie"
                 },
                 "subfamily": {
                   "type": "string",
-                  "value": "Medium"
+                  "value": "Black"
                 }
               }
             },
@@ -1327,7 +1042,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 14
+                  "value": 96
                 },
                 "unit": {
                   "type": "string",
@@ -1342,7 +1057,7 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 1.79
+                  "value": -3
                 },
                 "unit": {
                   "type": "string",
@@ -1368,1170 +1083,90 @@
               "value": {
                 "measure": {
                   "type": "size",
-                  "value": 14
+                  "value": 130
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            }
+          },
+          "type": "typography"
+        },
+        "comfy": {
+          "value": {
+            "font": {
+              "type": "font",
+              "value": {
+                "family": {
+                  "type": "string",
+                  "value": "FS Industrie"
+                },
+                "subfamily": {
+                  "type": "string",
+                  "value": "Black"
+                }
+              }
+            },
+            "fontSize": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 96
                 },
                 "unit": {
                   "type": "string",
                   "value": "pixels"
                 }
               }
+            },
+            "textDecoration": "None",
+            "textCase": "Original",
+            "letterSpacing": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": -3
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
+            },
+            "paragraphIndent": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 0
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "pixels"
+                }
+              }
+            },
+            "lineHeight": {
+              "type": "measure",
+              "value": {
+                "measure": {
+                  "type": "size",
+                  "value": 160
+                },
+                "unit": {
+                  "type": "string",
+                  "value": "percent"
+                }
+              }
             }
           },
           "type": "typography"
         }
-      },
-      "large-title": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Black"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 32
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -0.78
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 32
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "title-1": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Black"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 24
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -1.04
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 24
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "title-2": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Bold"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 18
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 1.39
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 18
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "title-3": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Bold"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -1.56
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "body": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": -1.56
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 16
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "callout": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Bold"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 14
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Original",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 14
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
-      },
-      "subhead": {
-        "value": {
-          "font": {
-            "type": "font",
-            "value": {
-              "family": {
-                "type": "string",
-                "value": "FS Industrie"
-              },
-              "subfamily": {
-                "type": "string",
-                "value": "Medium"
-              }
-            }
-          },
-          "fontSize": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "textDecoration": "None",
-          "textCase": "Upper",
-          "letterSpacing": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 2.08
-              },
-              "unit": {
-                "type": "string",
-                "value": "percent"
-              }
-            }
-          },
-          "paragraphIndent": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 0
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          },
-          "lineHeight": {
-            "type": "measure",
-            "value": {
-              "measure": {
-                "type": "size",
-                "value": 12
-              },
-              "unit": {
-                "type": "string",
-                "value": "pixels"
-              }
-            }
-          }
-        },
-        "type": "typography"
       }
-    },
-    "large-title": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Black"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 32
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": -0.78
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 41
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "title-1": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Black"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 24
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": -1.04
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 28
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "title-2": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Bold"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 18
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 1.39
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 24
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "title-3": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Bold"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 16
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": -1.56
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 24
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "body": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Medium"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 16
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": -1.56
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 24
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "callout": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Bold"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 14
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 18
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "subhead": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Medium"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Upper",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 2.08
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 16
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "caption-1": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Bold"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
-    },
-    "caption-2": {
-      "value": {
-        "font": {
-          "type": "font",
-          "value": {
-            "family": {
-              "type": "string",
-              "value": "FS Industrie"
-            },
-            "subfamily": {
-              "type": "string",
-              "value": "Regular"
-            }
-          }
-        },
-        "fontSize": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "textDecoration": "None",
-        "textCase": "Original",
-        "letterSpacing": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "percent"
-            }
-          }
-        },
-        "paragraphIndent": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 0
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        },
-        "lineHeight": {
-          "type": "measure",
-          "value": {
-            "measure": {
-              "type": "size",
-              "value": 12
-            },
-            "unit": {
-              "type": "string",
-              "value": "pixels"
-            }
-          }
-        }
-      },
-      "type": "typography"
     }
   }
 }
