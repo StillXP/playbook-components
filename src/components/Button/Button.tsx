@@ -1,7 +1,7 @@
 import React, { MouseEventHandler, ReactNode } from 'react';
 import classNames from 'classnames';
 import './Button.scss';
-import { ButtonSizes, ButtonStyles, ButtonWidth, Themes } from 'src/constants/constants';
+import { ButtonSizes, ButtonStyles, ButtonWidth, Themes, Radius } from 'src/constants/constants';
 import { ChevronLeft } from '../Icon/Icon';
 export interface Props {
 
@@ -19,6 +19,9 @@ export interface Props {
 
     /** Button Type */
     type: "button";
+
+    /** Corner Radius */
+    radius: Radius;
 
     /** Button Sizes */
     size: ButtonSizes;
@@ -40,6 +43,7 @@ export interface Props {
 export const Button = ({
     children,
     disabled = false,
+    radius = '8',
     style = 'primary',
     size = 'large',
     theme = 'light',
@@ -52,6 +56,7 @@ export const Button = ({
         `button__${theme}__${style}`,
         `button__${size}`,
         `button__${width}`,
+        `radius__${radius}`
     )
     let content;
     if (url) {        

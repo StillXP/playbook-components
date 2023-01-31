@@ -8,6 +8,7 @@ const meta: Meta = {
     args: {
         children: 'Button',
         disabled: false,
+        radius: '8',
         size: 'large',
         theme: 'light',
         width: 'hug',
