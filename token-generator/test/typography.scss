@@ -1,0 +1,385 @@
+
+.typographyLetterSpacingNone 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+.typographyLetterSpacingTight 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.02em; 
+  text-indent: 0px; 
+}    
+
+.typographyLetterSpacingLoose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyLetterSpacingXloose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.06em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontWeightBlack 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontWeightBold 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontWeightMedium 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontWeightRegular 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontWeightLight 
+{ 
+  
+  font-family: "FS Industrie Var Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyLineHeightNone 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyLineHeightNormal 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyLineHeightBody 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 130%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyLineHeightComfy 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 160%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontSize90 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.08em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontFamilyStandard 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+.typographyFontFamilyNarrow 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.04em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLetterSpacingNone 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLetterSpacingTight 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.02em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLetterSpacingLoose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLetterSpacingXloose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.06em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontWeightBlack 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontWeightBold 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontWeightMedium 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontWeightRegular 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontWeightLight 
+{ 
+  
+  font-family: "FS Industrie Var Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLineHeightNone 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLineHeightNormal 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLineHeightBody 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 130%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyLineHeightComfy 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 160%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontSize90 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.08em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontFamilyStandard 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+@mixin typographyFontFamilyNarrow 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.04em; 
+  text-indent: 0px; 
+}    
+
