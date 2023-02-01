@@ -5,6 +5,12 @@ import { ButtonSizes, ButtonStyles, ButtonWidth, Themes, Radius } from 'src/cons
 import { ChevronLeft } from '../Icon/Icon';
 export interface Props {
 
+    /** Label that describes Button function */
+    ariaLabel: string;
+
+    /** Aria Required */
+    ariaRequired: true;
+
     /** Button Text */
     children: ReactNode;
 
@@ -41,6 +47,8 @@ export interface Props {
 
 /** Foundational set of buttons that are used for primary, secondary, and tertiary actions within a page */
 export const Button = ({
+    ariaLabel = 'a11y label',
+    ariaRequired,
     children,
     disabled = false,
     radius = '8',
@@ -63,6 +71,8 @@ export const Button = ({
         content = (
             <a 
                 className={buttonClasses}
+                area-label={ariaLabel}
+                aria-required={ariaRequired}
                 href={url}
             >
                 {children}
@@ -70,7 +80,11 @@ export const Button = ({
         );
     } else if (icon) {  
         content = (
-            <button className={buttonClasses}>
+            <button 
+                className={buttonClasses}
+                area-label={ariaLabel}
+                aria-required={ariaRequired}
+            >
                 <ChevronLeft/>
                 {children}
             </button>   
@@ -80,6 +94,8 @@ export const Button = ({
         content = (
             <button 
             className={buttonClasses}
+            area-label={ariaLabel}
+            aria-required={ariaRequired}
             disabled
         >
             {children}
@@ -89,6 +105,8 @@ export const Button = ({
         content = (
             <button 
                 className={buttonClasses}
+                area-label={ariaLabel}
+                aria-required={ariaRequired}
             >
                 {children}
             </button>        
