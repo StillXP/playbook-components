@@ -1,11 +1,11 @@
 /* 0% to 50% from the bottom to the middle of the fill. */
-$gradientLightSurfaceOverlayThumbnail: linear-gradient(
+$lightSurfaceOverlayThumbnail: linear-gradient(
      180deg,
      #00000000 50%,   
      #00000080 100%  
    )
    ;    
-$gradientLightSurfaceOverlayVideoControls: linear-gradient(
+$lightSurfaceOverlayVideoControls: linear-gradient(
      180deg,
      #00000000 0%,   
      #000000bf 100%  
