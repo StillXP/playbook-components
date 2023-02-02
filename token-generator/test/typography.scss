@@ -1,5 +1,5 @@
 
-.typographyLetterSpacingNone 
+.letter-spacing-none 
 { 
   
   font-family: "FS Industrie";
@@ -11,7 +11,7 @@
   text-indent: 0px; 
 }    
 
-.typographyLetterSpacingTight 
+.letter-spacing-tight 
 { 
   
   font-family: "FS Industrie";
@@ -23,7 +23,7 @@
   text-indent: 0px; 
 }    
 
-.typographyLetterSpacingLoose 
+.letter-spacing-loose 
 { 
   
   font-family: "FS Industrie";
@@ -35,7 +35,7 @@
   text-indent: 0px; 
 }    
 
-.typographyLetterSpacingXloose 
+.letter-spacing-xloose 
 { 
   
   font-family: "FS Industrie";
@@ -47,7 +47,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontWeightBlack 
+.font-weight-black 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -59,7 +59,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontWeightBold 
+.font-weight-bold 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -71,7 +71,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontWeightMedium 
+.font-weight-medium 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -83,7 +83,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontWeightRegular 
+.font-weight-regular 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -95,7 +95,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontWeightLight 
+.font-weight-light 
 { 
   
   font-family: "FS Industrie Var Std";
@@ -107,7 +107,7 @@
   text-indent: 0px; 
 }    
 
-.typographyLineHeightNone 
+.line-height-none 
 { 
   
   font-family: "FS Industrie";
@@ -119,7 +119,7 @@
   text-indent: 0px; 
 }    
 
-.typographyLineHeightNormal 
+.line-height-normal 
 { 
   
   font-family: "FS Industrie";
@@ -131,7 +131,7 @@
   text-indent: 0px; 
 }    
 
-.typographyLineHeightBody 
+.line-height-body 
 { 
   
   font-family: "FS Industrie";
@@ -143,7 +143,7 @@
   text-indent: 0px; 
 }    
 
-.typographyLineHeightComfy 
+.line-height-comfy 
 { 
   
   font-family: "FS Industrie";
@@ -155,7 +155,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontSize90 
+.font-size-90 
 { 
   
   font-family: "FS Industrie Nw";
@@ -167,7 +167,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontFamilyStandard 
+.font-family-standard 
 { 
   
   font-family: "FS Industrie";
@@ -179,7 +179,7 @@
   text-indent: 0px; 
 }    
 
-.typographyFontFamilyNarrow 
+.font-family-narrow 
 { 
   
   font-family: "FS Industrie Nw";
@@ -191,7 +191,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLetterSpacingNone 
+@mixin letter-spacing-none 
 { 
   
   font-family: "FS Industrie";
@@ -203,7 +203,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLetterSpacingTight 
+@mixin letter-spacing-tight 
 { 
   
   font-family: "FS Industrie";
@@ -215,7 +215,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLetterSpacingLoose 
+@mixin letter-spacing-loose 
 { 
   
   font-family: "FS Industrie";
@@ -227,7 +227,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLetterSpacingXloose 
+@mixin letter-spacing-xloose 
 { 
   
   font-family: "FS Industrie";
@@ -239,7 +239,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontWeightBlack 
+@mixin font-weight-black 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -251,7 +251,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontWeightBold 
+@mixin font-weight-bold 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -263,7 +263,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontWeightMedium 
+@mixin font-weight-medium 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -275,7 +275,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontWeightRegular 
+@mixin font-weight-regular 
 { 
   
   font-family: "FS Industrie VF Std";
@@ -287,7 +287,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontWeightLight 
+@mixin font-weight-light 
 { 
   
   font-family: "FS Industrie Var Std";
@@ -299,7 +299,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLineHeightNone 
+@mixin line-height-none 
 { 
   
   font-family: "FS Industrie";
@@ -311,7 +311,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLineHeightNormal 
+@mixin line-height-normal 
 { 
   
   font-family: "FS Industrie";
@@ -323,7 +323,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLineHeightBody 
+@mixin line-height-body 
 { 
   
   font-family: "FS Industrie";
@@ -335,7 +335,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyLineHeightComfy 
+@mixin line-height-comfy 
 { 
   
   font-family: "FS Industrie";
@@ -347,7 +347,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontSize90 
+@mixin font-size-90 
 { 
   
   font-family: "FS Industrie Nw";
@@ -359,7 +359,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontFamilyStandard 
+@mixin font-family-standard 
 { 
   
   font-family: "FS Industrie";
@@ -371,7 +371,7 @@
   text-indent: 0px; 
 }    
 
-@mixin typographyFontFamilyNarrow 
+@mixin font-family-narrow 
 { 
   
   font-family: "FS Industrie Nw";

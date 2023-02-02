@@ -1,582 +1,582 @@
-$colorNeutral0: #f5f6f7;    
-$colorNeutral5: #edeef2;    
-$colorNeutral10: #d9dbde;    
-$colorNeutral20: #c2c4c7;    
-$colorNeutral30: #a6a9ad;    
-$colorNeutral40: #8e9194;    
-$colorNeutral50: #757678;    
-$colorNeutral60: #656667;    
-$colorNeutral70: #4b4c4d;    
-$colorNeutral80: #3d3f40;    
-$colorNeutral90: #2a2b2b;    
-$colorNeutral95: #202121;    
-$colorNeutral100: #101010;    
-$colorBlue0: #f5f8ff;    
-$colorBlue5: #dfe6f5;    
-$colorBlue10: #bdd0f2;    
-$colorBlue20: #88b0f7;    
-$colorBlue30: #4383fa;    
-$colorBlue40: #2268e5;    
-$colorBlue50: #0d55d9;    
+$neutral-0: #f5f6f7;    
+$neutral-5: #edeef2;    
+$neutral-10: #d9dbde;    
+$neutral-20: #c2c4c7;    
+$neutral-30: #a6a9ad;    
+$neutral-40: #8e9194;    
+$neutral-50: #757678;    
+$neutral-60: #656667;    
+$neutral-70: #4b4c4d;    
+$neutral-80: #3d3f40;    
+$neutral-90: #2a2b2b;    
+$neutral-95: #202121;    
+$neutral-100: #101010;    
+$blue-0: #f5f8ff;    
+$blue-5: #dfe6f5;    
+$blue-10: #bdd0f2;    
+$blue-20: #88b0f7;    
+$blue-30: #4383fa;    
+$blue-40: #2268e5;    
+$blue-50: #0d55d9;    
 /* CBS Sports primary color */
-$colorBlue60: #004ace;    
-$colorBlue70: #0036b5;    
+$blue-60: #004ace;    
+$blue-70: #0036b5;    
 /* 247 Sports primary color */
-$colorBlue80: #00259e;    
-$colorBlue90: #001373;    
-$colorBlue95: #000640;    
-$colorBlue100: #050d27;    
-$colorGreen0: #f7fff9;    
-$colorGreen5: #dcf2e0;    
-$colorGreen10: #c3facc;    
-$colorGreen20: #8df7a0;    
-$colorGreen30: #58ed78;    
+$blue-80: #00259e;    
+$blue-90: #001373;    
+$blue-95: #000640;    
+$blue-100: #050d27;    
+$green-0: #f7fff9;    
+$green-5: #dcf2e0;    
+$green-10: #c3facc;    
+$green-20: #8df7a0;    
+$green-30: #58ed78;    
 /* Sportsline primary color */
-$colorGreen40: #10d669;    
-$colorGreen50: #0dc45f;    
-$colorGreen60: #09b054;    
-$colorGreen70: #059646;    
-$colorGreen80: #04802d;    
-$colorGreen90: #005922;    
-$colorGreen95: #004017;    
-$colorGreen100: #00260b;    
-$colorRed0: #fff7f7;    
-$colorRed5: #f2dfdf;    
-$colorRed10: #fac3c3;    
-$colorRed20: #f78d8d;    
-$colorRed30: #f94343;    
-$colorRed40: #eb2a2a;    
+$green-40: #10d669;    
+$green-50: #0dc45f;    
+$green-60: #09b054;    
+$green-70: #059646;    
+$green-80: #04802d;    
+$green-90: #005922;    
+$green-95: #004017;    
+$green-100: #00260b;    
+$red-0: #fff7f7;    
+$red-5: #f2dfdf;    
+$red-10: #fac3c3;    
+$red-20: #f78d8d;    
+$red-30: #f94343;    
+$red-40: #eb2a2a;    
 /* Maxpreps primary color */
-$colorRed50: #e10500;    
-$colorRed60: #cc0e00;    
-$colorRed70: #ad1100;    
-$colorRed80: #941100;    
-$colorRed90: #730b00;    
-$colorRed95: #400c06;    
-$colorRed100: #2b0604;    
-$colorOrange0: #faf7f5;    
-$colorOrange5: #f7f0e9;    
-$colorOrange10: #f2d5bd;    
-$colorOrange20: #f2b98a;    
-$colorOrange30: #f2903f;    
-$colorOrange40: #f08024;    
-$colorOrange50: #d9690d;    
-$colorOrange60: #bf5804;    
-$colorOrange70: #a34905;    
-$colorOrange80: #803704;    
-$colorOrange90: #592400;    
-$colorOrange95: #401a00;    
-$colorOrange100: #2b1400;    
-$colorYellow0: #fcfbf5;    
-$colorYellow5: #faf7eb;    
-$colorYellow10: #f2e7bd;    
-$colorYellow20: #f2dd8a;    
-$colorYellow30: #f2ce3f;    
-$colorYellow40: #f2be2c;    
-$colorYellow50: #ebaa17;    
-$colorYellow60: #cc9618;    
-$colorYellow70: #996c05;    
-$colorYellow80: #805804;    
-$colorYellow90: #593c00;    
-$colorYellow95: #402a00;    
-$colorYellow100: #2b1c00;    
-$colorNeutralWhite: #ffffff;    
-$colorNeutralBlack: #000000;    
-$colorLightSurfaceOverlayDarken: #10101099;    
+$red-50: #e10500;    
+$red-60: #cc0e00;    
+$red-70: #ad1100;    
+$red-80: #941100;    
+$red-90: #730b00;    
+$red-95: #400c06;    
+$red-100: #2b0604;    
+$orange-0: #faf7f5;    
+$orange-5: #f7f0e9;    
+$orange-10: #f2d5bd;    
+$orange-20: #f2b98a;    
+$orange-30: #f2903f;    
+$orange-40: #f08024;    
+$orange-50: #d9690d;    
+$orange-60: #bf5804;    
+$orange-70: #a34905;    
+$orange-80: #803704;    
+$orange-90: #592400;    
+$orange-95: #401a00;    
+$orange-100: #2b1400;    
+$yellow-0: #fcfbf5;    
+$yellow-5: #faf7eb;    
+$yellow-10: #f2e7bd;    
+$yellow-20: #f2dd8a;    
+$yellow-30: #f2ce3f;    
+$yellow-40: #f2be2c;    
+$yellow-50: #ebaa17;    
+$yellow-60: #cc9618;    
+$yellow-70: #996c05;    
+$yellow-80: #805804;    
+$yellow-90: #593c00;    
+$yellow-95: #402a00;    
+$yellow-100: #2b1c00;    
+$neutral-white: #ffffff;    
+$neutral-black: #000000;    
+$light-surface-overlay-darken: #10101099;    
 /* Default bg for modal popups to sit on */
-$colorLightSurfaceOverlayModalBackground: #10101099;    
+$light-surface-overlay-modal-background: #10101099;    
 /* Dropdown hover, calendar hover, switch hover */
-$colorDarkUtilityUiBackgroundHover: #2a2b2b;    
-$colorDarkSurfaceOverlayDarken: #10101099;    
-$colorDarkSurfaceOverlayModalBackground: #10101099;    
+$dark-utility-ui-background-hover: #2a2b2b;    
+$dark-surface-overlay-darken: #10101099;    
+$dark-surface-overlay-modal-background: #10101099;    
 /* Default text color */
-$colorBrandTextPrimary: #ffffff;    
+$brand-text-primary: #ffffff;    
 /* Supplementary Info (diminished contrast) */
-$colorBrandTextSecondary: #dfe6f5;    
+$brand-text-secondary: #dfe6f5;    
 /* Lowest level of importance */
-$colorBrandTextTertiary: #bdd0f2;    
+$brand-text-tertiary: #bdd0f2;    
 /* Does not need to meet AA contrast */
-$colorBrandTextDisabled: #88b0f7;    
+$brand-text-disabled: #88b0f7;    
 /* Selected date in calendar, selected tab menu item or dropdown */
-$colorBrandTextSelected: #ffffff;    
+$brand-text-selected: #ffffff;    
 /* Unselected date in calendar, unselected tab menu item or dropdown */
-$colorBrandTextUnselected: #bdd0f2;    
+$brand-text-unselected: #bdd0f2;    
 /* Default link color */
-$colorBrandTextActionLinkPrimary: #ffffff;    
+$brand-text-action-link-primary: #ffffff;    
 /* Default link hover */
-$colorBrandTextActionLinkPrimaryHover: #bdd0f2;    
+$brand-text-action-link-primary-hover: #bdd0f2;    
 /* Alternate link color */
-$colorBrandTextActionLinkSecondary: #bdd0f2;    
+$brand-text-action-link-secondary: #bdd0f2;    
 /* Alternate link hover */
-$colorBrandTextActionLinkSecondaryHover: #ffffff;    
+$brand-text-action-link-secondary-hover: #ffffff;    
 /* Positive status such as a win (W) */
-$colorBrandTextPositive: #58ed78;    
-$colorBrandTextPositiveHover: #8df7a0;    
+$brand-text-positive: #58ed78;    
+$brand-text-positive-hover: #8df7a0;    
 /* Negative status such as a loss (L) */
-$colorBrandTextNegative: #f78d8d;    
-$colorBrandTextNegativeHover: #fac3c3;    
+$brand-text-negative: #f78d8d;    
+$brand-text-negative-hover: #fac3c3;    
 /* Urgent info like watch now & live events */
-$colorBrandTextAlert: #f78d8d;    
+$brand-text-alert: #f78d8d;    
 /* Baseline for surfaces */
-$colorBrandSurfacePrimary: #004ace;    
+$brand-surface-primary: #004ace;    
 /* Surface below primary */
-$colorBrandSurfaceSecondary: #0036b5;    
+$brand-surface-secondary: #0036b5;    
 /* Additional surface color for constrast */
-$colorBrandSurfaceTertiary: #00259e;    
-$colorBrandUtilityBorder: #2268e5;    
-$colorBrandUtilityDisabled: #4383fa;    
+$brand-surface-tertiary: #00259e;    
+$brand-utility-border: #2268e5;    
+$brand-utility-disabled: #4383fa;    
 /* Calendar bg, radio button bg, checkbox bg, form fields bg */
-$colorBrandUtilityUiBackground: #004ace;    
+$brand-utility-ui-background: #004ace;    
 /* Disabled UI like checkboxes, calendars or fields */
-$colorBrandUtilityUiBackgroundDisabled: #004ace;    
+$brand-utility-ui-background-disabled: #004ace;    
 /* Dropdown hover, calendar hover, switch hover */
-$colorBrandUtilityUiBackgroundHover: #0d55d9;    
-$colorBrandUtilityBorderHover: #ffffff;    
+$brand-utility-ui-background-hover: #0d55d9;    
+$brand-utility-border-hover: #ffffff;    
 /* Indicate tab is active, radio button is on */
-$colorBrandUtilityUiElementActive: #ffffff;    
+$brand-utility-ui-element-active: #ffffff;    
 /* Default icon color */
-$colorBrandUtilityIconPrimary: #ffffff;    
+$brand-utility-icon-primary: #ffffff;    
 /* Icon color when primary cannot be used */
-$colorBrandUtilityIconSecondary: #bdd0f2;    
-$colorBrandBrandPrimary: #ffffff;    
-$colorBrandBrandSecondary: #bdd0f2;    
-$colorBrandBrand247Sports: #ffffff;    
-$colorBrandBrandMaxpreps: #ffffff;    
-$colorBrandBrandSportsline: #ffffff;    
+$brand-utility-icon-secondary: #bdd0f2;    
+$brand-brand-primary: #ffffff;    
+$brand-brand-secondary: #bdd0f2;    
+$brand-brand-247-sports: #ffffff;    
+$brand-brand-maxpreps: #ffffff;    
+$brand-brand-sportsline: #ffffff;    
 /* Can be used to show a positive trajectory */
-$colorBrandUtilityStatusGraphicPositive: #58ed78;    
-$colorBrandUtilityStatusGraphicPositiveHover: #8df7a0;    
+$brand-utility-status-graphic-positive: #58ed78;    
+$brand-utility-status-graphic-positive-hover: #8df7a0;    
 /* Can be used to show a negative trajectory */
-$colorBrandUtilityStatusGraphicNegative: #f94343;    
-$colorBrandUtilityStatusGraphicNegativeHover: #f78d8d;    
+$brand-utility-status-graphic-negative: #f94343;    
+$brand-utility-status-graphic-negative-hover: #f78d8d;    
 /* Can be used for weather, yellow cards */
-$colorBrandUtilityStatusGraphicInfo: #f2ce3f;    
-$colorBrandUtilityStatusGraphicInfoHover: #f2dd8a;    
-$colorBrandUtilityStatusGraphicCool: #bdd0f2;    
+$brand-utility-status-graphic-info: #f2ce3f;    
+$brand-utility-status-graphic-info-hover: #f2dd8a;    
+$brand-utility-status-graphic-cool: #bdd0f2;    
 /* Watch or live icons */
-$colorBrandUtilityStatusGraphicAlert: #f94343;    
+$brand-utility-status-graphic-alert: #f94343;    
 /* Default border color for tables */
-$colorLightTableBaseBorderPrimary: #d9dbde;    
+$light-table-base-border-primary: #d9dbde;    
 /* First tinted column */
-$colorLightTableHeaderColumnBackground1: #d9dbde66;    
+$light-table-header-column-background-1: #d9dbde66;    
 /* For striped table rows or accent rows */
-$colorLightTableBodyRowBackgroundSecondary: #f5f6f780;    
+$light-table-body-row-background-secondary: #f5f6f780;    
 /* Secondary body text color when default cannot be used */
-$colorLightTableBodyTextSecondary: #656667;    
+$light-table-body-text-secondary: #656667;    
 /* First tint for table body column */
-$colorLightTableBodyColumnBackground1: #f5f6f780;    
+$light-table-body-column-background-1: #f5f6f780;    
 /* Second tint for table body column */
-$colorLightTableBodyColumnBackground2: #edeef280;    
-$colorDarkTableBaseBackground: #f5f6f700;    
-$colorDarkTableBaseBorderSecondary: #656667;    
-$colorDarkTableHeaderRowBackground: #2a2b2b;    
-$colorDarkTableHeaderColumnBackground1: #3d3f4080;    
-$colorDarkTableBodyRowBackgroundSecondary: #2a2b2b80;    
-$colorDarkTableBodyColumnBackground1: #2a2a2b80;    
-$colorDarkTableBodyColumnBackground2: #3d3f4080;    
-$colorLightButtonTertiaryText: #656667;    
-$colorLightButtonPromoPrimaryBackground: #05a342;    
-$colorLightButtonPromoPrimaryBorder: #05a342;    
-$colorDarkButtonPrimaryBackground: #0d55d9;    
-$colorDarkButtonPrimaryBackgroundHover: #2268e5;    
-$colorDarkButtonPrimaryBorder: #0d55d9;    
-$colorDarkButtonPrimaryText: #ffffff;    
-$colorDarkButtonSecondaryBackground: #ffffff00;    
-$colorDarkButtonSecondaryBackgroundHover: #ffffff;    
-$colorDarkButtonSecondaryBorder: #ffffff;    
-$colorDarkButtonSecondaryText: #ffffff;    
-$colorDarkButtonSecondaryTextHover: #4b4c4d;    
-$colorDarkButtonTertiaryBorder: #2268e5;    
-$colorDarkButtonTertiaryBorderHover: #88b0f7;    
-$colorDarkButtonTertiaryText: #4383fa;    
-$colorDarkButtonTertiaryTextHover: #88b0f7;    
-$colorDarkButtonPromoPrimaryBackground: #05a342;    
-$colorDarkButtonPromoPrimaryBackgroundHover: #04802d;    
-$colorDarkButtonPromoPrimaryBorder: #05a342;    
-$colorDarkButtonPromoPrimaryText: #ffffff;    
-$colorDarkButtonPromoSecondaryBackground: #d9690d;    
-$colorDarkButtonPromoSecondaryBackgroundHover: #bf5804;    
-$colorDarkButtonPromoSecondaryBorder: #d9690d;    
-$colorDarkButtonPromoSecondaryText: #ffffff;    
-$colorDarkButtonLiveBackground: #e10500;    
-$colorDarkButtonLiveBackgroundHover: #cc0e00;    
-$colorDarkButtonLiveBorder: #e10500;    
-$colorDarkButtonLiveText: #ffffff;    
-$colorBrandButtonPrimaryBackground: #0049ce00;    
-$colorBrandButtonPrimaryBackgroundHover: #2268e5;    
-$colorBrandButtonPrimaryBorder: #dfe6f5;    
-$colorBrandButtonPrimaryText: #dfe6f5;    
-$colorBrandButtonPromoPrimaryBackground: #05a342;    
-$colorBrandButtonPromoPrimaryBackgroundHover: #048209;    
-$colorBrandButtonPromoPrimaryBorder: #05a342;    
-$colorBrandButtonPromoPrimaryText: #ffffff;    
-$colorBrandButtonPromoSecondaryBackground: #d9690d;    
-$colorBrandButtonPromoSecondaryBackgroundHover: #b85804;    
-$colorBrandButtonPromoSecondaryBorder: #d9690d;    
-$colorBrandButtonPromoSecondaryText: #ffffff;    
-$colorBrandButtonLiveBackground: #e10500;    
-$colorBrandButtonLiveBackgroundHover: #cc0e00;    
-$colorBrandButtonLiveBorder: #e10500;    
-$colorBrandButtonLiveText: #ffffff;    
-$colorFantasyGamesGolfProps1: #45cc56;    
-$colorFantasyGamesGolfProps2: #469944;    
-$colorFantasyGamesGolfProps3: #a5f40c;    
-$colorFantasyGamesParlayPickem1: #1699dc;    
-$colorFantasyGamesParlayPickem2: #ff4c00;    
-$colorFantasyGamesParlayPickem3: #d0c1c9;    
-$colorFantasyGamesBracketGames1: #e06817;    
-$colorFantasyGamesBracketGames2: #cb3735;    
-$colorFantasyGamesFootballPickem1: #1a69b7;    
-$colorFantasyGamesFootballPickem2: #dd0000;    
-$colorFantasyGamesFootballPickem3: #b4b7c0;    
-$colorFantasyGamesCollegePickem1: #dbb809;    
-$colorFantasyGamesCollegePickem2: #d2a628;    
-$colorFantasyGamesFootballProps1: #00bc6f;    
-$colorFantasyGamesFootballProps2: #077b49;    
-$colorFantasyGamesSoccerProps1: #9d22ff;    
-$colorFantasyGamesSoccerProps2: #adafb2;    
-$colorInternalBrandsHqAmPm: #004482;    
-$colorInternalBrandsPickSix: #035d10;    
-$colorInternalBrandsFantasyFootballToday: #043762;    
-$colorInternalBrandsFantasyBaseballToday: #ff0000;    
-$colorInternalBrandsTheFirstCut: #0e6011;    
+$light-table-body-column-background-2: #edeef280;    
+$dark-table-base-background: #f5f6f700;    
+$dark-table-base-border-secondary: #656667;    
+$dark-table-header-row-background: #2a2b2b;    
+$dark-table-header-column-background-1: #3d3f4080;    
+$dark-table-body-row-background-secondary: #2a2b2b80;    
+$dark-table-body-column-background-1: #2a2a2b80;    
+$dark-table-body-column-background-2: #3d3f4080;    
+$light-button-tertiary-text: #656667;    
+$light-button-promo-primary-background: #05a342;    
+$light-button-promo-primary-border: #05a342;    
+$dark-button-primary-background: #0d55d9;    
+$dark-button-primary-background-hover: #2268e5;    
+$dark-button-primary-border: #0d55d9;    
+$dark-button-primary-text: #ffffff;    
+$dark-button-secondary-background: #ffffff00;    
+$dark-button-secondary-background-hover: #ffffff;    
+$dark-button-secondary-border: #ffffff;    
+$dark-button-secondary-text: #ffffff;    
+$dark-button-secondary-text-hover: #4b4c4d;    
+$dark-button-tertiary-border: #2268e5;    
+$dark-button-tertiary-border-hover: #88b0f7;    
+$dark-button-tertiary-text: #4383fa;    
+$dark-button-tertiary-text-hover: #88b0f7;    
+$dark-button-promo-primary-background: #05a342;    
+$dark-button-promo-primary-background-hover: #04802d;    
+$dark-button-promo-primary-border: #05a342;    
+$dark-button-promo-primary-text: #ffffff;    
+$dark-button-promo-secondary-background: #d9690d;    
+$dark-button-promo-secondary-background-hover: #bf5804;    
+$dark-button-promo-secondary-border: #d9690d;    
+$dark-button-promo-secondary-text: #ffffff;    
+$dark-button-live-background: #e10500;    
+$dark-button-live-background-hover: #cc0e00;    
+$dark-button-live-border: #e10500;    
+$dark-button-live-text: #ffffff;    
+$brand-button-primary-background: #0049ce00;    
+$brand-button-primary-background-hover: #2268e5;    
+$brand-button-primary-border: #dfe6f5;    
+$brand-button-primary-text: #dfe6f5;    
+$brand-button-promo-primary-background: #05a342;    
+$brand-button-promo-primary-background-hover: #048209;    
+$brand-button-promo-primary-border: #05a342;    
+$brand-button-promo-primary-text: #ffffff;    
+$brand-button-promo-secondary-background: #d9690d;    
+$brand-button-promo-secondary-background-hover: #b85804;    
+$brand-button-promo-secondary-border: #d9690d;    
+$brand-button-promo-secondary-text: #ffffff;    
+$brand-button-live-background: #e10500;    
+$brand-button-live-background-hover: #cc0e00;    
+$brand-button-live-border: #e10500;    
+$brand-button-live-text: #ffffff;    
+$fantasy-games-golf-props-1: #45cc56;    
+$fantasy-games-golf-props-2: #469944;    
+$fantasy-games-golf-props-3: #a5f40c;    
+$fantasy-games-parlay-pickem-1: #1699dc;    
+$fantasy-games-parlay-pickem-2: #ff4c00;    
+$fantasy-games-parlay-pickem-3: #d0c1c9;    
+$fantasy-games-bracket-games-1: #e06817;    
+$fantasy-games-bracket-games-2: #cb3735;    
+$fantasy-games-football-pickem-1: #1a69b7;    
+$fantasy-games-football-pickem-2: #dd0000;    
+$fantasy-games-football-pickem-3: #b4b7c0;    
+$fantasy-games-college-pickem-1: #dbb809;    
+$fantasy-games-college-pickem-2: #d2a628;    
+$fantasy-games-football-props-1: #00bc6f;    
+$fantasy-games-football-props-2: #077b49;    
+$fantasy-games-soccer-props-1: #9d22ff;    
+$fantasy-games-soccer-props-2: #adafb2;    
+$internal-brands-hq-am-pm: #004482;    
+$internal-brands-pick-six: #035d10;    
+$internal-brands-fantasy-football-today: #043762;    
+$internal-brands-fantasy-baseball-today: #ff0000;    
+$internal-brands-the-first-cut: #0e6011;    
 /* Basketball */
-$colorLeaguesBig3: #002b5c;    
-$colorLeaguesBoxing: #db2126;    
+$leagues-big-3: #002b5c;    
+$leagues-boxing: #db2126;    
 /* Major League Baseball */
-$colorLeaguesMlb: #041e42;    
+$leagues-mlb: #041e42;    
 /* Mixed Martial Arts */
-$colorLeaguesMma: #771b1b;    
-$colorLeaguesNascar: #000000;    
+$leagues-mma: #771b1b;    
+$leagues-nascar: #000000;    
 /* Applies to both basketball (NCAAB) and football (NCAAF) */
-$colorLeaguesNcaa: #005eb8;    
+$leagues-ncaa: #005eb8;    
 /* National Hockey League */
-$colorLeaguesNhl: #000000;    
+$leagues-nhl: #000000;    
 /* Men's NBA */
-$colorLeaguesNbaPrimary: #1d428a;    
-$colorLeaguesNbaSecondary: #c8102e;    
-$colorLeaguesGolfPrimary: #285f61;    
+$leagues-nba-primary: #1d428a;    
+$leagues-nba-secondary: #c8102e;    
+$leagues-golf-primary: #285f61;    
 /* Ladies Professional Golf Association */
-$colorLeaguesGolfLpga: #005288;    
-$colorLeaguesGolfMastersGreen1: #518d47;    
-$colorLeaguesGolfMastersGreen2: #7ba67b;    
-$colorLeaguesGolfMastersGreen3: #185c2a;    
-$colorLeaguesGolfMastersGreen4: #1f3b22;    
-$colorLeaguesGolfMastersGreen5: #1a3a36;    
-$colorLeaguesGolfMastersGreen6: #bdc9c9;    
-$colorLeaguesGolfMastersGreen7: #0a2f16;    
-$colorLeaguesGolfMastersGreen8: #1e3f40;    
-$colorLeaguesGolfMastersGreen9: #234b4b;    
-$colorLeaguesGolfMastersYellow1: #faf8a5;    
-$colorLeaguesGolfMastersYellow2: #fff200;    
-$colorLeaguesGolfMastersYellow3: #e3e902;    
-$colorLeaguesGolfPgaWhite: #cfdce6;    
-$colorLeaguesGolfPgaGreen1: #1e3f40;    
-$colorLeaguesGolfPgaGreen2: #234b4b;    
-$colorLeaguesGolfPgaGreen3: #185c2a;    
-$colorLeaguesGolfPgaGreen4: #306c6c;    
-$colorLeaguesGolfPgaGreen5: #99a3a4;    
-$colorLeaguesGolfPgaGreen6: #14312e;    
+$leagues-golf-lpga: #005288;    
+$leagues-golf-masters-green-1: #518d47;    
+$leagues-golf-masters-green-2: #7ba67b;    
+$leagues-golf-masters-green-3: #185c2a;    
+$leagues-golf-masters-green-4: #1f3b22;    
+$leagues-golf-masters-green-5: #1a3a36;    
+$leagues-golf-masters-green-6: #bdc9c9;    
+$leagues-golf-masters-green-7: #0a2f16;    
+$leagues-golf-masters-green-8: #1e3f40;    
+$leagues-golf-masters-green-9: #234b4b;    
+$leagues-golf-masters-yellow-1: #faf8a5;    
+$leagues-golf-masters-yellow-2: #fff200;    
+$leagues-golf-masters-yellow-3: #e3e902;    
+$leagues-golf-pga-white: #cfdce6;    
+$leagues-golf-pga-green-1: #1e3f40;    
+$leagues-golf-pga-green-2: #234b4b;    
+$leagues-golf-pga-green-3: #185c2a;    
+$leagues-golf-pga-green-4: #306c6c;    
+$leagues-golf-pga-green-5: #99a3a4;    
+$leagues-golf-pga-green-6: #14312e;    
 /* National Football League */
-$colorLeaguesNflPrimary: #013369;    
-$colorLeaguesNflAfcConference: #ce202c;    
-$colorLeaguesNflNfcConference: #003b66;    
-$colorLeaguesOlympicsGold: #cc9618;    
-$colorLeaguesOlympicsSilver: #a6a9ad;    
-$colorLeaguesOlympicsBronze: #805804;    
+$leagues-nfl-primary: #013369;    
+$leagues-nfl-afc-conference: #ce202c;    
+$leagues-nfl-nfc-conference: #003b66;    
+$leagues-olympics-gold: #cc9618;    
+$leagues-olympics-silver: #a6a9ad;    
+$leagues-olympics-bronze: #805804;    
 /* UEFA Champions League (UCL) */
-$colorLeaguesSoccerChampionsLeague: #00004b;    
+$leagues-soccer-champions-league: #00004b;    
 /* UEFA Europa League (UEL) */
-$colorLeaguesSoccerEuropaLeaguePrimary: #ff6900;    
-$colorLeaguesSoccerEuropaLeagueSecondary: #000000;    
-$colorLeaguesSoccerEuropaConferencePrimary: #00be14;    
-$colorLeaguesSoccerEuropaConferenceSecondary: #000000;    
+$leagues-soccer-europa-league-primary: #ff6900;    
+$leagues-soccer-europa-league-secondary: #000000;    
+$leagues-soccer-europa-conference-primary: #00be14;    
+$leagues-soccer-europa-conference-secondary: #000000;    
 /* England's Football League (EPL) */
-$colorLeaguesSoccerEnglishPremierLeague: #3d195b;    
+$leagues-soccer-english-premier-league: #3d195b;    
 /* Spanish Football (soccer) League */
-$colorLeaguesSoccerLaLiga: #0c1b23;    
-$colorLeaguesSoccerSerieA: #00197d;    
+$leagues-soccer-la-liga: #0c1b23;    
+$leagues-soccer-serie-a: #00197d;    
 /* German Football (soccer) League */
-$colorLeaguesSoccerBundesliga: #d20515;    
+$leagues-soccer-bundesliga: #d20515;    
 /* French Football (soccer) League */
-$colorLeaguesSoccerLigue1: #091c3e;    
+$leagues-soccer-ligue-1: #091c3e;    
 /* Mexican Football (soccer) League */
-$colorLeaguesSoccerLigaMx: #072146;    
+$leagues-soccer-liga-mx: #072146;    
 /* Major League Soccer (US) */
-$colorLeaguesSoccerMls: #e22319;    
+$leagues-soccer-mls: #e22319;    
 /* National Women's Soccer League */
-$colorLeaguesSoccerNwslPrimary: #1d2d53;    
-$colorLeaguesSoccerNwslSecondary: #d22030;    
+$leagues-soccer-nwsl-primary: #1d2d53;    
+$leagues-soccer-nwsl-secondary: #d22030;    
 /* Currently being used as a light background for World Cup Brackets */
-$colorLeaguesSoccerWorldCupLight: #9a1032;    
+$leagues-soccer-world-cup-light: #9a1032;    
 /* Currently being used as a dark background for World Cup Brackets */
-$colorLeaguesSoccerWorldCupDark: #50b0a0;    
-$colorParamountPeakBlue: #0064ff;    
-$colorParamountSecondaryBlue1: #1996ff;    
-$colorParamountSecondaryBlue2: #003296;    
-$colorParamountSecondaryBlue3: #00004b;    
-$colorParamountSnowcapWhite: #ffffff;    
-$colorParamountBasaltBlack: #000000;    
-$colorParamountGray1: #e9eaec;    
-$colorParamountGray2: #e0e3ea;    
-$colorParamountGray3: #d7dce7;    
-$colorParamountGray4: #9ba8bd;    
-$colorParamountGray5: #5b626e;    
-$colorParamountGray6: #1b1c1e;    
-$colorSocialFacebook: #1877f2;    
-$colorSocialTwitter: #1da1f2;    
-$colorSocialYoutube: #ff0000;    
-$colorSocialInstagram: #c32aa3;    
-$colorSocialPinterest: #bd081c;    
-$colorSocialLinkedin: #007bb5;    
-$colorSocialGoogle: #4285f4;    
-$colorSocialFlipboard: #e12828;    
-$colorSocialReddit: #ff4500;    
-$colorSocialRss: #f26522;    
+$leagues-soccer-world-cup-dark: #50b0a0;    
+$paramount--peak-blue: #0064ff;    
+$paramount--secondary-blue-1: #1996ff;    
+$paramount--secondary-blue-2: #003296;    
+$paramount--secondary-blue-3: #00004b;    
+$paramount--snowcap-white: #ffffff;    
+$paramount--basalt-black: #000000;    
+$paramount--gray-1: #e9eaec;    
+$paramount--gray-2: #e0e3ea;    
+$paramount--gray-3: #d7dce7;    
+$paramount--gray-4: #9ba8bd;    
+$paramount--gray-5: #5b626e;    
+$paramount--gray-6: #1b1c1e;    
+$social-facebook: #1877f2;    
+$social-twitter: #1da1f2;    
+$social-youtube: #ff0000;    
+$social-instagram: #c32aa3;    
+$social-pinterest: #bd081c;    
+$social-linkedin: #007bb5;    
+$social-google: #4285f4;    
+$social-flipboard: #e12828;    
+$social-reddit: #ff4500;    
+$social-rss: #f26522;    
 /* For use on:
 - Light surfaces as a logo color
 - as a background color */
-$colorCaesarsPine: #173432;    
+$caesars-pine: #173432;    
 /* For use on:
 - Light surfaces as a logo color
 - Dark surfaces as a logo color
 
 Also known as: Caesars Gold */
-$colorCaesarsGold: #c5a459;    
+$caesars-gold: #c5a459;    
 /* For use on:
 - Dark surfaces as a logo color */
-$colorCaesarsCoolGray: #e8e3de;    
-$colorCaesarsBgBlack: #070607;    
-$colorCaesarsBgWhite: #ffffff;    
-$colorCaesarsGoldOnWhite: #98845a;    
-$colorCaesarsGoldOnBlack: #cbaa65;    
-$colorLeaguesTennis: #275b4d;    
+$caesars-cool-gray: #e8e3de;    
+$caesars-bg-black: #070607;    
+$caesars-bg-white: #ffffff;    
+$caesars-gold-on-white: #98845a;    
+$caesars-gold-on-black: #cbaa65;    
+$leagues-tennis: #275b4d;    
 /* Women's NBA */
-$colorLeaguesWnba: #fa4d00;    
+$leagues-wnba: #fa4d00;    
 /* World Wrestling Entertainment */
-$colorLeaguesWwe: #222222;    
-$colorLeaguesXfl: #02214f;    
-$colorFuboPrimary: #e7542f;    
-$colorLeaguesOlympicsBrand: #0078d0;    
-$colorLeaguesBellatorPrimary: #ed1c24;    
-$colorLeaguesBellatorSecondary: #000000;    
-$colorSocialSnapchat: #fffc00;    
-$colorSocialTiktok: #000000;    
-$colorLightButtonPrimaryBorderFocused: #ffffff;    
-$colorLightButtonSecondaryBorderFocused: #202121;    
-$colorLightButtonTertiaryBackground: #ffffff00;    
-$colorLightButtonTertiaryBorderFocused: #656667;    
-$colorDarkButtonPrimaryBorderFocused: #ffffff;    
-$colorDarkButtonSecondaryBorderFocused: #ffffff;    
-$colorDarkButtonTertiaryBackground: #00000000;    
-$colorDarkButtonTertiaryBorderFocused: #4383fa;    
-$colorLightButtonSecondaryTextHover: #202121;    
+$leagues-wwe: #222222;    
+$leagues-xfl: #02214f;    
+$fubo-primary: #e7542f;    
+$leagues-olympics-brand: #0078d0;    
+$leagues-bellator-primary: #ed1c24;    
+$leagues-bellator-secondary: #000000;    
+$social-snapchat: #fffc00;    
+$social-tiktok: #000000;    
+$light-button-primary-border-focused: #ffffff;    
+$light-button-secondary-border-focused: #202121;    
+$light-button-tertiary-background: #ffffff00;    
+$light-button-tertiary-border-focused: #656667;    
+$dark-button-primary-border-focused: #ffffff;    
+$dark-button-secondary-border-focused: #ffffff;    
+$dark-button-tertiary-background: #00000000;    
+$dark-button-tertiary-border-focused: #4383fa;    
+$light-button-secondary-text-hover: #202121;    
 /* F1 */
-$colorLeaguesFormula1: #000000;    
-$colorLeaguesSoccerWomensWorldCupPrimaryLight: #ec5e2f;    
-$colorLeaguesSoccerWomensWorldCupSecondaryLight: #395a6b;    
-$colorLeaguesSoccerWomensWorldCupPrimaryDark: #f2a44b;    
-$colorLeaguesSoccerWomensWorldCupSecondaryDark: #4c726c;    
+$leagues-formula-1: #000000;    
+$leagues-soccer-womens-world-cup-primary-light: #ec5e2f;    
+$leagues-soccer-womens-world-cup-secondary-light: #395a6b;    
+$leagues-soccer-womens-world-cup-primary-dark: #f2a44b;    
+$leagues-soccer-womens-world-cup-secondary-dark: #4c726c;    
 /* StubHub's foundational color for it's Logo on a light background */
-$colorStubhubPrimary: #3f1d74;    
+$stubhub-primary: #3f1d74;    
 /* StubHub's foundational color for its Logo on a Dark background */
-$colorStubhubSecondary: #ffffff;    
+$stubhub-secondary: #ffffff;    
 /* StubHub's Text color for its Logo on a Light background */
-$colorStubhubTertiary: #e4eef3;    
+$stubhub-tertiary: #e4eef3;    
 /* Default text color */
-$colorLightTextPrimary: $colorNeutral95;    
+$light-text-primary: $neutral-95;    
 /* Supplementary Info (diminished contrast) */
-$colorLightTextSecondary: $colorNeutral60;    
+$light-text-secondary: $neutral-60;    
 /* *Only used on Primary Surface. Commonly used for metadata. */
-$colorLightTextTertiary: $colorNeutral50;    
+$light-text-tertiary: $neutral-50;    
 /* Not actionable. Does not need to meet AA contrast */
-$colorLightTextDisabled: $colorNeutral30;    
+$light-text-disabled: $neutral-30;    
 /* Selected date in calendar, selected tab menu item or dropdown */
-$colorLightTextSelected: $colorNeutral95;    
+$light-text-selected: $neutral-95;    
 /* Unselected date in calendar, unselected tab menu item or dropdown */
-$colorLightTextUnselected: $colorNeutral60;    
+$light-text-unselected: $neutral-60;    
 /* Positive status such as a win (W) */
-$colorLightTextPositive: $colorGreen80;    
-$colorLightTextPositiveHover: $colorGreen90;    
+$light-text-positive: $green-80;    
+$light-text-positive-hover: $green-90;    
 /* Negative status such as a loss (L) */
-$colorLightTextNegative: $colorRed60;    
-$colorLightTextNegativeHover: $colorRed70;    
+$light-text-negative: $red-60;    
+$light-text-negative-hover: $red-70;    
 /* Urgent info like watch now & live events */
-$colorLightTextAlert: $colorRed50;    
+$light-text-alert: $red-50;    
 /* Default link color */
-$colorLightTextActionLinkPrimary: $colorNeutral95;    
+$light-text-action-link-primary: $neutral-95;    
 /* Default link hover */
-$colorLightTextActionLinkPrimaryHover: $colorBlue70;    
+$light-text-action-link-primary-hover: $blue-70;    
 /* Alternate link color */
-$colorLightTextActionLinkSecondary: $colorBlue60;    
+$light-text-action-link-secondary: $blue-60;    
 /* Alternate link hover */
-$colorLightTextActionLinkSecondaryHover: $colorBlue70;    
+$light-text-action-link-secondary-hover: $blue-70;    
 /* Baseline for surfaces */
-$colorLightSurfacePrimary: $colorNeutralWhite;    
+$light-surface-primary: $neutral-white;    
 /* The lowest & darkest surface, usually used to lift the primary surface */
-$colorLightSurfaceSecondary: $colorNeutral5;    
+$light-surface-secondary: $neutral-5;    
 /* Additional surface color for contrast */
-$colorLightSurfaceTertiary: $colorNeutral0;    
+$light-surface-tertiary: $neutral-0;    
 /* Can be used for nav or areas to promote brand */
-$colorLightSurfaceBrand: $colorBlue60;    
+$light-surface-brand: $blue-60;    
 /* Default border color */
-$colorLightUtilityBorder: $colorNeutral10;    
+$light-utility-border: $neutral-10;    
 /* Checkbox hover, radio hover */
-$colorLightUtilityBorderHover: $colorBlue70;    
+$light-utility-border-hover: $blue-70;    
 /* Graphics that need a disabled color */
-$colorLightUtilityDisabled: $colorNeutral30;    
+$light-utility-disabled: $neutral-30;    
 /* Calendar bg, radio button bg, checkbox bg, form fields bg */
-$colorLightUtilityUiBackground: $colorNeutralWhite;    
+$light-utility-ui-background: $neutral-white;    
 /* Disabled UI like checkboxes, calendars or fields */
-$colorLightUtilityUiBackgroundDisabled: $colorNeutral0;    
+$light-utility-ui-background-disabled: $neutral-0;    
 /* Dropdown hover, calendar hover, switch hover */
-$colorLightUtilityUiBackgroundHover: $colorBlue0;    
+$light-utility-ui-background-hover: $blue-0;    
 /* Indicate tab is active, radio button is on */
-$colorLightUtilityUiElementActive: $colorBlue60;    
+$light-utility-ui-element-active: $blue-60;    
 /* Default icon color */
-$colorLightUtilityIconPrimary: $colorNeutral95;    
+$light-utility-icon-primary: $neutral-95;    
 /* Icon color when primary cannot be used */
-$colorLightUtilityIconSecondary: $colorNeutral60;    
+$light-utility-icon-secondary: $neutral-60;    
 /* Can be used to show a positive trajectory */
-$colorLightUtilityStatusGraphicPositive: $colorGreen70;    
-$colorLightUtilityStatusGraphicPositiveHover: $colorGreen80;    
+$light-utility-status-graphic-positive: $green-70;    
+$light-utility-status-graphic-positive-hover: $green-80;    
 /* Can be used to show a negative trajectory */
-$colorLightUtilityStatusGraphicNegative: $colorRed60;    
-$colorLightUtilityStatusGraphicNegativeHover: $colorRed70;    
+$light-utility-status-graphic-negative: $red-60;    
+$light-utility-status-graphic-negative-hover: $red-70;    
 /* Can be used for weather, yellow cards */
-$colorLightUtilityStatusGraphicInfo: $colorYellow50;    
-$colorLightUtilityStatusGraphicInfoHover: $colorYellow60;    
+$light-utility-status-graphic-info: $yellow-50;    
+$light-utility-status-graphic-info-hover: $yellow-60;    
 /* Can be used to show a cooling down trajectory */
-$colorLightUtilityStatusGraphicCool: $colorBlue40;    
+$light-utility-status-graphic-cool: $blue-40;    
 /* Watch or live icons */
-$colorLightUtilityStatusGraphicAlert: $colorRed50;    
+$light-utility-status-graphic-alert: $red-50;    
 /* Can be used to promote brand where other colors cannot be used */
-$colorLightBrandPrimary: $colorBlue60;    
+$light-brand-primary: $blue-60;    
 /* Promote brand where primary brand cannot be used */
-$colorLightBrandSecondary: $colorBlue80;    
+$light-brand-secondary: $blue-80;    
 /* Promote brand where primary & seceondary brand cannot be used */
-$colorLightBrandTertiary: $colorBlue100;    
-$colorLightBrandMaxpreps: $colorRed50;    
-$colorLightBrand247sports: $colorBlue80;    
-$colorLightBrandSportsline: $colorGreen40;    
+$light-brand-tertiary: $blue-100;    
+$light-brand-maxpreps: $red-50;    
+$light-brand-247sports: $blue-80;    
+$light-brand-sportsline: $green-40;    
 /* Default text color */
-$colorDarkTextPrimary: $colorNeutralWhite;    
+$dark-text-primary: $neutral-white;    
 /* Supplementary Info (diminished contrast) */
-$colorDarkTextSecondary: $colorNeutral20;    
+$dark-text-secondary: $neutral-20;    
 /* *Only used on Primary Surface. Commonly used for metadata. */
-$colorDarkTextTertiary: $colorNeutral40;    
+$dark-text-tertiary: $neutral-40;    
 /* Not actionable. Does not need to meet AA contrast */
-$colorDarkTextDisabled: $colorNeutral60;    
+$dark-text-disabled: $neutral-60;    
 /* Selected date in calendar, selected tab menu item or dropdown */
-$colorDarkTextSelected: $colorNeutralWhite;    
+$dark-text-selected: $neutral-white;    
 /* Eg. Unselected date in calendar, unselected tab menu item or dropdown */
-$colorDarkTextUnselected: $colorNeutral40;    
+$dark-text-unselected: $neutral-40;    
 /* Positive status such as a win (W) */
-$colorDarkTextPositive: $colorGreen50;    
-$colorDarkTextPositiveHover: $colorGreen40;    
+$dark-text-positive: $green-50;    
+$dark-text-positive-hover: $green-40;    
 /* Do not use on tertiary surfaces. Negative status such as a loss (L).  */
-$colorDarkTextNegative: $colorRed30;    
-$colorDarkTextNegativeHover: $colorRed20;    
+$dark-text-negative: $red-30;    
+$dark-text-negative-hover: $red-20;    
 /* Do not use on tertiary surfaces. Urgent info like watch now & live events. */
-$colorDarkTextAlert: $colorRed30;    
+$dark-text-alert: $red-30;    
 /* Default link color */
-$colorDarkTextActionLinkPrimary: $colorNeutralWhite;    
-$colorDarkTextActionLinkPrimaryHover: $colorNeutral40;    
+$dark-text-action-link-primary: $neutral-white;    
+$dark-text-action-link-primary-hover: $neutral-40;    
 /* Alternate link color */
-$colorDarkTextActionLinkSecondary: $colorBlue30;    
-$colorDarkTextActionLinkSecondaryHover: $colorBlue20;    
+$dark-text-action-link-secondary: $blue-30;    
+$dark-text-action-link-secondary-hover: $blue-20;    
 /* Baseline for surfaces */
-$colorDarkSurfacePrimary: $colorNeutral95;    
+$dark-surface-primary: $neutral-95;    
 /* The lowest & darkest surface, usually used to lift the primary surface */
-$colorDarkSurfaceSecondary: $colorNeutral100;    
+$dark-surface-secondary: $neutral-100;    
 /* Additional surface color for contrast */
-$colorDarkSurfaceTertiary: $colorNeutral90;    
-$colorDarkSurfaceBrand: $colorBlue30;    
+$dark-surface-tertiary: $neutral-90;    
+$dark-surface-brand: $blue-30;    
 /* Default border color */
-$colorDarkUtilityBorder: $colorNeutral80;    
+$dark-utility-border: $neutral-80;    
 /* Checkbox hover, radio hover */
-$colorDarkUtilityBorderHover: $colorBlue40;    
+$dark-utility-border-hover: $blue-40;    
 /* Any graphics that need a disabled color */
-$colorDarkUtilityDisabled: $colorNeutral60;    
+$dark-utility-disabled: $neutral-60;    
 /* Calendar bg, radio button bg, checkbox bg, form fields bg */
-$colorDarkUtilityUiBackground: $colorNeutral100;    
+$dark-utility-ui-background: $neutral-100;    
 /* Disabled UI like checkboxes, calendars or fields */
-$colorDarkUtilityUiBackgroundDisabled: $colorNeutral95;    
+$dark-utility-ui-background-disabled: $neutral-95;    
 /* Indicate tab is active, radio button is on */
-$colorDarkUtilityUiElementActive: $colorBlue30;    
+$dark-utility-ui-element-active: $blue-30;    
 /* Default icon color */
-$colorDarkUtilityIconPrimary: $colorNeutral0;    
+$dark-utility-icon-primary: $neutral-0;    
 /* Icon color when primary cannot be used */
-$colorDarkUtilityIconSecondary: $colorNeutral20;    
+$dark-utility-icon-secondary: $neutral-20;    
 /* Can be used to promote brand where other colors cannot be used */
-$colorDarkBrandPrimary: $colorNeutralWhite;    
+$dark-brand-primary: $neutral-white;    
 /* Promote brand where primary brand cannot be used */
-$colorDarkBrandSecondary: $colorBlue40;    
+$dark-brand-secondary: $blue-40;    
 /* Promote brand where primary & seceondary brand cannot be used */
-$colorDarkBrandTertiary: $colorBlue20;    
-$colorDarkBrand247sports: $colorBlue40;    
-$colorDarkBrandMaxpreps: $colorRed50;    
-$colorDarkBrandSportsline: $colorGreen40;    
+$dark-brand-tertiary: $blue-20;    
+$dark-brand-247sports: $blue-40;    
+$dark-brand-maxpreps: $red-50;    
+$dark-brand-sportsline: $green-40;    
 /* Can be used to show a positive trajectory */
-$colorDarkUtilityStatusGraphicPositive: $colorGreen50;    
-$colorDarkUtilityStatusGraphicPositiveHover: $colorGreen40;    
+$dark-utility-status-graphic-positive: $green-50;    
+$dark-utility-status-graphic-positive-hover: $green-40;    
 /* Can be used to show a negative trajectory */
-$colorDarkUtilityStatusGraphicNegative: $colorRed30;    
-$colorDarkUtilityStatusGraphicNegativeHover: $colorRed20;    
+$dark-utility-status-graphic-negative: $red-30;    
+$dark-utility-status-graphic-negative-hover: $red-20;    
 /* Can be used for weather, yellow cards */
-$colorDarkUtilityStatusGraphicInfo: $colorYellow30;    
-$colorDarkUtilityStatusGraphicInfoHover: $colorYellow20;    
+$dark-utility-status-graphic-info: $yellow-30;    
+$dark-utility-status-graphic-info-hover: $yellow-20;    
 /* Can be used to show a cooling down trajectory */
-$colorDarkUtilityStatusGraphicCool: $colorBlue30;    
+$dark-utility-status-graphic-cool: $blue-30;    
 /* Watch or live icons */
-$colorDarkUtilityStatusGraphicAlert: $colorRed50;    
+$dark-utility-status-graphic-alert: $red-50;    
 /* Default background colors for tables */
-$colorLightTableBaseBackground: $colorNeutralWhite;    
+$light-table-base-background: $neutral-white;    
 /* A secondary border color may be required for darker rows or cols */
-$colorLightTableBaseBorderSecondary: $colorNeutral20;    
+$light-table-base-border-secondary: $neutral-20;    
 /* Default header row background */
-$colorLightTableHeaderRowBackground: $colorNeutral0;    
+$light-table-header-row-background: $neutral-0;    
 /* Default header row text color */
-$colorLightTableHeaderText: $colorNeutral70;    
+$light-table-header-text: $neutral-70;    
 /* For links in header rows */
-$colorLightTableHeaderTextHover: $colorBlue70;    
+$light-table-header-text-hover: $blue-70;    
 /* Second tinted column */
-$colorLightTableHeaderColumnBackground2: $colorNeutral10;    
+$light-table-header-column-background-2: $neutral-10;    
 /* Default body row background color */
-$colorLightTableBodyRowBackgroundPrimary: $colorNeutralWhite;    
+$light-table-body-row-background-primary: $neutral-white;    
 /* Default hover color for body rows */
-$colorLightTableBodyRowBackgroundHover: $colorBlue0;    
+$light-table-body-row-background-hover: $blue-0;    
 /* For sort columns */
-$colorLightTableBodyColumnBackgroundActive: $colorBlue0;    
+$light-table-body-column-background-active: $blue-0;    
 /* Default body text color */
-$colorLightTableBodyTextPrimary: $colorNeutral95;    
-$colorDarkTableBaseBorderPrimary: $colorDarkUtilityBorder;    
-$colorDarkTableHeaderText: $colorNeutral10;    
-$colorDarkTableHeaderTextHover: $colorBlue20;    
-$colorDarkTableHeaderColumnBackground2: $colorNeutral80;    
-$colorDarkTableBodyRowBackgroundPrimary: $colorDarkSurfaceSecondary;    
-$colorDarkTableBodyRowBackgroundHover: $colorNeutral80;    
-$colorDarkTableBodyColumnBackgroundActive: $colorNeutral80;    
-$colorDarkTableBodyTextPrimary: $colorDarkTextPrimary;    
-$colorDarkTableBodyTextSecondary: $colorDarkTextSecondary;    
-$colorLightButtonPrimaryBackground: $colorBlue60;    
-$colorLightButtonPrimaryBackgroundHover: $colorBlue70;    
-$colorLightButtonPrimaryBorder: $colorBlue60;    
-$colorLightButtonPrimaryText: $colorNeutralWhite;    
-$colorLightButtonSecondaryBackground: $colorNeutralWhite;    
-$colorLightButtonSecondaryBackgroundHover: $colorBlue0;    
-$colorLightButtonSecondaryBorder: $colorNeutral10;    
-$colorLightButtonSecondaryText: $colorNeutral95;    
-$colorLightButtonTertiaryBorder: $colorNeutral10;    
-$colorLightButtonTertiaryBorderHover: $colorBlue70;    
-$colorLightButtonTertiaryTextHover: $colorBlue70;    
-$colorLightButtonPromoPrimaryBackgroundHover: $colorGreen80;    
-$colorLightButtonPromoPrimaryText: $colorNeutralWhite;    
-$colorLightButtonPromoSecondaryBackground: $colorOrange50;    
-$colorLightButtonPromoSecondaryBackgroundHover: $colorOrange60;    
-$colorLightButtonPromoSecondaryBorder: $colorOrange50;    
-$colorLightButtonPromoSecondaryText: $colorNeutralWhite;    
-$colorLightButtonLiveBackground: $colorRed60;    
-$colorLightButtonLiveBackgroundHover: $colorRed70;    
-$colorLightButtonLiveBorder: $colorRed60;    
-$colorLightButtonLiveText: $colorNeutralWhite;    
+$light-table-body-text-primary: $neutral-95;    
+$dark-table-base-border-primary: $dark-utility-border;    
+$dark-table-header-text: $neutral-10;    
+$dark-table-header-text-hover: $blue-20;    
+$dark-table-header-column-background-2: $neutral-80;    
+$dark-table-body-row-background-primary: $dark-surface-secondary;    
+$dark-table-body-row-background-hover: $neutral-80;    
+$dark-table-body-column-background-active: $neutral-80;    
+$dark-table-body-text-primary: $dark-text-primary;    
+$dark-table-body-text-secondary: $dark-text-secondary;    
+$light-button-primary-background: $blue-60;    
+$light-button-primary-background-hover: $blue-70;    
+$light-button-primary-border: $blue-60;    
+$light-button-primary-text: $neutral-white;    
+$light-button-secondary-background: $neutral-white;    
+$light-button-secondary-background-hover: $blue-0;    
+$light-button-secondary-border: $neutral-10;    
+$light-button-secondary-text: $neutral-95;    
+$light-button-tertiary-border: $neutral-10;    
+$light-button-tertiary-border-hover: $blue-70;    
+$light-button-tertiary-text-hover: $blue-70;    
+$light-button-promo-primary-background-hover: $green-80;    
+$light-button-promo-primary-text: $neutral-white;    
+$light-button-promo-secondary-background: $orange-50;    
+$light-button-promo-secondary-background-hover: $orange-60;    
+$light-button-promo-secondary-border: $orange-50;    
+$light-button-promo-secondary-text: $neutral-white;    
+$light-button-live-background: $red-60;    
+$light-button-live-background-hover: $red-70;    
+$light-button-live-border: $red-60;    
+$light-button-live-text: $neutral-white;    
