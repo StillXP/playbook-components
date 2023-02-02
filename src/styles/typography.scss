@@ -1,0 +1,385 @@
+
+.letter-spacing-none 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+.letter-spacing-tight 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.02em; 
+  text-indent: 0px; 
+}    
+
+.letter-spacing-loose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.03em; 
+  text-indent: 0px; 
+}    
+
+.letter-spacing-xloose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.06em; 
+  text-indent: 0px; 
+}    
+
+.font-weight-black 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.font-weight-bold 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.font-weight-medium 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.font-weight-regular 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.font-weight-light 
+{ 
+  
+  font-family: "FS Industrie Var Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.line-height-none 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.line-height-normal 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.line-height-body 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 130%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.line-height-comfy 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 160%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+.font-size-90 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.08em; 
+  text-indent: 0px; 
+}    
+
+.font-family-standard 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+.font-family-narrow 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.04em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-none 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-tight 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.02em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-loose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-xloose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.06em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-weight-black 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-weight-bold 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-weight-medium 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-weight-regular 
+{ 
+  
+  font-family: "FS Industrie VF Std";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-weight-light 
+{ 
+  
+  font-family: "FS Industrie Var Std";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin line-height-none 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin line-height-normal 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin line-height-body 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 130%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin line-height-comfy 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 160%;
+  letter-spacing: -0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-size-90 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.08em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-family-standard 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-family-narrow 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.04em; 
+  text-indent: 0px; 
+}    
+
