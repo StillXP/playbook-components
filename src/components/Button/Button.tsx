@@ -71,7 +71,7 @@ export const Button = ({
         content = (
             <a 
                 className={buttonClasses}
-                area-label={ariaLabel}
+                aria-label={ariaLabel}
                 aria-required={ariaRequired}
                 href={url}
             >
@@ -82,7 +82,7 @@ export const Button = ({
         content = (
             <button 
                 className={buttonClasses}
-                area-label={ariaLabel}
+                aria-label={ariaLabel}
                 aria-required={ariaRequired}
             >
                 <ChevronLeft/>
@@ -94,7 +94,7 @@ export const Button = ({
         content = (
             <button 
             className={buttonClasses}
-            area-label={ariaLabel}
+            aria-label={ariaLabel}
             aria-required={ariaRequired}
             disabled
         >
@@ -105,7 +105,7 @@ export const Button = ({
         content = (
             <button 
                 className={buttonClasses}
-                area-label={ariaLabel}
+                aria-label={ariaLabel}
                 aria-required={ariaRequired}
             >
                 {children}
