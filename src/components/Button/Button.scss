@@ -2,7 +2,7 @@
 
 .button {
     @include font-style($family: standard, $weight: medium, $height: normal);
-    border-radius: 8px;
+    //border-radius: 8px;
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
@@ -153,5 +153,36 @@
 
 
         }
+    }
+}
+
+.radius {
+
+    &__0 {
+        border-radius: $measureBorderRadius0;
+    }
+
+    &__2 {
+        border-radius: $measureBorderRadius2;
+    }
+
+    &__4 {
+        border-radius: $measureBorderRadius4;
+    }
+
+    &__6 {
+        border-radius: $measureBorderRadius6;
+    }
+
+    &__8 {
+        border-radius: $measureBorderRadius8;
+    }
+
+    &__12 {
+        border-radius: $measureBorderRadius12;
+    }
+
+    &__full {
+        border-radius: $measureBorderRadiusFull;
     }
 }

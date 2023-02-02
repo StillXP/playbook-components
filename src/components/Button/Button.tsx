@@ -1,9 +1,15 @@
 import React, { MouseEventHandler, ReactNode } from 'react';
 import classNames from 'classnames';
 import './Button.scss';
-import { ButtonSizes, ButtonStyles, ButtonWidth, Themes } from 'src/constants/constants';
+import { ButtonSizes, ButtonStyles, ButtonWidth, Themes, Radius } from 'src/constants/constants';
 import { ChevronLeft } from '../Icon/Icon';
 export interface Props {
+
+    /** Label that describes Button function */
+    ariaLabel: string;
+
+    /** Aria Required */
+    ariaRequired: true;
 
     /** Button Text */
     children: ReactNode;
@@ -19,6 +25,9 @@ export interface Props {
 
     /** Button Type */
     type: "button";
+
+    /** Corner Radius */
+    radius: Radius;
 
     /** Button Sizes */
     size: ButtonSizes;
@@ -38,8 +47,11 @@ export interface Props {
 
 /** Foundational set of buttons that are used for primary, secondary, and tertiary actions within a page */
 export const Button = ({
+    ariaLabel = 'a11y label',
+    ariaRequired,
     children,
     disabled = false,
+    radius = '8',
     style = 'primary',
     size = 'large',
     theme = 'light',
@@ -52,12 +64,15 @@ export const Button = ({
         `button__${theme}__${style}`,
         `button__${size}`,
         `button__${width}`,
+        `radius__${radius}`
     )
     let content;
     if (url) {        
         content = (
             <a 
                 className={buttonClasses}
+                area-label={ariaLabel}
+                aria-required={ariaRequired}
                 href={url}
             >
                 {children}
@@ -65,7 +80,11 @@ export const Button = ({
         );
     } else if (icon) {  
         content = (
-            <button className={buttonClasses}>
+            <button 
+                className={buttonClasses}
+                area-label={ariaLabel}
+                aria-required={ariaRequired}
+            >
                 <ChevronLeft/>
                 {children}
             </button>   
@@ -75,6 +94,8 @@ export const Button = ({
         content = (
             <button 
             className={buttonClasses}
+            area-label={ariaLabel}
+            aria-required={ariaRequired}
             disabled
         >
             {children}
@@ -84,6 +105,8 @@ export const Button = ({
         content = (
             <button 
                 className={buttonClasses}
+                area-label={ariaLabel}
+                aria-required={ariaRequired}
             >
                 {children}
             </button>        

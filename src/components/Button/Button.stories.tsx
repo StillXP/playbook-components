@@ -6,12 +6,15 @@ const meta: Meta = {
     title: 'Button',
     component: Button,
     args: {
+        ariaLabel: 'a11y label',
         children: 'Button',
         disabled: false,
+        radius: '8',
         size: 'large',
         theme: 'light',
+        type: 'button',
+        url: '',
         width: 'hug',
-        type: 'button'
     }
 }
 
