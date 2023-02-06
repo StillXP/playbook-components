@@ -1,4 +1,4 @@
-@use '/src/styles/theme-helper' as *;
+@use '/src/styles/index' as *;
 
 .flag {
     @include font-style($family: standard, $weight: bold, $height: normal, $size: 75);
