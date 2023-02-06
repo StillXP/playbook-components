@@ -1,49 +1,13 @@
 
-.letter-spacing-none 
+.font-size-90 
 { 
   
-  font-family: "FS Industrie";
+  font-family: "FS Industrie Nw";
   font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
+  font-weight: 700;
+  font-size: 14px;
   line-height: 120.00000762939453%;
-  letter-spacing: 0em; 
-  text-indent: 0px; 
-}    
-
-.letter-spacing-tight 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.02em; 
-  text-indent: 0px; 
-}    
-
-.letter-spacing-loose 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.03em; 
-  text-indent: 0px; 
-}    
-
-.letter-spacing-xloose 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.06em; 
+  letter-spacing: 0.08em; 
   text-indent: 0px; 
 }    
 
@@ -107,6 +71,78 @@
   text-indent: 0px; 
 }    
 
+.font-family-standard 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+.font-family-narrow 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.04em; 
+  text-indent: 0px; 
+}    
+
+.letter-spacing-none 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+.letter-spacing-tight 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.02em; 
+  text-indent: 0px; 
+}    
+
+.letter-spacing-loose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.03em; 
+  text-indent: 0px; 
+}    
+
+.letter-spacing-xloose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.06em; 
+  text-indent: 0px; 
+}    
+
 .line-height-none 
 { 
   
@@ -155,7 +191,7 @@
   text-indent: 0px; 
 }    
 
-.font-size-90 
+@mixin font-size-90 
 { 
   
   font-family: "FS Industrie Nw";
@@ -164,78 +200,6 @@
   font-size: 14px;
   line-height: 120.00000762939453%;
   letter-spacing: 0.08em; 
-  text-indent: 0px; 
-}    
-
-.font-family-standard 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0em; 
-  text-indent: 0px; 
-}    
-
-.font-family-narrow 
-{ 
-  
-  font-family: "FS Industrie Nw";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.04em; 
-  text-indent: 0px; 
-}    
-
-@mixin letter-spacing-none 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0em; 
-  text-indent: 0px; 
-}    
-
-@mixin letter-spacing-tight 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.02em; 
-  text-indent: 0px; 
-}    
-
-@mixin letter-spacing-loose 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.03em; 
-  text-indent: 0px; 
-}    
-
-@mixin letter-spacing-xloose 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 96px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.06em; 
   text-indent: 0px; 
 }    
 
@@ -299,6 +263,78 @@
   text-indent: 0px; 
 }    
 
+@mixin font-family-standard 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+@mixin font-family-narrow 
+{ 
+  
+  font-family: "FS Industrie Nw";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.04em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-none 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-tight 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.02em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-loose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.03em; 
+  text-indent: 0px; 
+}    
+
+@mixin letter-spacing-xloose 
+{ 
+  
+  font-family: "FS Industrie";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 120.00000762939453%;
+  letter-spacing: 0.06em; 
+  text-indent: 0px; 
+}    
+
 @mixin line-height-none 
 { 
   
@@ -344,42 +380,6 @@
   font-size: 96px;
   line-height: 160%;
   letter-spacing: -0.03em; 
-  text-indent: 0px; 
-}    
-
-@mixin font-size-90 
-{ 
-  
-  font-family: "FS Industrie Nw";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.08em; 
-  text-indent: 0px; 
-}    
-
-@mixin font-family-standard 
-{ 
-  
-  font-family: "FS Industrie";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0em; 
-  text-indent: 0px; 
-}    
-
-@mixin font-family-narrow 
-{ 
-  
-  font-family: "FS Industrie Nw";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 120.00000762939453%;
-  letter-spacing: 0.04em; 
   text-indent: 0px; 
 }    
 
