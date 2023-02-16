@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Meta, Story } from '@storybook/react';
-import { action } from '@storybook/addon-actions';
+//import { action } from '@storybook/addon-actions';
 import { Flag, Props } from './Flag';
 
 const meta: Meta = {

@@ -1,7 +1,7 @@
 import React, { MouseEventHandler, ReactNode } from 'react';
 import classNames from 'classnames';
 import './Button.scss';
-import { ButtonSizes, ButtonStyles, ButtonWidth, Themes, Radius } from 'src/constants/constants';
+import { Sizes, Styles, Width, Themes, Radius } from 'src/constants/constants';
 import { ChevronLeft } from '../Icon/Icon';
 export interface Props {
 
@@ -30,16 +30,16 @@ export interface Props {
     radius: Radius;
 
     /** Button Sizes */
-    size: ButtonSizes;
+    size: Sizes;
 
     /** Button Styles */
-    style: ButtonStyles;
+    style: Styles;
 
     /** Theme */
     theme: Themes;
 
     /** Width Types */
-    width: ButtonWidth;
+    width: Width;
 
     /** Icon */
     icon: Boolean;
