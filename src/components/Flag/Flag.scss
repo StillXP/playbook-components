@@ -11,7 +11,7 @@
     padding: 4px 8px;
     text-transform: uppercase;
 
-    // The following is how our devs nest their CSS classes
+    // The following is how our devs nest their CSS classes.
     &__live {
         background-color: $dark-utility-status-graphic-alert;
         color: $dark-text-primary;
@@ -24,7 +24,7 @@
 
     &__duration {
         background-color: $dark-surface-tertiary;
-        color: $dark-text-primary
+        color: $dark-text-primary;
     }
 
     &__queue {
