@@ -1,8 +1,8 @@
-import React, { ReactNode, useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import classNames from 'classnames';
 import './DropdownMenu.scss';
 import { ChevronDown, ChevronUp } from '../Icon/Icon';
-import { Item, Themes, DropdownSizes } from 'src/constants/constants';
+import { Item, DropdownSizes } from 'src/constants/constants';
 
 export interface Props {
     title: string;
@@ -16,16 +16,15 @@ const DropdownMenu = ({
     title = 'Title',
     errorMessage = 'Error Message',
     errorState = false,
-    list,
+    list = [],
     size = 'large'
 }: Props) => {
     const [isOpen, setIsOpen] = useState(false);
     const [selectedItem, setSelectedItem] = useState('Option');
     const [hasSelection, setHasSelection] = useState(false);
-    const [hasError, setHasError] = useState(errorState);
-    const menuRef = useRef(null);
+    const menuRef = useRef<HTMLInputElement>(null);
 
-    const closeOpenMenus = (e)=>{
+    const closeOpenMenus = (e: { target: any; }) =>{
         if(menuRef.current && isOpen && !menuRef.current.contains(e.target)){
           setIsOpen(false)
         }

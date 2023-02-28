@@ -41,7 +41,7 @@ const meta: Meta = {
         errorState: false,
         errorMessage: '',
         list: testList,
-        size: 'Large',
+        size: 'large',
         title: 'Items',
     }
 }
