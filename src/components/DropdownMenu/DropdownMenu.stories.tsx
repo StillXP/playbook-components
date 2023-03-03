@@ -5,6 +5,9 @@ import DropdownMenu, { Props } from './DropdownMenu';
 const testList = [
         {
             id: 0,
+            iconLeft: true,
+            iconRight: true,
+            logo: true,
             title: 'Item 1',
             description: 'item description',
             selected: false,
@@ -12,6 +15,9 @@ const testList = [
         },
         {
             id: 1,
+            iconLeft: false,
+            iconRight: true,
+            logo: false,
             title: 'Item 2',
             description: 'item description',
             selected: false,
@@ -19,6 +25,9 @@ const testList = [
         },
         {
             id: 2,
+            iconLeft: true,
+            iconRight: false,
+            logo: false,
             title: 'Item 3',
             description: 'item description',
             selected: false,
@@ -26,6 +35,9 @@ const testList = [
         },
         {
             id: 3,
+            iconLeft: false,
+            iconRight: false,
+            logo: true,
             title: 'Item 4',
             description: 'Item description',
             selected: false,

@@ -1,7 +1,7 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, createElement } from 'react';
 import classNames from 'classnames';
 import './DropdownMenu.scss';
-import { ChevronDown, ChevronUp } from '../Icon/Icon';
+import * as icons from '../Icon/Icon';
 import { Item, DropdownSizes } from 'src/constants/constants';
 
 export interface Props {
@@ -46,7 +46,10 @@ const DropdownMenu = ({
 
     return (
         
-        <div className='wrapper'>
+        <div 
+            className='wrapper'
+            ref={menuRef}
+        >
             <div 
                 className={classNames(
                     'dropdown',
@@ -75,13 +78,13 @@ const DropdownMenu = ({
                     > 
                         {selectedItem} </span>
                 </span>
-                <span className='icon'> {isOpen ? <ChevronUp/> : <ChevronDown/>} </span>
+                <span className='icon'> {isOpen ? <icons.BracketsChevUp/> : <icons.BracketsChevDown/>} </span>
             </div>
-            {errorState && <div className='error'> {errorMessage} </div>}
+            {(errorState && !isOpen) && <div className='error'> {errorMessage} </div>}
             {isOpen && (
                 <div
                     className='list'
-                    ref={menuRef}
+                    
                 >
                     {list.map((item) => 
                         <button
@@ -92,8 +95,13 @@ const DropdownMenu = ({
                             key={item.id}
                             onClick={() => selectItem(item)}
                         >
-                            <span className='item__title'>{item.title}</span>
-                            {item.description != '' && <span className='item__description'> {item.description} </span>}
+                            {item.logo && <span className='item__icon'> <icons.ArenaNfl/> </span>}
+                            {item.iconLeft && <span className='item__icon'> <icons.BracketsCheck/> </span>}
+                            <span className='details'>
+                                <span className='item__title'>{item.title}</span>
+                                {item.description != '' && <span className='item__description'> {item.description} </span>}
+                            </span>
+                            {item.iconRight && <span className='item__icon'> <icons.ArenaSoccer/> </span>}
                         </button>
                     )}
                 </div>
