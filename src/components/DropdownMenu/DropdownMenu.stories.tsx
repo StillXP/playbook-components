@@ -8,8 +8,8 @@ const testList = [
             iconLeft: true,
             iconRight: true,
             logo: true,
-            title: 'Item 1',
-            description: 'item description',
+            title: 'Menu Item 1',
+            description: 'Menu item description',
             selected: false,
             key: 'item'
         },
@@ -18,8 +18,8 @@ const testList = [
             iconLeft: false,
             iconRight: true,
             logo: false,
-            title: 'Item 2',
-            description: 'item description',
+            title: 'Menu Item 2',
+            description: 'Menu item description',
             selected: false,
             key: 'item'
         },
@@ -28,8 +28,8 @@ const testList = [
             iconLeft: true,
             iconRight: false,
             logo: false,
-            title: 'Item 3',
-            description: 'item description',
+            title: 'Menu Item 3',
+            description: 'Menu item description',
             selected: false,
             key: 'item'
         },
@@ -38,8 +38,8 @@ const testList = [
             iconLeft: false,
             iconRight: false,
             logo: true,
-            title: 'Item 4',
-            description: 'Item description',
+            title: 'Menu Item 4',
+            description: 'Menu item description',
             selected: false,
             key: 'item'
         }

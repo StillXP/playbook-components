@@ -1,4 +1,4 @@
-import React, { useState, useRef, createElement } from 'react';
+import React, { useState, useRef } from 'react';
 import classNames from 'classnames';
 import './DropdownMenu.scss';
 import * as icons from '../Icon/Icon';
