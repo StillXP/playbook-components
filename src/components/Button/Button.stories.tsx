@@ -9,6 +9,8 @@ const meta: Meta = {
         ariaLabel: 'a11y label',
         children: 'Button',
         disabled: false,
+        icon: false,
+        logo: false,
         radius: '8',
         size: 'large',
         theme: 'light',

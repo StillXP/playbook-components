@@ -1,8 +1,9 @@
-import React, { MouseEventHandler, ReactNode } from 'react';
+import React, { MouseEventHandler } from 'react';
 import classNames from 'classnames';
 import './Button.scss';
 import { Sizes, Styles, Width, Themes, Radius } from 'src/constants/constants';
-import { ChevronLeft } from '../Icon/Icon';
+import * as icons from '../Icon/Icon';
+import pLogo from 'public/CBSSports.svg';
 export interface Props {
 
     /** Label that describes Button function */
@@ -12,7 +13,7 @@ export interface Props {
     ariaRequired: true;
 
     /** Button Text */
-    children: ReactNode;
+    children: String;
 
     /** Disabled State */
     disabled: boolean;
@@ -42,7 +43,10 @@ export interface Props {
     width: Width;
 
     /** Icon */
-    icon: Boolean;
+    icon: boolean;
+
+    /** Logo */
+    logo: boolean;
 }
 
 /** Foundational set of buttons that are used for primary, secondary, and tertiary actions within a page */
@@ -58,13 +62,15 @@ export const Button = ({
     url,
     width,
     icon = false,
+    logo = false
 }: Props) => {
     const buttonClasses = classNames(
         `button`,
         `button__${theme}__${style}`,
         `button__${size}`,
         `button__${width}`,
-        `radius__${radius}`
+        `radius__${radius}`,
+        disabled && `button__${theme}__${style}__disabled` 
     )
     let content;
     if (url) {        
@@ -75,32 +81,17 @@ export const Button = ({
                 aria-required={ariaRequired}
                 href={url}
             >
+                {(icon && size != 'small') && <span className={classNames(
+                    `button__icon`,
+                    `button__icon__${size}`
+                )}><icons.PlayCircle/></span>}
                 {children}
+                {(logo && size != 'small') && <span className={classNames(
+                    `button__logo`,
+                    `button__logo__${size}`
+                )}><img src={pLogo}/></span>}
             </a>        
         );
-    } else if (icon) {  
-        content = (
-            <button 
-                className={buttonClasses}
-                aria-label={ariaLabel}
-                aria-required={ariaRequired}
-            >
-                <ChevronLeft/>
-                {children}
-            </button>   
-        )
-
-    } else if (disabled) {
-        content = (
-            <button 
-            className={buttonClasses}
-            aria-label={ariaLabel}
-            aria-required={ariaRequired}
-            disabled
-        >
-            {children}
-        </button>  
-        )
     } else { 
         content = (
             <button 
@@ -108,7 +99,15 @@ export const Button = ({
                 aria-label={ariaLabel}
                 aria-required={ariaRequired}
             >
+                {(icon && size != 'small') && <span className={classNames(
+                    `button__icon`,
+                    `button__icon__${size}`
+                )}><icons.PlayCircle/></span>}
                 {children}
+                {(logo && size != 'small') && <span className={classNames(
+                    `button__logo`,
+                    `button__logo__${size}`
+                )}><img src={pLogo}/></span>}
             </button>        
         );
 

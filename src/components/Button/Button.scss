@@ -2,23 +2,57 @@
 
 .button {
     @include font-style($family: standard, $weight: medium, $height: normal);
-    //border-radius: 8px;
+    align-items: center;
     box-sizing: border-box;
     cursor: pointer;
-    display: inline-block;
+    display: flex;
+    gap: $spacing-25;
     padding-left: $spacing-75;
     padding-right: $spacing-75;
     text-align: center;
     text-decoration: none;
 
+    &__icon {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        &__large {
+            > svg {
+                width: 18px;
+                height: 18px;
+            }
+        }
+        &__medium {
+            > svg {
+                width: 14px;
+                height: 14px;
+            }
+        }
+    }
+
+    &__logo {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        &__large {
+            > img {
+                height: 12px;
+            }
+        }
+
+        &__medium {
+            > img {
+                height: 9.5px;
+            }
+        }
+
+    }
+
     &__large {
         @include font-style($size: 100);
         padding: $spacing-75 $spacing-150;
         height: 48px;
-        icon {
-            width: 18px;
-            height: 18px;
-        }
     }
 
     &__medium {
@@ -47,6 +81,10 @@
             background: $light-button-primary-background;
             border: 0px;
             color: $light-button-primary-text;
+
+            &__disabled {
+                background: $light-utility-disabled;
+            }
     
             &:hover {
                 transition-duration: 200ms;
@@ -61,9 +99,6 @@
                 transition-property: box-shadow;
             }
 
-            &:disabled {
-                background: $light-utility-disabled;
-            }
         }
     
         &__secondary {
@@ -84,7 +119,7 @@
                 transition-property: box-shadow;
             }
 
-            &:disabled {
+            &__disabled {
                 background: $light-utility-disabled;
                 color: $light-button-primary-text;
             }
@@ -109,7 +144,7 @@
                 transition-property: box-shadow;
             }
 
-            &:disabled {
+            &__disabled {
                 color: $light-text-disabled;
             }
 
