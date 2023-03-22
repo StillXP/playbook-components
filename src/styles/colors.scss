@@ -1,8 +1,7 @@
-/* Default text color */
 $light-text-primary: #202121;    
-/* Supplementary Info (diminished contrast) */
+/* Supplementary */
 $light-text-secondary: #656667;    
-/* *Only used on Primary Surface. Commonly used for metadata. */
+/* Commonly used for metadata. Don't use on Tertiary backgrounds */
 $light-text-tertiary: #757678;    
 /* Not actionable. Does not need to meet AA contrast */
 $light-text-disabled: #a6a9ad;    
@@ -77,11 +76,10 @@ $light-brand-sportsline: #10d669;
 $light-surface-overlay-darken: #10101099;    
 /* Default bg for modal popups to sit on */
 $light-surface-overlay-modal-background: #10101099;    
-/* Default text color */
 $dark-text-primary: #ffffff;    
-/* Supplementary Info (diminished contrast) */
+/* Supplementary */
 $dark-text-secondary: #c2c4c7;    
-/* *Only used on Primary Surface. Commonly used for metadata. */
+/* Commonly used for metadata. Do not use on Tertiary backgrounds */
 $dark-text-tertiary: #8e9194;    
 /* Not actionable. Does not need to meet AA contrast */
 $dark-text-disabled: #656667;    
@@ -217,7 +215,7 @@ $brand-utility-status-graphic-info: #f2ce3f;
 $brand-utility-status-graphic-info-hover: #f2dd8a;    
 $brand-utility-status-graphic-cool: #bdd0f2;    
 /* Watch or live icons */
-$brand-utility-status-graphic-alert: #f94343;    
+$brand-utility-status-graphic-alert: #e10500;    
 /* Default background colors for tables */
 $light-table-base-background: #ffffff;    
 /* Default border color for tables */
@@ -250,7 +248,7 @@ $light-table-body-text-secondary: #656667;
 $light-table-body-column-background-1: #f5f6f780;    
 /* Second tint for table body column */
 $light-table-body-column-background-2: #edeef280;    
-$dark-table-base-background: #f5f6f700;    
+$dark-table-base-background: #00000000;    
 $dark-table-base-border-secondary: #656667;    
 $dark-table-header-row-background: #2a2b2b;    
 $dark-table-header-text: #d9dbde;    
@@ -420,18 +418,18 @@ $leagues-soccer-nwsl-secondary: #d22030;
 $leagues-soccer-world-cup-light: #9a1032;    
 /* Currently being used as a dark background for World Cup Brackets */
 $leagues-soccer-world-cup-dark: #50b0a0;    
-$paramount--peak-blue: #0064ff;    
-$paramount--secondary-blue-1: #1996ff;    
-$paramount--secondary-blue-2: #003296;    
-$paramount--secondary-blue-3: #00004b;    
-$paramount--snowcap-white: #ffffff;    
-$paramount--basalt-black: #000000;    
-$paramount--gray-1: #e9eaec;    
-$paramount--gray-2: #e0e3ea;    
-$paramount--gray-3: #d7dce7;    
-$paramount--gray-4: #9ba8bd;    
-$paramount--gray-5: #5b626e;    
-$paramount--gray-6: #1b1c1e;    
+$paramount-peak-blue: #0064ff;    
+$paramount-secondary-blue-1: #1996ff;    
+$paramount-secondary-blue-2: #003296;    
+$paramount-secondary-blue-3: #00004b;    
+$paramount-snowcap-white: #ffffff;    
+$paramount-basalt-black: #000000;    
+$paramount-gray-1: #e9eaec;    
+$paramount-gray-2: #e0e3ea;    
+$paramount-gray-3: #d7dce7;    
+$paramount-gray-4: #9ba8bd;    
+$paramount-gray-5: #5b626e;    
+$paramount-gray-6: #1b1c1e;    
 $social-facebook: #1877f2;    
 $social-twitter: #1da1f2;    
 $social-youtube: #ff0000;    
@@ -492,6 +490,98 @@ $stubhub-primary: #3f1d74;
 $stubhub-secondary: #ffffff;    
 /* StubHub's Text color for its Logo on a Light background */
 $stubhub-tertiary: #e4eef3;    
+$leagues-golf-masters-green-primary: #0a2f16;    
+$internal-brands-cbs: #0281fe;    
+$light-button-secondary-text-disabled: #ffffff;    
+$dynamic-text-primary: #ffffff;    
+$dynamic-text-secondary: #ffffffd9;    
+$dynamic-text-tertiary: #ffffffbf;    
+$dynamic-text-disabled: #ffffffa6;    
+$dynamic-text-selected: #ffffff;    
+$dynamic-text-unselected: #ffffffd9;    
+$dynamic-text-positive: #58ed78;    
+$dynamic-text-positive-hover: #8df7a0;    
+$dynamic-text-negative: #f78d8d;    
+$dynamic-text-negative-hover: #fac3c3;    
+$dynamic-text-alert: #e10500;    
+$dynamic-text-action-link-primary: #ffffff;    
+$dynamic-text-action-link-primary-hover: #ffffffd9;    
+$dynamic-text-action-link-secondary: #ffffffd9;    
+$dynamic-text-action-link-secondary-hover: #ffffffbf;    
+$dynamic-surface-primary: #20212100;    
+$dynamic-surface-secondary: #10101026;    
+$dynamic-surface-tertiary: #10101040;    
+$dynamic-surface-brand: #4383fa;    
+$dynamic-surface-overlay-darken: #10101099;    
+$dynamic-surface-overlay-modal-background: #10101099;    
+$dynamic-utility-border: #ffffff4d;    
+$dynamic-utility-border-hover: #ffffff;    
+$dynamic-utility-disabled: #ffffff40;    
+$dynamic-utility-ui-background: #00000000;    
+$dynamic-utility-ui-background-disabled: #10101026;    
+$dynamic-utility-ui-element-active: #ffffff;    
+$dynamic-utility-ui-background-hover: #ffffff26;    
+$dynamic-utility-icon-primary: #ffffff;    
+$dynamic-utility-icon-secondary: #ffffffbf;    
+$dynamic-utility-status-graphic-positive: #58ed78;    
+$dynamic-utility-status-graphic-positive-hover: #8df7a0;    
+/* Graphic Negative */
+$dynamic-utility-status-graphic-negative: #f78d8d;    
+$dynamic-utility-status-graphic-negative-hover: #f2c3c3;    
+$dynamic-utility-status-graphic-info: #f2ce3f;    
+$dynamic-utility-status-graphic-info-hover: #f2dd8a;    
+$dynamic-utility-status-graphic-cool: #bdd0f2;    
+$dynamic-utility-status-graphic-alert: #f94343;    
+$dynamic-brand-primary: #ffffff;    
+$dynamic-brand-secondary: #ffffffcc;    
+$dynamic-brand-tertiary: #ffffffa6;    
+$dynamic-brand-247sports: #ffffff;    
+$dynamic-brand-maxpreps: #ffffff;    
+$dynamic-brand-sportsline: #ffffff;    
+$dynamic-table-base-background: #ffffff00;    
+$dynamic-table-base-border-primary: #ffffff4d;    
+$dynamic-table-base-border-secondary: #ffffff26;    
+$dynamic-table-header-row-background: #ffffff00;    
+$dynamic-table-header-text: #ffffff;    
+$dynamic-table-header-text-hover: #ffffffd9;    
+$dynamic-table-header-column-background-1: #ffffff26;    
+$dynamic-table-header-column-background-2: #ffffff40;    
+$dynamic-table-body-row-background-primary: #ffffff00;    
+$dynamic-table-body-row-background-secondary: #ffffff26;    
+$dynamic-table-body-row-background-hover: #ffffff40;    
+$dynamic-table-body-column-background-active: #ffffff40;    
+$dynamic-table-body-text-primary: #ffffff;    
+$dynamic-table-body-text-secondary: #ffffffd9;    
+$dynamic-table-body-column-background-1: #ffffff26;    
+$dynamic-table-body-column-background-2: #ffffff40;    
+$dynamic-button-primary-background: #ffffff;    
+$dynamic-button-primary-background-hover: #ffffffbf;    
+$dynamic-button-primary-border: #ffffff;    
+$dynamic-button-primary-border-focused: #101010;    
+$dynamic-button-primary-text: #101010;    
+$dynamic-button-secondary-background: #ffffff00;    
+$dynamic-button-secondary-background-hover: #ffffff;    
+$dynamic-button-secondary-border: #ffffff;    
+$dynamic-button-secondary-border-focused: #ffffff;    
+$dynamic-button-secondary-text: #ffffff;    
+$dynamic-button-secondary-text-hover: #101010;    
+$dynamic-button-tertiary-background: #ffffff00;    
+$dynamic-button-tertiary-border-hover: #ffffff4d;    
+$dynamic-button-tertiary-border-focused: #ffffff;    
+$dynamic-button-tertiary-text: #ffffff;    
+$dynamic-button-tertiary-text-hover: #ffffff;    
+$dynamic-button-promo-primary-background: #ffffff;    
+$dynamic-button-promo-primary-background-hover: #ffffffbf;    
+$dynamic-button-promo-primary-border: #ffffff;    
+$dynamic-button-promo-primary-text: #101010;    
+$dynamic-button-promo-secondary-background: #ffffff;    
+$dynamic-button-promo-secondary-background-hover: #ffffffbf;    
+$dynamic-button-promo-secondary-border: #ffffff;    
+$dynamic-button-promo-secondary-text: #101010;    
+$dynamic-button-live-background: #e10500;    
+$dynamic-button-live-background-hover: #cc0e00;    
+$dynamic-button-live-border: #e10500;    
+$dynamic-button-live-text: #ffffff;    
 $dark-table-base-border-primary: $dark-utility-border;    
 $dark-table-body-row-background-primary: $dark-surface-secondary;    
 $dark-table-body-text-primary: $dark-text-primary;    
