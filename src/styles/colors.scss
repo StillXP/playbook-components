@@ -1,3 +1,330 @@
+$light-text-primary: #202121;    
+/* Supplementary */
+$light-text-secondary: #656667;    
+/* Commonly used for metadata. Don't use on Tertiary backgrounds */
+$light-text-tertiary: #757678;    
+/* Not actionable. Does not need to meet AA contrast */
+$light-text-disabled: #a6a9ad;    
+/* Selected date in calendar, selected tab menu item or dropdown */
+$light-text-selected: #202121;    
+/* Unselected date in calendar, unselected tab menu item or dropdown */
+$light-text-unselected: #656667;    
+/* Positive status such as a win (W) */
+$light-text-positive: #04802d;    
+$light-text-positive-hover: #005922;    
+/* Negative status such as a loss (L) */
+$light-text-negative: #cc0e00;    
+$light-text-negative-hover: #ad1100;    
+/* Urgent info like watch now & live events */
+$light-text-alert: #e10500;    
+/* Default link color */
+$light-text-action-link-primary: #202121;    
+/* Default link hover */
+$light-text-action-link-primary-hover: #0036b5;    
+/* Alternate link color */
+$light-text-action-link-secondary: #004ace;    
+/* Alternate link hover */
+$light-text-action-link-secondary-hover: #0036b5;    
+/* Baseline for surfaces */
+$light-surface-primary: #ffffff;    
+/* The lowest & darkest surface, usually used to lift the primary surface */
+$light-surface-secondary: #edeef2;    
+/* Additional surface color for contrast */
+$light-surface-tertiary: #f5f6f7;    
+/* Can be used for nav or areas to promote brand */
+$light-surface-brand: #004ace;    
+/* Default border color */
+$light-utility-border: #d9dbde;    
+/* Checkbox hover, radio hover */
+$light-utility-border-hover: #0036b5;    
+/* Graphics that need a disabled color */
+$light-utility-disabled: #a6a9ad;    
+/* Calendar bg, radio button bg, checkbox bg, form fields bg */
+$light-utility-ui-background: #ffffff;    
+/* Disabled UI like checkboxes, calendars or fields */
+$light-utility-ui-background-disabled: #f5f6f7;    
+/* Dropdown hover, calendar hover, switch hover */
+$light-utility-ui-background-hover: #f5f8ff;    
+/* Indicate tab is active, radio button is on */
+$light-utility-ui-element-active: #004ace;    
+/* Default icon color */
+$light-utility-icon-primary: #202121;    
+/* Icon color when primary cannot be used */
+$light-utility-icon-secondary: #656667;    
+/* Can be used to show a positive trajectory */
+$light-utility-status-graphic-positive: #059646;    
+$light-utility-status-graphic-positive-hover: #04802d;    
+/* Can be used to show a negative trajectory */
+$light-utility-status-graphic-negative: #cc0e00;    
+$light-utility-status-graphic-negative-hover: #ad1100;    
+/* Can be used for weather, yellow cards */
+$light-utility-status-graphic-info: #ebaa17;    
+$light-utility-status-graphic-info-hover: #cc9618;    
+/* Can be used to show a cooling down trajectory */
+$light-utility-status-graphic-cool: #2268e5;    
+/* Watch or live icons */
+$light-utility-status-graphic-alert: #e10500;    
+/* Can be used to promote brand where other colors cannot be used */
+$light-brand-primary: #004ace;    
+/* Promote brand where primary brand cannot be used */
+$light-brand-secondary: #00259e;    
+/* Promote brand where primary & seceondary brand cannot be used */
+$light-brand-tertiary: #050d27;    
+$light-brand-maxpreps: #e10500;    
+$light-brand-247sports: #00259e;    
+$light-brand-sportsline: #10d669;    
+$light-surface-overlay-darken: #10101099;    
+/* Default bg for modal popups to sit on */
+$light-surface-overlay-modal-background: #10101099;    
+$dark-text-primary: #ffffff;    
+/* Supplementary */
+$dark-text-secondary: #c2c4c7;    
+/* Commonly used for metadata. Do not use on Tertiary backgrounds */
+$dark-text-tertiary: #8e9194;    
+/* Not actionable. Does not need to meet AA contrast */
+$dark-text-disabled: #656667;    
+/* Selected date in calendar, selected tab menu item or dropdown */
+$dark-text-selected: #ffffff;    
+/* Eg. Unselected date in calendar, unselected tab menu item or dropdown */
+$dark-text-unselected: #8e9194;    
+/* Positive status such as a win (W) */
+$dark-text-positive: #0dc45f;    
+$dark-text-positive-hover: #10d669;    
+/* Do not use on tertiary surfaces. Negative status such as a loss (L).  */
+$dark-text-negative: #f94343;    
+$dark-text-negative-hover: #f78d8d;    
+/* Do not use on tertiary surfaces. Urgent info like watch now & live events. */
+$dark-text-alert: #f94343;    
+/* Default link color */
+$dark-text-action-link-primary: #ffffff;    
+$dark-text-action-link-primary-hover: #8e9194;    
+/* Alternate link color */
+$dark-text-action-link-secondary: #4383fa;    
+$dark-text-action-link-secondary-hover: #88b0f7;    
+/* Baseline for surfaces */
+$dark-surface-primary: #202121;    
+/* The lowest & darkest surface, usually used to lift the primary surface */
+$dark-surface-secondary: #101010;    
+/* Additional surface color for contrast */
+$dark-surface-tertiary: #2a2b2b;    
+$dark-surface-brand: #4383fa;    
+/* Default border color */
+$dark-utility-border: #3d3f40;    
+/* Checkbox hover, radio hover */
+$dark-utility-border-hover: #2268e5;    
+/* Any graphics that need a disabled color */
+$dark-utility-disabled: #656667;    
+/* Calendar bg, radio button bg, checkbox bg, form fields bg */
+$dark-utility-ui-background: #101010;    
+/* Disabled UI like checkboxes, calendars or fields */
+$dark-utility-ui-background-disabled: #202121;    
+/* Dropdown hover, calendar hover, switch hover */
+$dark-utility-ui-background-hover: #2a2b2b;    
+/* Indicate tab is active, radio button is on */
+$dark-utility-ui-element-active: #4383fa;    
+/* Default icon color */
+$dark-utility-icon-primary: #f5f6f7;    
+/* Icon color when primary cannot be used */
+$dark-utility-icon-secondary: #c2c4c7;    
+/* Can be used to promote brand where other colors cannot be used */
+$dark-brand-primary: #ffffff;    
+/* Promote brand where primary brand cannot be used */
+$dark-brand-secondary: #2268e5;    
+/* Promote brand where primary & seceondary brand cannot be used */
+$dark-brand-tertiary: #88b0f7;    
+$dark-brand-247sports: #2268e5;    
+$dark-brand-maxpreps: #e10500;    
+$dark-brand-sportsline: #10d669;    
+/* Can be used to show a positive trajectory */
+$dark-utility-status-graphic-positive: #0dc45f;    
+$dark-utility-status-graphic-positive-hover: #10d669;    
+/* Can be used to show a negative trajectory */
+$dark-utility-status-graphic-negative: #f94343;    
+$dark-utility-status-graphic-negative-hover: #f78d8d;    
+/* Can be used for weather, yellow cards */
+$dark-utility-status-graphic-info: #f2ce3f;    
+$dark-utility-status-graphic-info-hover: #f2dd8a;    
+/* Can be used to show a cooling down trajectory */
+$dark-utility-status-graphic-cool: #4383fa;    
+/* Watch or live icons */
+$dark-utility-status-graphic-alert: #e10500;    
+$dark-surface-overlay-darken: #10101099;    
+$dark-surface-overlay-modal-background: #10101099;    
+/* Default text color */
+$brand-text-primary: #ffffff;    
+/* Supplementary Info (diminished contrast) */
+$brand-text-secondary: #dfe6f5;    
+/* Lowest level of importance */
+$brand-text-tertiary: #bdd0f2;    
+/* Does not need to meet AA contrast */
+$brand-text-disabled: #88b0f7;    
+/* Selected date in calendar, selected tab menu item or dropdown */
+$brand-text-selected: #ffffff;    
+/* Unselected date in calendar, unselected tab menu item or dropdown */
+$brand-text-unselected: #bdd0f2;    
+/* Default link color */
+$brand-text-action-link-primary: #ffffff;    
+/* Default link hover */
+$brand-text-action-link-primary-hover: #bdd0f2;    
+/* Alternate link color */
+$brand-text-action-link-secondary: #bdd0f2;    
+/* Alternate link hover */
+$brand-text-action-link-secondary-hover: #ffffff;    
+/* Positive status such as a win (W) */
+$brand-text-positive: #58ed78;    
+$brand-text-positive-hover: #8df7a0;    
+/* Negative status such as a loss (L) */
+$brand-text-negative: #f78d8d;    
+$brand-text-negative-hover: #fac3c3;    
+/* Urgent info like watch now & live events */
+$brand-text-alert: #f78d8d;    
+/* Baseline for surfaces */
+$brand-surface-primary: #004ace;    
+/* Surface below primary */
+$brand-surface-secondary: #0036b5;    
+/* Additional surface color for constrast */
+$brand-surface-tertiary: #00259e;    
+$brand-utility-border: #2268e5;    
+$brand-utility-disabled: #4383fa;    
+/* Calendar bg, radio button bg, checkbox bg, form fields bg */
+$brand-utility-ui-background: #004ace;    
+/* Disabled UI like checkboxes, calendars or fields */
+$brand-utility-ui-background-disabled: #004ace;    
+/* Dropdown hover, calendar hover, switch hover */
+$brand-utility-ui-background-hover: #0d55d9;    
+$brand-utility-border-hover: #ffffff;    
+/* Indicate tab is active, radio button is on */
+$brand-utility-ui-element-active: #ffffff;    
+/* Default icon color */
+$brand-utility-icon-primary: #ffffff;    
+/* Icon color when primary cannot be used */
+$brand-utility-icon-secondary: #bdd0f2;    
+$brand-brand-primary: #ffffff;    
+$brand-brand-secondary: #bdd0f2;    
+$brand-brand-247-sports: #ffffff;    
+$brand-brand-maxpreps: #ffffff;    
+$brand-brand-sportsline: #ffffff;    
+/* Can be used to show a positive trajectory */
+$brand-utility-status-graphic-positive: #58ed78;    
+$brand-utility-status-graphic-positive-hover: #8df7a0;    
+/* Can be used to show a negative trajectory */
+$brand-utility-status-graphic-negative: #f94343;    
+$brand-utility-status-graphic-negative-hover: #f78d8d;    
+/* Can be used for weather, yellow cards */
+$brand-utility-status-graphic-info: #f2ce3f;    
+$brand-utility-status-graphic-info-hover: #f2dd8a;    
+$brand-utility-status-graphic-cool: #bdd0f2;    
+/* Watch or live icons */
+$brand-utility-status-graphic-alert: #e10500;    
+/* Default background colors for tables */
+$light-table-base-background: #ffffff;    
+/* Default border color for tables */
+$light-table-base-border-primary: #d9dbde;    
+/* A secondary border color may be required for darker rows or cols */
+$light-table-base-border-secondary: #c2c4c7;    
+/* Default header row background */
+$light-table-header-row-background: #f5f6f7;    
+/* Default header row text color */
+$light-table-header-text: #4b4c4d;    
+/* For links in header rows */
+$light-table-header-text-hover: #0036b5;    
+/* First tinted column */
+$light-table-header-column-background-1: #d9dbde66;    
+/* Second tinted column */
+$light-table-header-column-background-2: #d9dbde;    
+/* Default body row background color */
+$light-table-body-row-background-primary: #ffffff;    
+/* For striped table rows or accent rows */
+$light-table-body-row-background-secondary: #f5f6f780;    
+/* Default hover color for body rows */
+$light-table-body-row-background-hover: #f5f8ff;    
+/* For sort columns */
+$light-table-body-column-background-active: #f5f8ff;    
+/* Default body text color */
+$light-table-body-text-primary: #202121;    
+/* Secondary body text color when default cannot be used */
+$light-table-body-text-secondary: #656667;    
+/* First tint for table body column */
+$light-table-body-column-background-1: #f5f6f780;    
+/* Second tint for table body column */
+$light-table-body-column-background-2: #edeef280;    
+$dark-table-base-background: #00000000;    
+$dark-table-base-border-secondary: #656667;    
+$dark-table-header-row-background: #2a2b2b;    
+$dark-table-header-text: #d9dbde;    
+$dark-table-header-text-hover: #88b0f7;    
+$dark-table-header-column-background-1: #3d3f4080;    
+$dark-table-header-column-background-2: #3d3f40;    
+$dark-table-body-row-background-secondary: #2a2b2b80;    
+$dark-table-body-row-background-hover: #3d3f40;    
+$dark-table-body-column-background-active: #3d3f40;    
+$dark-table-body-column-background-1: #2a2a2b80;    
+$dark-table-body-column-background-2: #3d3f4080;    
+$light-button-primary-background: #004ace;    
+$light-button-primary-background-hover: #0036b5;    
+$light-button-primary-border: #004ace;    
+$light-button-primary-text: #ffffff;    
+$light-button-secondary-background: #ffffff;    
+$light-button-secondary-background-hover: #f5f8ff;    
+$light-button-secondary-border: #d9dbde;    
+$light-button-secondary-text: #202121;    
+$light-button-tertiary-border: #d9dbde;    
+$light-button-tertiary-border-hover: #0036b5;    
+$light-button-tertiary-text: #656667;    
+$light-button-tertiary-text-hover: #0036b5;    
+$light-button-promo-primary-background: #05a342;    
+$light-button-promo-primary-background-hover: #04802d;    
+$light-button-promo-primary-border: #05a342;    
+$light-button-promo-primary-text: #ffffff;    
+$light-button-promo-secondary-background: #d9690d;    
+$light-button-promo-secondary-background-hover: #bf5804;    
+$light-button-promo-secondary-border: #d9690d;    
+$light-button-promo-secondary-text: #ffffff;    
+$light-button-live-background: #cc0e00;    
+$light-button-live-background-hover: #ad1100;    
+$light-button-live-border: #cc0e00;    
+$light-button-live-text: #ffffff;    
+$dark-button-primary-background: #0d55d9;    
+$dark-button-primary-background-hover: #2268e5;    
+$dark-button-primary-border: #0d55d9;    
+$dark-button-primary-text: #ffffff;    
+$dark-button-secondary-background: #ffffff00;    
+$dark-button-secondary-background-hover: #ffffff;    
+$dark-button-secondary-border: #ffffff;    
+$dark-button-secondary-text: #ffffff;    
+$dark-button-secondary-text-hover: #4b4c4d;    
+$dark-button-tertiary-border: #2268e5;    
+$dark-button-tertiary-border-hover: #88b0f7;    
+$dark-button-tertiary-text: #4383fa;    
+$dark-button-tertiary-text-hover: #88b0f7;    
+$dark-button-promo-primary-background: #05a342;    
+$dark-button-promo-primary-background-hover: #04802d;    
+$dark-button-promo-primary-border: #05a342;    
+$dark-button-promo-primary-text: #ffffff;    
+$dark-button-promo-secondary-background: #d9690d;    
+$dark-button-promo-secondary-background-hover: #bf5804;    
+$dark-button-promo-secondary-border: #d9690d;    
+$dark-button-promo-secondary-text: #ffffff;    
+$dark-button-live-background: #e10500;    
+$dark-button-live-background-hover: #cc0e00;    
+$dark-button-live-border: #e10500;    
+$dark-button-live-text: #ffffff;    
+$brand-button-primary-background: #0049ce00;    
+$brand-button-primary-background-hover: #2268e5;    
+$brand-button-primary-border: #dfe6f5;    
+$brand-button-primary-text: #dfe6f5;    
+$brand-button-promo-primary-background: #05a342;    
+$brand-button-promo-primary-background-hover: #048209;    
+$brand-button-promo-primary-border: #05a342;    
+$brand-button-promo-primary-text: #ffffff;    
+$brand-button-promo-secondary-background: #d9690d;    
+$brand-button-promo-secondary-background-hover: #b85804;    
+$brand-button-promo-secondary-border: #d9690d;    
+$brand-button-promo-secondary-text: #ffffff;    
+$brand-button-live-background: #e10500;    
+$brand-button-live-background-hover: #cc0e00;    
+$brand-button-live-border: #e10500;    
+$brand-button-live-text: #ffffff;    
 $fantasy-games-golf-props-1: #45cc56;    
 $fantasy-games-golf-props-2: #469944;    
 $fantasy-games-golf-props-3: #a5f40c;    
@@ -15,11 +342,14 @@ $fantasy-games-football-props-1: #00bc6f;
 $fantasy-games-football-props-2: #077b49;    
 $fantasy-games-soccer-props-1: #9d22ff;    
 $fantasy-games-soccer-props-2: #adafb2;    
+$internal-brands-hq-am-pm: #004482;    
+$internal-brands-pick-six: #035d10;    
+$internal-brands-fantasy-football-today: #043762;    
+$internal-brands-fantasy-baseball-today: #ff0000;    
+$internal-brands-the-first-cut: #0e6011;    
 /* Basketball */
 $leagues-big-3: #002b5c;    
 $leagues-boxing: #db2126;    
-/* F1 */
-$leagues-formula-1: #000000;    
 /* Major League Baseball */
 $leagues-mlb: #041e42;    
 /* Mixed Martial Arts */
@@ -29,12 +359,9 @@ $leagues-nascar: #000000;
 $leagues-ncaa: #005eb8;    
 /* National Hockey League */
 $leagues-nhl: #000000;    
-$leagues-tennis: #275b4d;    
-/* Women's NBA */
-$leagues-wnba: #fa4d00;    
-/* World Wrestling Entertainment */
-$leagues-wwe: #222222;    
-$leagues-xfl: #02214f;    
+/* Men's NBA */
+$leagues-nba-primary: #1d428a;    
+$leagues-nba-secondary: #c8102e;    
 $leagues-golf-primary: #285f61;    
 /* Ladies Professional Golf Association */
 $leagues-golf-lpga: #005288;    
@@ -64,7 +391,6 @@ $leagues-nfl-nfc-conference: #003b66;
 $leagues-olympics-gold: #cc9618;    
 $leagues-olympics-silver: #a6a9ad;    
 $leagues-olympics-bronze: #805804;    
-$leagues-olympics-brand: #0078d0;    
 /* UEFA Champions League (UCL) */
 $leagues-soccer-champions-league: #00004b;    
 /* UEFA Europa League (UEL) */
@@ -131,381 +457,132 @@ $caesars-bg-black: #070607;
 $caesars-bg-white: #ffffff;    
 $caesars-gold-on-white: #98845a;    
 $caesars-gold-on-black: #cbaa65;    
+$leagues-tennis: #275b4d;    
+/* Women's NBA */
+$leagues-wnba: #fa4d00;    
+/* World Wrestling Entertainment */
+$leagues-wwe: #222222;    
+$leagues-xfl: #02214f;    
 $fubo-primary: #e7542f;    
-$internal-brands-hq-am-pm: #004482;    
-$internal-brands-pick-six: #035d10;    
-$internal-brands-fantasy-football-today: #043762;    
-$internal-brands-fantasy-baseball-today: #ff0000;    
-$internal-brands-the-first-cut: #0e6011;    
-$dark-button-tertiary-background: #00000000;    
-$dark-button-tertiary-border: #2268e5;    
-$dark-button-tertiary-border-hover: #88b0f7;    
-$dark-button-tertiary-border-focused: #4383fa;    
-$dark-button-tertiary-text: #4383fa;    
-$dark-button-tertiary-text-hover: #88b0f7;    
-$dark-button-secondary-background: #ffffff00;    
-$dark-button-secondary-background-hover: #ffffff;    
-$dark-button-secondary-border: #ffffff;    
-$dark-button-secondary-border-focused: #ffffff;    
-$dark-button-secondary-text: #ffffff;    
-$dark-button-secondary-text-hover: #4b4c4d;    
-$dark-button-primary-background: #0d55d9;    
-$dark-button-primary-background-hover: #2268e5;    
-$dark-button-primary-border: #0d55d9;    
-$dark-button-primary-border-focused: #ffffff;    
-$dark-button-primary-text: #ffffff;    
-$dark-button-promo-primary-background: #05a342;    
-$dark-button-promo-primary-background-hover: #04802d;    
-$dark-button-promo-primary-border: #05a342;    
-$dark-button-promo-primary-text: #ffffff;    
-$dark-button-promo-secondary-background: #d9690d;    
-$dark-button-promo-secondary-background-hover: #bf5804;    
-$dark-button-promo-secondary-border: #d9690d;    
-$dark-button-promo-secondary-text: #ffffff;    
-$dark-button-live-background: #e10500;    
-$dark-button-live-background-hover: #cc0e00;    
-$dark-button-live-border: #e10500;    
-$dark-button-live-text: #ffffff;    
-/* Default border color */
-$dark-utility-border: #3d3f40;    
-/* Checkbox hover, radio hover */
-$dark-utility-border-hover: #2268e5;    
-/* Any graphics that need a disabled color */
-$dark-utility-disabled: #656667;    
-/* Calendar bg, radio button bg, checkbox bg, form fields bg */
-$dark-utility-ui-background: #101010;    
-/* Disabled UI like checkboxes, calendars or fields */
-$dark-utility-ui-background-disabled: #202121;    
-/* Dropdown hover, calendar hover, switch hover */
-$dark-utility-ui-background-hover: #2a2b2b;    
-/* Indicate tab is active, radio button is on */
-$dark-utility-ui-element-active: #4383fa;    
-/* Default icon color */
-$dark-utility-icon-primary: #f5f6f7;    
-/* Icon color when primary cannot be used */
-$dark-utility-icon-secondary: #c2c4c7;    
-/* Can be used to show a positive trajectory */
-$dark-utility-status-graphic-positive: #0dc45f;    
-$dark-utility-status-graphic-positive-hover: #10d669;    
-/* Can be used to show a negative trajectory */
-$dark-utility-status-graphic-negative: #f94343;    
-$dark-utility-status-graphic-negative-hover: #f78d8d;    
-/* Can be used for weather, yellow cards */
-$dark-utility-status-graphic-info: #f2ce3f;    
-$dark-utility-status-graphic-info-hover: #f2dd8a;    
-/* Can be used to show a cooling down trajectory */
-$dark-utility-status-graphic-cool: #4383fa;    
-/* Watch or live icons */
-$dark-utility-status-graphic-alert: #e10500;    
-$dark-table-body-row-background-secondary: #2a2b2b80;    
-$dark-table-body-row-background-hover: #3d3f40;    
-$dark-table-body-column-background-active: #3d3f40;    
-$dark-table-body-column-background-1: #2a2a2b80;    
-$dark-table-body-column-background-2: #3d3f4080;    
-$dark-table-base-background: #f5f6f700;    
-$dark-table-base-border-secondary: #656667;    
-$dark-table-header-row-background: #2a2b2b;    
-$dark-table-header-text: #d9dbde;    
-$dark-table-header-text-hover: #88b0f7;    
-$dark-table-header-column-background-1: #3d3f4080;    
-$dark-table-header-column-background-2: #3d3f40;    
-/* Baseline for surfaces */
-$dark-surface-primary: #202121;    
-/* The lowest & darkest surface, usually used to lift the primary surface */
-$dark-surface-secondary: #101010;    
-/* Additional surface color for contrast */
-$dark-surface-tertiary: #2a2b2b;    
-$dark-surface-brand: #4383fa;    
-$dark-surface-overlay-darken: #10101099;    
-$dark-surface-overlay-modal-background: #10101099;    
-/* Default text color */
-$dark-text-primary: #ffffff;    
-/* Supplementary Info (diminished contrast) */
-$dark-text-secondary: #c2c4c7;    
-/* *Only used on Primary Surface. Commonly used for metadata. */
-$dark-text-tertiary: #8e9194;    
-/* Not actionable. Does not need to meet AA contrast */
-$dark-text-disabled: #656667;    
-/* Selected date in calendar, selected tab menu item or dropdown */
-$dark-text-selected: #ffffff;    
-/* Eg. Unselected date in calendar, unselected tab menu item or dropdown */
-$dark-text-unselected: #8e9194;    
-/* Positive status such as a win (W) */
-$dark-text-positive: #0dc45f;    
-$dark-text-positive-hover: #10d669;    
-/* Do not use on tertiary surfaces. Negative status such as a loss (L).  */
-$dark-text-negative: #f94343;    
-$dark-text-negative-hover: #f78d8d;    
-/* Do not use on tertiary surfaces. Urgent info like watch now & live events. */
-$dark-text-alert: #f94343;    
-/* Default link color */
-$dark-text-action-link-primary: #ffffff;    
-$dark-text-action-link-primary-hover: #8e9194;    
-/* Alternate link color */
-$dark-text-action-link-secondary: #4383fa;    
-$dark-text-action-link-secondary-hover: #88b0f7;    
-/* Can be used to promote brand where other colors cannot be used */
-$dark-brand-primary: #ffffff;    
-/* Promote brand where primary brand cannot be used */
-$dark-brand-secondary: #2268e5;    
-/* Promote brand where primary & seceondary brand cannot be used */
-$dark-brand-tertiary: #88b0f7;    
-$dark-brand-247sports: #2268e5;    
-$dark-brand-maxpreps: #e10500;    
-$dark-brand-sportsline: #10d669;    
-/* Default text color */
-$light-text-primary: #202121;    
-/* Supplementary Info (diminished contrast) */
-$light-text-secondary: #656667;    
-/* *Only used on Primary Surface. Commonly used for metadata. */
-$light-text-tertiary: #757678;    
-/* Not actionable. Does not need to meet AA contrast */
-$light-text-disabled: #a6a9ad;    
-/* Selected date in calendar, selected tab menu item or dropdown */
-$light-text-selected: #202121;    
-/* Unselected date in calendar, unselected tab menu item or dropdown */
-$light-text-unselected: #656667;    
-/* Positive status such as a win (W) */
-$light-text-positive: #04802d;    
-$light-text-positive-hover: #005922;    
-/* Negative status such as a loss (L) */
-$light-text-negative: #cc0e00;    
-$light-text-negative-hover: #ad1100;    
-/* Urgent info like watch now & live events */
-$light-text-alert: #e10500;    
-/* Default link color */
-$light-text-action-link-primary: #202121;    
-/* Default link hover */
-$light-text-action-link-primary-hover: #0036b5;    
-/* Alternate link color */
-$light-text-action-link-secondary: #004ace;    
-/* Alternate link hover */
-$light-text-action-link-secondary-hover: #0036b5;    
-/* Default border color */
-$light-utility-border: #d9dbde;    
-/* Checkbox hover, radio hover */
-$light-utility-border-hover: #0036b5;    
-/* Graphics that need a disabled color */
-$light-utility-disabled: #a6a9ad;    
-/* Calendar bg, radio button bg, checkbox bg, form fields bg */
-$light-utility-ui-background: #ffffff;    
-/* Disabled UI like checkboxes, calendars or fields */
-$light-utility-ui-background-disabled: #f5f6f7;    
-/* Dropdown hover, calendar hover, switch hover */
-$light-utility-ui-background-hover: #f5f8ff;    
-/* Indicate tab is active, radio button is on */
-$light-utility-ui-element-active: #004ace;    
-/* Default icon color */
-$light-utility-icon-primary: #202121;    
-/* Icon color when primary cannot be used */
-$light-utility-icon-secondary: #656667;    
-/* Can be used to show a positive trajectory */
-$light-utility-status-graphic-positive: #059646;    
-$light-utility-status-graphic-positive-hover: #04802d;    
-/* Can be used to show a negative trajectory */
-$light-utility-status-graphic-negative: #cc0e00;    
-$light-utility-status-graphic-negative-hover: #ad1100;    
-/* Can be used for weather, yellow cards */
-$light-utility-status-graphic-info: #ebaa17;    
-$light-utility-status-graphic-info-hover: #cc9618;    
-/* Can be used to show a cooling down trajectory */
-$light-utility-status-graphic-cool: #2268e5;    
-/* Watch or live icons */
-$light-utility-status-graphic-alert: #e10500;    
-$light-button-tertiary-background: #ffffff00;    
-$light-button-tertiary-border: #d9dbde;    
-$light-button-tertiary-border-hover: #0036b5;    
-$light-button-tertiary-border-focused: #656667;    
-$light-button-tertiary-text: #656667;    
-$light-button-tertiary-text-hover: #0036b5;    
-$light-button-secondary-background: #ffffff;    
-$light-button-secondary-background-hover: #f5f8ff;    
-$light-button-secondary-border: #d9dbde;    
-$light-button-secondary-border-focused: #202121;    
-$light-button-secondary-text: #202121;    
-$light-button-secondary-text-hover: #202121;    
-$light-button-live-background: #cc0e00;    
-$light-button-live-background-hover: #ad1100;    
-$light-button-live-border: #cc0e00;    
-$light-button-live-text: #ffffff;    
-$light-button-promo-secondary-background: #d9690d;    
-$light-button-promo-secondary-background-hover: #bf5804;    
-$light-button-promo-secondary-border: #d9690d;    
-$light-button-promo-secondary-text: #ffffff;    
-$light-button-promo-primary-background: #05a342;    
-$light-button-promo-primary-background-hover: #04802d;    
-$light-button-promo-primary-border: #05a342;    
-$light-button-promo-primary-text: #ffffff;    
-$light-button-primary-background: #004ace;    
-$light-button-primary-background-hover: #0036b5;    
-$light-button-primary-border: #004ace;    
-$light-button-primary-border-focused: #ffffff;    
-$light-button-primary-text: #ffffff;    
-/* Can be used to promote brand where other colors cannot be used */
-$light-brand-primary: #004ace;    
-/* Promote brand where primary brand cannot be used */
-$light-brand-secondary: #00259e;    
-/* Promote brand where primary & seceondary brand cannot be used */
-$light-brand-tertiary: #050d27;    
-$light-brand-maxpreps: #e10500;    
-$light-brand-247sports: #00259e;    
-$light-brand-sportsline: #10d669;    
-/* Default background colors for tables */
-$light-table-base-background: #ffffff;    
-/* Default border color for tables */
-$light-table-base-border-primary: #d9dbde;    
-/* A secondary border color may be required for darker rows or cols */
-$light-table-base-border-secondary: #c2c4c7;    
-/* Default header row background */
-$light-table-header-row-background: #f5f6f7;    
-/* Default header row text color */
-$light-table-header-text: #4b4c4d;    
-/* For links in header rows */
-$light-table-header-text-hover: #0036b5;    
-/* First tinted column */
-$light-table-header-column-background-1: #d9dbde66;    
-/* Second tinted column */
-$light-table-header-column-background-2: #d9dbde;    
-/* Default body row background color */
-$light-table-body-row-background-primary: #ffffff;    
-/* For striped table rows or accent rows */
-$light-table-body-row-background-secondary: #f5f6f780;    
-/* Default hover color for body rows */
-$light-table-body-row-background-hover: #f5f8ff;    
-/* For sort columns */
-$light-table-body-column-background-active: #f5f8ff;    
-/* Default body text color */
-$light-table-body-text-primary: #202121;    
-/* Secondary body text color when default cannot be used */
-$light-table-body-text-secondary: #656667;    
-/* First tint for table body column */
-$light-table-body-column-background-1: #f5f6f780;    
-/* Second tint for table body column */
-$light-table-body-column-background-2: #edeef280;    
-/* Baseline for surfaces */
-$light-surface-primary: #ffffff;    
-/* The lowest & darkest surface, usually used to lift the primary surface */
-$light-surface-secondary: #edeef2;    
-/* Additional surface color for contrast */
-$light-surface-tertiary: #f5f6f7;    
-/* Can be used for nav or areas to promote brand */
-$light-surface-brand: #004ace;    
-$light-surface-overlay-darken: #10101099;    
-/* Default bg for modal popups to sit on */
-$light-surface-overlay-modal-background: #10101099;    
-$brand-utility-border: #2268e5;    
-$brand-utility-disabled: #4383fa;    
-/* Calendar bg, radio button bg, checkbox bg, form fields bg */
-$brand-utility-ui-background: #004ace;    
-/* Disabled UI like checkboxes, calendars or fields */
-$brand-utility-ui-background-disabled: #004ace;    
-/* Dropdown hover, calendar hover, switch hover */
-$brand-utility-ui-background-hover: #0d55d9;    
-$brand-utility-border-hover: #ffffff;    
-/* Indicate tab is active, radio button is on */
-$brand-utility-ui-element-active: #ffffff;    
-/* Default icon color */
-$brand-utility-icon-primary: #ffffff;    
-/* Icon color when primary cannot be used */
-$brand-utility-icon-secondary: #bdd0f2;    
-/* Can be used to show a positive trajectory */
-$brand-utility-status-graphic-positive: #58ed78;    
-$brand-utility-status-graphic-positive-hover: #8df7a0;    
-/* Can be used to show a negative trajectory */
-$brand-utility-status-graphic-negative: #f94343;    
-$brand-utility-status-graphic-negative-hover: #f78d8d;    
-/* Can be used for weather, yellow cards */
-$brand-utility-status-graphic-info: #f2ce3f;    
-$brand-utility-status-graphic-info-hover: #f2dd8a;    
-$brand-utility-status-graphic-cool: #bdd0f2;    
-/* Watch or live icons */
-$brand-utility-status-graphic-alert: #f94343;    
-$brand-button-live-background: #e10500;    
-$brand-button-live-background-hover: #cc0e00;    
-$brand-button-live-border: #e10500;    
-$brand-button-live-text: #ffffff;    
-$brand-button-promo-secondary-background: #d9690d;    
-$brand-button-promo-secondary-background-hover: #b85804;    
-$brand-button-promo-secondary-border: #d9690d;    
-$brand-button-promo-secondary-text: #ffffff;    
-$brand-button-promo-primary-background: #05a342;    
-$brand-button-promo-primary-background-hover: #048209;    
-$brand-button-promo-primary-border: #05a342;    
-$brand-button-promo-primary-text: #ffffff;    
-$brand-button-primary-background: #0049ce00;    
-$brand-button-primary-background-hover: #2268e5;    
-$brand-button-primary-border: #dfe6f5;    
-$brand-button-primary-text: #dfe6f5;    
-/* Default text color */
-$brand-text-primary: #ffffff;    
-/* Supplementary Info (diminished contrast) */
-$brand-text-secondary: #dfe6f5;    
-/* Lowest level of importance */
-$brand-text-tertiary: #bdd0f2;    
-/* Does not need to meet AA contrast */
-$brand-text-disabled: #88b0f7;    
-/* Selected date in calendar, selected tab menu item or dropdown */
-$brand-text-selected: #ffffff;    
-/* Unselected date in calendar, unselected tab menu item or dropdown */
-$brand-text-unselected: #bdd0f2;    
-/* Default link color */
-$brand-text-action-link-primary: #ffffff;    
-/* Default link hover */
-$brand-text-action-link-primary-hover: #bdd0f2;    
-/* Alternate link color */
-$brand-text-action-link-secondary: #bdd0f2;    
-/* Alternate link hover */
-$brand-text-action-link-secondary-hover: #ffffff;    
-/* Positive status such as a win (W) */
-$brand-text-positive: #58ed78;    
-$brand-text-positive-hover: #8df7a0;    
-/* Negative status such as a loss (L) */
-$brand-text-negative: #f78d8d;    
-$brand-text-negative-hover: #fac3c3;    
-/* Urgent info like watch now & live events */
-$brand-text-alert: #f78d8d;    
-$brand-brand-primary: #ffffff;    
-$brand-brand-secondary: #bdd0f2;    
-$brand-brand-247-sports: #ffffff;    
-$brand-brand-maxpreps: #ffffff;    
-$brand-brand-sportsline: #ffffff;    
-/* Baseline for surfaces */
-$brand-surface-primary: #004ace;    
-/* Surface below primary */
-$brand-surface-secondary: #0036b5;    
-/* Additional surface color for constrast */
-$brand-surface-tertiary: #00259e;    
-$paramount--peak-blue: #0064ff;    
-$paramount--secondary-blue-1: #1996ff;    
-$paramount--secondary-blue-2: #003296;    
-$paramount--secondary-blue-3: #00004b;    
-$paramount--snowcap-white: #ffffff;    
-$paramount--basalt-black: #000000;    
-$paramount--gray-1: #e9eaec;    
-$paramount--gray-2: #e0e3ea;    
-$paramount--gray-3: #d7dce7;    
-$paramount--gray-4: #9ba8bd;    
-$paramount--gray-5: #5b626e;    
-$paramount--gray-6: #1b1c1e;    
-$social-facebook: #1877f2;    
-$social-twitter: #1da1f2;    
-$social-youtube: #ff0000;    
-$social-instagram: #c32aa3;    
-$social-pinterest: #bd081c;    
-$social-linkedin: #007bb5;    
-$social-google: #4285f4;    
-$social-flipboard: #e12828;    
-$social-reddit: #ff4500;    
-$social-rss: #f26522;    
+$leagues-olympics-brand: #0078d0;    
+$leagues-bellator-primary: #ed1c24;    
+$leagues-bellator-secondary: #000000;    
 $social-snapchat: #fffc00;    
 $social-tiktok: #000000;    
+$light-button-primary-border-focused: #ffffff;    
+$light-button-secondary-border-focused: #202121;    
+$light-button-tertiary-background: #ffffff00;    
+$light-button-tertiary-border-focused: #656667;    
+$dark-button-primary-border-focused: #ffffff;    
+$dark-button-secondary-border-focused: #ffffff;    
+$dark-button-tertiary-background: #00000000;    
+$dark-button-tertiary-border-focused: #4383fa;    
+$light-button-secondary-text-hover: #202121;    
+/* F1 */
+$leagues-formula-1: #000000;    
+$leagues-soccer-womens-world-cup-primary-light: #ec5e2f;    
+$leagues-soccer-womens-world-cup-secondary-light: #395a6b;    
+$leagues-soccer-womens-world-cup-primary-dark: #f2a44b;    
+$leagues-soccer-womens-world-cup-secondary-dark: #4c726c;    
 /* StubHub's foundational color for it's Logo on a light background */
 $stubhub-primary: #3f1d74;    
 /* StubHub's foundational color for its Logo on a Dark background */
 $stubhub-secondary: #ffffff;    
 /* StubHub's Text color for its Logo on a Light background */
 $stubhub-tertiary: #e4eef3;    
+$leagues-golf-masters-green-primary: #0a2f16;    
+$internal-brands-cbs: #0281fe;    
+$light-button-secondary-text-disabled: #ffffff;    
+$dynamic-text-primary: #ffffff;    
+$dynamic-text-secondary: #ffffffd9;    
+$dynamic-text-tertiary: #ffffffbf;    
+$dynamic-text-disabled: #ffffffa6;    
+$dynamic-text-selected: #ffffff;    
+$dynamic-text-unselected: #ffffffd9;    
+$dynamic-text-positive: #58ed78;    
+$dynamic-text-positive-hover: #8df7a0;    
+$dynamic-text-negative: #f78d8d;    
+$dynamic-text-negative-hover: #fac3c3;    
+$dynamic-text-alert: #e10500;    
+$dynamic-text-action-link-primary: #ffffff;    
+$dynamic-text-action-link-primary-hover: #ffffffd9;    
+$dynamic-text-action-link-secondary: #ffffffd9;    
+$dynamic-text-action-link-secondary-hover: #ffffffbf;    
+$dynamic-surface-primary: #20212100;    
+$dynamic-surface-secondary: #10101026;    
+$dynamic-surface-tertiary: #10101040;    
+$dynamic-surface-brand: #4383fa;    
+$dynamic-surface-overlay-darken: #10101099;    
+$dynamic-surface-overlay-modal-background: #10101099;    
+$dynamic-utility-border: #ffffff4d;    
+$dynamic-utility-border-hover: #ffffff;    
+$dynamic-utility-disabled: #ffffff40;    
+$dynamic-utility-ui-background: #00000000;    
+$dynamic-utility-ui-background-disabled: #10101026;    
+$dynamic-utility-ui-element-active: #ffffff;    
+$dynamic-utility-ui-background-hover: #ffffff26;    
+$dynamic-utility-icon-primary: #ffffff;    
+$dynamic-utility-icon-secondary: #ffffffbf;    
+$dynamic-utility-status-graphic-positive: #58ed78;    
+$dynamic-utility-status-graphic-positive-hover: #8df7a0;    
+/* Graphic Negative */
+$dynamic-utility-status-graphic-negative: #f78d8d;    
+$dynamic-utility-status-graphic-negative-hover: #f2c3c3;    
+$dynamic-utility-status-graphic-info: #f2ce3f;    
+$dynamic-utility-status-graphic-info-hover: #f2dd8a;    
+$dynamic-utility-status-graphic-cool: #bdd0f2;    
+$dynamic-utility-status-graphic-alert: #f94343;    
+$dynamic-brand-primary: #ffffff;    
+$dynamic-brand-secondary: #ffffffcc;    
+$dynamic-brand-tertiary: #ffffffa6;    
+$dynamic-brand-247sports: #ffffff;    
+$dynamic-brand-maxpreps: #ffffff;    
+$dynamic-brand-sportsline: #ffffff;    
+$dynamic-table-base-background: #ffffff00;    
+$dynamic-table-base-border-primary: #ffffff4d;    
+$dynamic-table-base-border-secondary: #ffffff26;    
+$dynamic-table-header-row-background: #ffffff00;    
+$dynamic-table-header-text: #ffffff;    
+$dynamic-table-header-text-hover: #ffffffd9;    
+$dynamic-table-header-column-background-1: #ffffff26;    
+$dynamic-table-header-column-background-2: #ffffff40;    
+$dynamic-table-body-row-background-primary: #ffffff00;    
+$dynamic-table-body-row-background-secondary: #ffffff26;    
+$dynamic-table-body-row-background-hover: #ffffff40;    
+$dynamic-table-body-column-background-active: #ffffff40;    
+$dynamic-table-body-text-primary: #ffffff;    
+$dynamic-table-body-text-secondary: #ffffffd9;    
+$dynamic-table-body-column-background-1: #ffffff26;    
+$dynamic-table-body-column-background-2: #ffffff40;    
+$dynamic-button-primary-background: #ffffff;    
+$dynamic-button-primary-background-hover: #ffffffbf;    
+$dynamic-button-primary-border: #ffffff;    
+$dynamic-button-primary-border-focused: #101010;    
+$dynamic-button-primary-text: #101010;    
+$dynamic-button-secondary-background: #ffffff00;    
+$dynamic-button-secondary-background-hover: #ffffff;    
+$dynamic-button-secondary-border: #ffffff;    
+$dynamic-button-secondary-border-focused: #ffffff;    
+$dynamic-button-secondary-text: #ffffff;    
+$dynamic-button-secondary-text-hover: #101010;    
+$dynamic-button-tertiary-background: #ffffff00;    
+$dynamic-button-tertiary-border-hover: #ffffff4d;    
+$dynamic-button-tertiary-border-focused: #ffffff;    
+$dynamic-button-tertiary-text: #ffffff;    
+$dynamic-button-tertiary-text-hover: #ffffff;    
+$dynamic-button-promo-primary-background: #ffffff;    
+$dynamic-button-promo-primary-background-hover: #ffffffbf;    
+$dynamic-button-promo-primary-border: #ffffff;    
+$dynamic-button-promo-primary-text: #101010;    
+$dynamic-button-promo-secondary-background: #ffffff;    
+$dynamic-button-promo-secondary-background-hover: #ffffffbf;    
+$dynamic-button-promo-secondary-border: #ffffff;    
+$dynamic-button-promo-secondary-text: #101010;    
+$dynamic-button-live-background: #e10500;    
+$dynamic-button-live-background-hover: #cc0e00;    
+$dynamic-button-live-border: #e10500;    
+$dynamic-button-live-text: #ffffff;    
+$dark-table-base-border-primary: $dark-utility-border;    
 $dark-table-body-row-background-primary: $dark-surface-secondary;    
 $dark-table-body-text-primary: $dark-text-primary;    
 $dark-table-body-text-secondary: $dark-text-secondary;    
-$dark-table-base-border-primary: $dark-utility-border;    

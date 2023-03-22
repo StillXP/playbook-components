@@ -3,7 +3,7 @@ import classNames from 'classnames';
 import './Button.scss';
 import { Sizes, Styles, Width, Themes, Radius } from 'src/constants/constants';
 import * as icons from '../Icon/Icon';
-import pLogo from 'public/CBSSports.svg';
+import * as logos from '../Logo/Logo';
 export interface Props {
 
     /** Label that describes Button function */
@@ -13,7 +13,7 @@ export interface Props {
     ariaRequired: true;
 
     /** Button Text */
-    children: String;
+    children: string;
 
     /** Disabled State */
     disabled: boolean;
@@ -89,7 +89,7 @@ export const Button = ({
                 {(logo && size != 'small') && <span className={classNames(
                     `button__logo`,
                     `button__logo__${size}`
-                )}><img src={pLogo}/></span>}
+                )}><logos.CBSSports/></span>}
             </a>        
         );
     } else { 
@@ -107,7 +107,7 @@ export const Button = ({
                 {(logo && size != 'small') && <span className={classNames(
                     `button__logo`,
                     `button__logo__${size}`
-                )}><img src={pLogo}/></span>}
+                )}><logos.CBSSports/></span>}
             </button>        
         );
 

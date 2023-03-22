@@ -1,9 +1,6 @@
-
 @use 'sass:math';
 @import 'measures';
-
-$font-family-narrow: 'FS Industrie Nw', 'FSIndustrieNw-Bold', Helvetica, Arial, sans-serif;
-$font-family-standard: 'FS Industrie', 'FSIndustrie-Bold', Helvetica, Arial, sans-serif;
+@import 'strings';
 
 $base-font-size: $font-size-100;
 

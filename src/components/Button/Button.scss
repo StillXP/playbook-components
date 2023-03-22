@@ -7,6 +7,7 @@
     cursor: pointer;
     display: flex;
     gap: $spacing-25;
+    justify-content: center;
     padding-left: $spacing-75;
     padding-right: $spacing-75;
     text-align: center;
@@ -36,14 +37,16 @@
         justify-content: center;
 
         &__large {
-            > img {
+            > svg {
                 height: 12px;
+                width: auto;
             }
         }
 
         &__medium {
-            > img {
+            > svg {
                 height: 9.5px;
+                width: auto;
             }
         }
 
@@ -105,6 +108,9 @@
             background: $light-button-secondary-background;
             border: 1px solid $light-button-secondary-border;
             color: $light-button-secondary-text;
+            > svg {
+                color: black;
+            }
     
             &:hover {
                 transition-duration: 200ms;
@@ -162,6 +168,18 @@
                 transition-duration: 200ms;
                 background: $dark-button-primary-background-hover;
             }
+
+            &:focus {
+                box-shadow: inset 0 0 0 3px #fff;
+                background: $dark-button-primary-background-hover;
+                text-decoration: underline;
+                transition-duration: 200ms;
+                transition-property: box-shadow;
+            }
+
+            &__disabled {
+                background: $dark-utility-disabled;
+            }
         }
     
         &__secondary {
@@ -173,6 +191,20 @@
                 transition-duration: 200ms;
                 background: $dark-button-secondary-background-hover;
                 color: $dark-button-secondary-text-hover;
+            }
+
+            &:focus {
+                box-shadow: inset 0 0 0 3px #202121;
+                background: $dark-button-secondary-background;
+                text-decoration: underline;
+                transition-duration: 200ms;
+                transition-property: box-shadow;
+            }
+
+            &__disabled {
+                background: $dark-utility-disabled;
+                border: 1px solid $dark-utility-disabled;
+                color: $dark-button-primary-text;
             }
         }
     
@@ -186,7 +218,18 @@
                 border: 1px solid $dark-button-tertiary-border-hover;
             }
 
+            &:focus {
+                border: 1px solid $dark-button-tertiary-border-hover;
+                box-shadow: inset 0 0 0 3px #656667;
+                background: $dark-button-secondary-background;
+                text-decoration: underline;
+                transition-duration: 200ms;
+                transition-property: box-shadow;
+            }
 
+            &__disabled {
+                color: $dark-text-disabled;
+            }
         }
     }
 }
