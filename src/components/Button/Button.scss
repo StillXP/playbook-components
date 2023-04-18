@@ -232,6 +232,86 @@
             }
         }
     }
+
+    &__dynamic {
+
+        &__primary {
+            background: $dynamic-button-primary-background;
+            border: 0px;
+            color: $dynamic-button-primary-text;
+
+            &__disabled {
+                background: $dynamic-utility-disabled;
+            }
+    
+            &:hover {
+                transition-duration: 200ms;
+                background: $dynamic-button-primary-background-hover;
+            }
+
+            &:focus {
+                box-shadow: inset 0 0 0 3px #fff;
+                background: $dynamic-button-primary-background-hover;
+                text-decoration: underline;
+                transition-duration: 200ms;
+                transition-property: box-shadow;
+            }
+
+        }
+    
+        &__secondary {
+            background: $dynamic-button-secondary-background;
+            border: 1px solid $dynamic-button-secondary-border;
+            color: $dynamic-button-secondary-text;
+            > svg {
+                color: black;
+            }
+    
+            &:hover {
+                transition-duration: 200ms;
+                background: $dynamic-button-secondary-background-hover;
+                color: $dynamic-button-secondary-text-hover;
+            }
+
+            &:focus {
+                box-shadow: inset 0 0 0 3px #202121;
+                background: $dynamic-button-secondary-background;
+                text-decoration: underline;
+                transition-duration: 200ms;
+                transition-property: box-shadow;
+            }
+
+            &__disabled {
+                background: $dynamic-utility-disabled;
+                color: $dynamic-button-primary-text;
+            }
+        }
+    
+        &__tertiary {
+            background: none;
+            border: 1px solid rgb(0,0,0,0);
+            color: $dynamic-button-tertiary-text;
+    
+            &:hover {
+                transition-duration: 200ms;
+                border: 1px solid $light-button-tertiary-border-hover;
+            }
+
+            &:focus {
+                border: 1px solid $dynamic-button-tertiary-border-hover;
+                box-shadow: inset 0 0 0 3px #656667;
+                background: $dynamic-button-secondary-background;
+                text-decoration: underline;
+                transition-duration: 200ms;
+                transition-property: box-shadow;
+            }
+
+            &__disabled {
+                color: $dynamic-text-disabled;
+            }
+
+        }
+    }
 }
 
 .radius {
