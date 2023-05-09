@@ -237,11 +237,13 @@
 
         &__primary {
             background: $dynamic-button-primary-background;
-            border: 0px;
+            border: 1px solid $dynamic-utility-border;
             color: $dynamic-button-primary-text;
 
             &__disabled {
                 background: $dynamic-utility-disabled;
+                border: 1px solid #fffff000;
+                color: $dynamic-text-disabled;
             }
     
             &:hover {
@@ -252,6 +254,7 @@
             &:focus {
                 box-shadow: inset 0 0 0 3px $dynamic-button-primary-border-focused;
                 border: 1px solid $dynamic-utility-border;
+                outline: none;
                 text-decoration: underline;
                 transition-duration: 200ms;
                 transition-property: box-shadow;
@@ -274,8 +277,10 @@
             }
 
             &:focus {
-                box-shadow: inset 0 0 0 2px $dynamic-button-secondary-border-focused;
+                box-shadow: inset 0 0 0 3px $dynamic-button-secondary-border-focused;
                 background: $dynamic-button-secondary-background;
+                border: 1px solid $dynamic-utility-border;
+                outline: none;
                 text-decoration: underline;
                 transition-duration: 200ms;
                 transition-property: box-shadow;
@@ -283,13 +288,14 @@
 
             &__disabled {
                 background: $dynamic-utility-disabled;
-                color: $dynamic-button-primary-text;
+                border: 1px solid #fffff000;
+                color: $dynamic-text-disabled;
             }
         }
     
         &__tertiary {
             background: $dynamic-button-tertiary-background;
-            border: none;
+            border: 1px solid $dynamic-button-tertiary-background;
             color: $dynamic-button-tertiary-text;
     
             &:hover {
@@ -301,6 +307,8 @@
                 
                 box-shadow: inset 0 0 0 3px $dynamic-button-tertiary-border-focused;
                 background: $dynamic-button-secondary-background;
+                border: 1px solid $light-utility-border;
+                outline: none;
                 text-decoration: underline;
                 transition-duration: 200ms;
                 transition-property: box-shadow;
