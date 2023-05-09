@@ -219,7 +219,7 @@
             }
 
             &:focus {
-                border: 1px solid $dark-button-tertiary-border-hover;
+                border: 1px solid $dark-button-tertiary-border-focused;
                 box-shadow: inset 0 0 0 3px #656667;
                 background: $dark-button-secondary-background;
                 text-decoration: underline;
@@ -250,8 +250,8 @@
             }
 
             &:focus {
-                box-shadow: inset 0 0 0 3px #fff;
-                background: $dynamic-button-primary-background-hover;
+                box-shadow: inset 0 0 0 3px $dynamic-button-primary-border-focused;
+                border: 1px solid $dynamic-utility-border;
                 text-decoration: underline;
                 transition-duration: 200ms;
                 transition-property: box-shadow;
@@ -274,7 +274,7 @@
             }
 
             &:focus {
-                box-shadow: inset 0 0 0 3px #202121;
+                box-shadow: inset 0 0 0 2px $dynamic-button-secondary-border-focused;
                 background: $dynamic-button-secondary-background;
                 text-decoration: underline;
                 transition-duration: 200ms;
@@ -288,8 +288,8 @@
         }
     
         &__tertiary {
-            background: none;
-            border: 1px solid rgb(0,0,0,0);
+            background: $dynamic-button-tertiary-background;
+            border: none;
             color: $dynamic-button-tertiary-text;
     
             &:hover {
@@ -298,8 +298,8 @@
             }
 
             &:focus {
-                border: 1px solid $dynamic-button-tertiary-border-hover;
-                box-shadow: inset 0 0 0 3px #656667;
+                
+                box-shadow: inset 0 0 0 3px $dynamic-button-tertiary-border-focused;
                 background: $dynamic-button-secondary-background;
                 text-decoration: underline;
                 transition-duration: 200ms;
