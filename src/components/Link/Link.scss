@@ -16,7 +16,7 @@ li {
 
 .link:hover {
     color: $light-text-action-link-primary-hover;
-    transition: color $duration-normal;
+    transition: color $duration-fast;
 }
 
 .link:after {
@@ -30,7 +30,7 @@ li {
     opacity: 1;
     overflow: hidden;
     transform: translate3d(-100%, 0, 0);
-    transition: opacity $duration-normal, transform $duration-normal;
+    transition: opacity $duration-fast, transform $duration-fast;
 }
 
 .link:hover:after {
