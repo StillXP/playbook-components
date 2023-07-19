@@ -1,0 +1,28 @@
+@use '/src/styles/index' as *;
+
+.headshot {
+    border-radius: $border-radius-circle;
+    height: auto;
+    
+    &__200 {
+        height: $headshot-size-200;
+    }
+    &__250 {
+        height: $headshot-size-250;
+    }
+    &__300 {
+        height: $headshot-size-300;
+    }
+    &__400 {
+        height: $headshot-size-400;
+    }
+    &__450 {
+        height: $headshot-size-450;
+    }
+    &__500 {
+        height: $headshot-size-500;
+    }
+    &__600 {
+        height: $headshot-size-600;
+    }
+}

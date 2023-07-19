@@ -1,0 +1,12 @@
+@use '/src/styles/index' as *;
+
+.button {
+    @include font-style($family: standard, $weight: medium, $height: normal);
+    align-items: center;
+    border: 1px solid;
+    border-radius: $border-radius-4;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    transition: $duration-normal;
+}
