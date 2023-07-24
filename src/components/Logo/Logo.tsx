@@ -4,7 +4,7 @@ import './Logo.scss';
 
 export interface Props {
     size?: '100' | '125' | '150' | '200' | '250' | '300' | '400' | '450' | '500' | '600' | '1200' |  '2200';
-    image: 'Default' | 'Official' | 'CBSSports'
+    image: 'Default' | 'Official'
 }
 
 export const CBSSports = (props: React.SVGProps<SVGSVGElement> & Props) => <svg viewBox="0 0 103 13" fill="currentColor" {...props}>
