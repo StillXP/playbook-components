@@ -3,7 +3,6 @@ import classNames from 'classnames';
 import './Button.scss';
 import { Sizes, Styles, Width, Themes, Radius } from 'src/constants/constants';
 import * as icons from '../Icon/Icon';
-import * as logos from '../Logo/Logo';
 export interface Props {
 
     /** Label that describes Button function */
@@ -89,7 +88,7 @@ export const Button = ({
                 {(logo && size != 'small') && <span className={classNames(
                     `button__logo`,
                     `button__logo__${size}`
-                )}><logos.CBSSports/></span>}
+                )}></span>}
             </a>        
         );
     } else { 
@@ -107,7 +106,7 @@ export const Button = ({
                 {(logo && size != 'small') && <span className={classNames(
                     `button__logo`,
                     `button__logo__${size}`
-                )}><logos.CBSSports/></span>}
+                )}></span>}
             </button>        
         );
 
