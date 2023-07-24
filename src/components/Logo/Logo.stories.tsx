@@ -7,6 +7,7 @@ const meta: Meta = {
     component: Logo,
     args: {
         size: '100',
+        image: 'Default'
     }
 }
 

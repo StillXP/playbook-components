@@ -7,7 +7,7 @@ const meta: Meta = {
     component: Headshot,
     args: {
         size: '200',
-        image: 'Placeholder'
+        image: 'Default Male'
     }
 }
 

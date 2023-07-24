@@ -5,18 +5,18 @@ import './Headshot.scss';
 
 export interface Props {
     size?: '200' | '250' | '300' | '400' | '450' | '500' | '600' 
-    image: 'Placeholder' | 'Player'
+    image: 'Default Male' | 'Default Female' | 'Official'
 }
 
 export const Headshot = ({
     size,
-    image = 'Placeholder'
+    image = 'Default Male'
 }: Props) => {
     const headshotClasses = classNames(
         `headshot`,
         `headshot__${size}`
     )
-    const imgPath = '/' + image + '.png';
+    const imgPath = '/headshot/' + image + '.png';
     let content = (
         <img className={headshotClasses} src={imgPath} alt="image"/>
     )

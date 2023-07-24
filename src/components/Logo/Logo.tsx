@@ -4,6 +4,7 @@ import './Logo.scss';
 
 export interface Props {
     size?: '100' | '125' | '150' | '200' | '250' | '300' | '400' | '450' | '500' | '600' | '1200' |  '2200';
+    image: 'Default' | 'Official'
 }
 
 export const CBSSports = (props: React.SVGProps<SVGSVGElement> & Props) => <svg viewBox="0 0 103 13" fill="currentColor" {...props}>
@@ -27,15 +28,16 @@ export const CBSSports = (props: React.SVGProps<SVGSVGElement> & Props) => <svg 
 </svg>
 
 export const Logo = ({
-    size
+    size,
+    image = 'Default'
 }: Props) => {
     const logoClasses = classNames(
+        `logo`,
         `logo__${size}`
     )
+    const imgPath = '/logo/' + image + '.png';
     let content = (
-        <CBSSports
-            className={logoClasses}
-        />
+        <img className={logoClasses} src={imgPath} alt="image"/>
     )
     return content;
 }
