@@ -3,7 +3,7 @@ import { Meta, Story } from '@storybook/react';
 import { Logo, Props } from './Logo';
 
 const meta: Meta = {
-    title: 'Logo',
+    title: 'Logo (Sports)',
     component: Logo,
     args: {
         size: '100',
