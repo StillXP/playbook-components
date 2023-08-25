@@ -5,12 +5,12 @@ import './Headshot.scss';
 
 export interface Props {
     size?: '200' | '250' | '300' | '400' | '450' | '500' | '600' 
-    image: 'Default Male' | 'Default Female' | 'Official'
+    image: 'Default' | 'Official'
 }
 
 export const Headshot = ({
     size,
-    image = 'Default Male'
+    image = 'Default'
 }: Props) => {
     const headshotClasses = classNames(
         `headshot`,
