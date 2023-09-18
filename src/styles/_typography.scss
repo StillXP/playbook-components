@@ -1,5 +1,5 @@
 @use 'sass:math';
-@import 'colors';
+@use '_variables' as *;
 
 $base-font-size: $font-size-100;
 

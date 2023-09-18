@@ -1,40 +1,40 @@
-@use '/src/styles/index' as *;
+@use '/src/styles/_theme-helper' as *;
 
 .logo {
     &__100 {
-        height: $logo-size-100;   
+        height: $logo-sports-size-100;   
     }
     &__125 {
-        height: $logo-size-125;
+        height: $logo-sports-size-125;
     }
     &__150 {
-        height: $logo-size-150;
+        height: $logo-sports-size-150;
     }
     &__200 {
-        height: $logo-size-200;
+        height: $logo-sports-size-200;
     }
     &__250 {
-        height: $logo-size-250;
+        height: $logo-sports-size-250;
     }
     &__300 {
-        height: $logo-size-300;
+        height: $logo-sports-size-300;
     }
     &__400 {
-        height: $logo-size-400;
+        height: $logo-sports-size-400;
     }
     &__450 {
-        height: $logo-size-450;
+        height: $logo-sports-size-450;
     }
     &__500 {
-        height: $logo-size-500;
+        height: $logo-sports-size-500;
     }
     &__600 {
-        height: $logo-size-600;
+        height: $logo-sports-size-600;
     }
     &__1200 {
-        height: $logo-size-1200;
+        height: $logo-sports-size-1200;
     }
     &__2200 {
-        height: $logo-size-2200;
+        height: $logo-sports-size-2200;
     }
 }

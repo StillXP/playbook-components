@@ -1,4 +1,4 @@
-@use '/src/styles/index' as *;
+@use '/src/styles/_theme-helper' as *;
 
 .headshot {
     border-radius: $border-radius-circle;

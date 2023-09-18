@@ -1,0 +1,26 @@
+@use 'sass:math';
+@use 'variables' as *;
+
+$sports-logo-size-map: (
+    100: $logo-sports-size-100,
+    125: $logo-sports-size-125,
+    150: $logo-sports-size-150,
+    200: $logo-sports-size-200,
+    250: $logo-sports-size-250,
+    300: $logo-sports-size-300,
+    400: $logo-sports-size-400,
+    450: $logo-sports-size-450,
+    500: $logo-sports-size-500,
+    600: $logo-sports-size-600,
+    1200: $logo-sports-size-1200,
+    2200: $logo-sports-size-2200,
+);
+
+@mixin sports-logo-size($size) {
+    @each $key, $value in $sports-logo-size-map {
+        @if $size == $key {
+            height: $value;
+            width: $value;
+        }
+    }
+}

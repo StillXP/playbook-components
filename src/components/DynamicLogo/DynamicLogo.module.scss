@@ -1,0 +1,23 @@
+@use 'src/styles/theme-helper' as *;
+
+.icon {
+    color: $light-utility-icon-primary;
+    height: 100%;
+    width: 100%;
+
+    @each $key, $value in $sports-logo-size-map {
+        &__#{$key} {
+            height: $value;
+            width: $value;
+        }
+    }
+    
+
+    &__dark {
+        color: $dark-utility-icon-primary;
+    }
+
+    &__dynamic {
+        color: $dynamic-utility-icon-primary;
+    }
+}

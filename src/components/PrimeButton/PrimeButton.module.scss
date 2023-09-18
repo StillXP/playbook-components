@@ -1,0 +1,349 @@
+@use 'src/styles/theme-helper' as *;
+
+/* Loading dots */
+@keyframes dotFlashing-light { 
+    0% {
+        fill: $light-button-loading-icon-active;
+    }
+
+    50% {
+        fill: $light-button-loading-icon-inactive; 
+    }
+}
+
+@keyframes dotFlashing-dark { 
+    0% {
+        fill: $dark-button-loading-icon-active;
+    }
+
+    50% {
+        fill: $dark-button-loading-icon-inactive; 
+    }
+}
+
+@keyframes dotFlashing-dynamic { 
+    0% {
+        fill: $dynamic-button-loading-icon-active;
+    }
+
+    50% {
+        fill: $dynamic-button-loading-icon-inactive; 
+    }
+}
+
+/* Buttons */
+.button {
+    @include font-style($family: 'standard', $height: 'none', $spacing: 'none', $weight: 'medium');
+    align-items: center;
+    border: 1px solid;
+    border-radius: $border-radius-8;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    text-align: center;
+    text-decoration: none;
+    transition: $duration-normal;
+
+    /* Sizes */
+    &__large {
+        @include font-style($size: 100);
+        padding: 15px $spacing-150; // = Button height: 48px;
+
+        .icon {
+            height: 14px;
+            width: 14px;
+            color: currentColor;
+    
+            &__left {
+                margin-right: $spacing-50;
+            }
+    
+            &__right {
+                margin-left: $spacing-50;
+            }
+        }
+
+        //For Loading button used to maintain Large button height 
+        .loadingSvg {
+            padding: 1px 0;
+        }
+    }
+
+    &__medium {
+        @include font-style($size: 90);
+        padding: $spacing-50 $spacing-75; // = Button height: 32px;
+
+        .icon {
+            height: 12px;
+            width: 12px;
+
+            &__left {
+                margin-right: $spacing-50;
+            }
+    
+            &__right {
+                margin-left: $spacing-50;
+            }
+        }
+    }
+
+    &__small {
+        @include font-style($size: 90);
+        padding: ($spacing-nudge-3 * 2 ) $spacing-75; // = Button height: 28px;
+        
+        .icon {
+            height: 12px;
+            width: 12px;
+            
+            &__left {
+                margin-right: $spacing-25;
+            }
+    
+            &__right {
+                margin-left: $spacing-25;
+            }
+        }
+        
+    }
+
+    &__responsive {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    /* Types with Themes */
+    &__primary {
+        background-color: $light-button-primary-background;
+        border-color: $light-button-primary-border;
+        color: $light-button-primary-text;
+
+        &:hover {
+            background-color: $light-button-primary-background-hover;
+            border-color: $light-button-primary-border-hover;
+            color: $light-button-primary-text-hover;
+        }
+    }
+
+    &__dark#{&}__primary {
+        background-color: $dark-button-primary-background;
+        border-color: $dark-button-primary-border;
+        color: $dark-button-primary-text;
+
+        &:hover {
+            background-color: $dark-button-primary-background-hover;
+            border-color: $dark-button-primary-border-hover;
+            color: $dark-button-primary-text-hover;
+        }
+    }
+
+    &__dynamic#{&}__primary {
+        background-color: $dynamic-button-primary-background;
+        border-color: $dynamic-button-primary-border;
+        color: $dynamic-button-primary-text;
+
+        &:hover {
+            background-color: $dynamic-button-primary-background-hover;
+            border-color: $dynamic-button-primary-border-hover;
+            color: $dynamic-button-primary-text-hover;
+        }
+    }
+
+    &__secondary {
+        background-color: $light-button-secondary-background;
+        border-color: $light-button-secondary-border;
+        color: $light-button-secondary-text;
+
+        &:hover {
+            background-color: $light-button-secondary-background-hover;
+            border-color: $light-button-secondary-border-hover;
+            color: $light-button-secondary-text-hover;
+        }
+    }
+
+    &__dark#{&}__secondary {
+        background-color: $dark-button-secondary-background;
+        border-color: $dark-button-secondary-border;
+        color: $dark-button-secondary-text;
+
+        &:hover {
+            background-color: $dark-button-secondary-background-hover;
+            border-color: $dark-button-secondary-border-hover;
+            color: $dark-button-secondary-text-hover;
+        }
+    }
+
+    &__dynamic#{&}__secondary {
+        background-color: $dynamic-button-secondary-background;
+        border-color: $dynamic-button-secondary-border;
+        color: $dynamic-button-secondary-text;
+
+        &:hover {
+            background-color: $dynamic-button-secondary-background-hover;
+            border-color: $dynamic-button-secondary-border-hover;
+            color: $dynamic-button-secondary-text-hover;
+        }
+    }
+
+    &__tertiary {
+        background-color: $light-button-tertiary-background;
+        border-color: $light-button-tertiary-border;
+        color: $light-button-tertiary-text;
+
+        &:hover {
+            background-color: $light-button-tertiary-background-hover;
+            border-color: $light-button-tertiary-border-hover;
+            color: $light-button-tertiary-text-hover;
+        }
+    }
+
+    &__dark#{&}__tertiary {
+        background-color: $dark-button-tertiary-background;
+        border-color: $dark-button-tertiary-border;
+        color: $dark-button-tertiary-text;
+
+        &:hover {
+            background-color: $dark-button-tertiary-background-hover;
+            border-color: $dark-button-tertiary-border-hover;
+            color: $dark-button-tertiary-text-hover;
+        }
+    }
+
+    &__dynamic#{&}__tertiary {
+        background-color: $dynamic-button-tertiary-background;
+        border-color: $dynamic-button-tertiary-border;
+        color: $dynamic-button-tertiary-text;
+
+        &:hover {
+            background-color: $dynamic-button-tertiary-background-hover;
+            border-color: $dynamic-button-tertiary-border-hover;
+            color: $dynamic-button-tertiary-text-hover;
+        }
+    }
+
+    /* Disabled */
+    &__disabled {
+        outline: none;
+        pointer-events: none;
+    }
+
+    &__light#{&}__disabled {
+        background-color: $light-button-disabled-background;
+        border-color: $light-button-disabled-border;
+        color: $light-button-disabled-text;
+    }
+
+    &__dark#{&}__disabled {
+        background-color: $dark-button-disabled-background;
+        border-color: $dark-button-disabled-border;
+        color: $dark-button-disabled-text;
+    }
+
+    &__dynamic#{&}__disabled {
+        background-color: $dynamic-button-disabled-background;
+        border-color: $dynamic-button-disabled-border;
+        color: $dynamic-button-disabled-text;
+    }
+
+    /* Focus */
+    &__enabled {
+        &:focus {
+            border-color: transparent;
+            outline-offset: -($spacing-nudge-1);
+            outline-style: solid;
+            outline-width: 4px;
+            text-decoration: underline;
+            transition: box-shadow $duration-normal ease;
+        }
+    }
+
+    &__light#{&}__enabled {
+        &:focus {
+            outline-color: $light-utility-focus;
+        }
+    }
+
+    &__dark#{&}__enabled {
+        &:focus {
+            outline-color: $dark-utility-focus;
+        }
+    }
+
+    &__dynamic#{&}__enabled {
+        &:focus {
+            outline-color: $dynamic-utility-focus;
+        }
+    }
+
+    /* Loading by Theme */
+    &__light#{&}__loading {
+        background-color: $light-button-loading-background;
+        border: 1px solid $light-button-loading-border;
+
+        .dotFlashing {
+            animation: dotFlashing-light $duration-xxslow infinite linear alternate;
+            animation-delay: 0s;
+            fill: $light-button-loading-icon-active;
+        }
+
+        .dotFlashing:nth-child(3) { 
+            animation-delay: $duration-normal; 
+        }
+
+        .dotFlashing:nth-child(4) { 
+            animation-delay: $duration-xslow; 
+        }
+    }
+
+    &__dark#{&}__loading {
+        background-color: $dark-button-loading-background;
+        border-color: $dark-button-loading-border;
+
+        .dotFlashing {
+            animation: dotFlashing-dark $duration-xxslow infinite linear alternate;
+            animation-delay: 0s;
+            fill: $dark-button-loading-icon-active;        
+        }
+
+        .dotFlashing:nth-child(3) { 
+            animation-delay: $duration-normal; 
+        }
+
+        .dotFlashing:nth-child(4) { 
+            animation-delay: $duration-xslow; 
+        }
+    }
+
+    &__dynamic#{&}__loading {
+        background-color: $dynamic-button-loading-background;
+        border-color: $dynamic-button-loading-border;
+
+        .dotFlashing {
+            animation: dotFlashing-dynamic $duration-xxslow infinite linear alternate;
+            animation-delay: 0s;
+            fill: $dynamic-button-loading-icon-active;        
+        }
+
+        .dotFlashing:nth-child(3) { 
+            animation-delay: $duration-normal; 
+        }
+
+        .dotFlashing:nth-child(4) { 
+            animation-delay: $duration-xslow; 
+        }
+    }
+
+    .button__content {
+        display: flex;
+        white-space: nowrap;
+    }
+
+    /* Internal Icon */
+    .icon {
+        display: inline-block;
+   
+        &:empty {
+            display: none;
+        }
+    }
+}
