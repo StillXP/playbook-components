@@ -1,5 +1,5 @@
 @use 'sass:math';
-@use '_variables' as *;
+@use 'variables' as *;
 
 $base-font-size: $font-size-100;
 
@@ -17,21 +17,11 @@ $base-font-size: $font-size-100;
     @return $rem-value;
 }
 
-/* Variable Fonts */
-@mixin load-custom-font($family, $filename, $type, $font-style) {
-    @font-face {
-        font-display: fallback;
-        font-family: $family;
-        font-style: $font-style;
-        font-weight: 200 900;
-        src: url('//sports.cbsimg.net/fonts/fs-industrie/variable/#{$type}/#{$filename}' + '.woff2') format('woff2');
-    }
+@mixin truncate-text() {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
-
-@include load-custom-font('FS Industrie', 'FSIndustrieVFStd', 'standard', 'regular');
-@include load-custom-font('FS Industrie', 'FSIndustrieVFStd-Italic', 'standard', italic);
-@include load-custom-font('FS Industrie Nw', 'FSIndustrieVFNw', 'narrow', 'regular');
-@include load-custom-font('FS Industrie Nw', 'FSIndustrieVFNw-Italic', 'narrow', italic);
 
 /* stylelint-disable cbs/typography */
 @mixin font-style(
@@ -107,6 +97,7 @@ $base-font-size: $font-size-100;
             'comfy': $line-height-comfy,
             'none': $line-height-none,
             'normal': $line-height-normal,
+            'remove': 0,
         );
         @each $key, $value in $height-map {
             @if $height == $key {

@@ -1,0 +1,132 @@
+@use 'sass:math';
+@use '/src/styles/_theme-helper.scss' as *;
+
+$grid-columns: 12;
+
+@mixin spans() {
+    @for $i from 1 through $grid-columns {
+        &__#{$i} {
+            grid-column-end: span $i;
+        }
+    }
+}
+
+.grid-row {
+    --grid-col-gap: #{$spacing-75};
+    --grid-row-gap: #{$spacing-250};
+
+    display: grid;
+    gap: var(--grid-col-gap);
+    grid-template-columns: repeat($grid-columns, 1fr);
+    row-gap: var(--grid-row-gap);
+    width: 100%;
+
+    @include breakpoint($breakpoint-mobile) {
+        grid-template-areas:
+        'main main main main main main main main main main main main'
+        'ad ad ad ad ad ad ad ad ad ad ad ad'
+        'side side side side side side side side side side side side';
+    }
+
+    @include breakpoint($breakpoint-tablet-portrait) {
+        grid-template-areas:
+        'main main main main main main main main main main main main'
+        'ad ad ad ad ad ad ad ad ad ad ad ad'
+        'side side side side side side side side side side side side';
+    }
+
+    @include breakpoint($breakpoint-desktop-narrow) {
+        --grid-col-gap: #{$spacing-200};
+        --grid-row-gap: #{$spacing-100};
+        grid-template-areas:
+        'main main main main main main main main main main main main'
+        'ad ad ad ad ad ad ad ad ad ad ad ad'
+        'side side side side side side side side side side side side';
+    }
+
+    @include breakpoint($breakpoint-desktop) {
+        --grid-col-gap: #{$spacing-200};
+        grid-template-areas:
+            'side side side side main main main main main main main main'
+            'ad ad ad ad ad ad ad ad ad ad ad ad';
+    }
+
+    @include breakpoint($breakpoint-desktop-wide) {
+        --grid-col-gap: #{$spacing-200};
+        grid-template-areas:
+        'side side side main main main main main main assoc assoc assoc'
+        'ad ad ad ad ad ad ad ad ad ad ad ad';
+    }
+
+    @include breakpoint($breakpoint-tv) {
+        --grid-col-gap: #{$spacing-200};
+        grid-template-areas:
+        'side side side side main main main main main assoc assoc assoc'
+        'ad ad ad ad ad ad ad ad ad ad ad ad';
+    }
+
+    &:not(:last-child) {
+        margin-bottom: var(--grid-col-gap);
+    }
+ 
+}
+
+@media screen and (max-width: 375px) {
+    .grid-row {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.grid-col {
+    &:empty {
+        @include breakpoint-max($breakpoint-desktop-narrow) {
+            display: none;
+        }
+    }
+    &__list {
+        grid-area: list;
+    }
+    &__main {
+        grid-area: main;
+    }
+    &__ad {
+        grid-area: ad;
+    }
+    &__assoc {
+        grid-area: assoc;
+    }
+}
+
+.mobile {
+    @include spans();
+}
+
+.tablet {
+    @include breakpoint($breakpoint-tablet-portrait) {
+        @include spans();
+    }
+}
+
+.narrow {
+    @include breakpoint($breakpoint-desktop-narrow) {
+        @include spans();
+    }
+}
+
+.desktop {
+    @include breakpoint($breakpoint-desktop) {
+        @include spans();
+    }
+}
+
+.wide {
+    @include breakpoint($breakpoint-desktop-wide) {
+        @include spans();
+    }
+}
+
+.tv {
+    @include breakpoint($breakpoint-tv) {
+        @include spans();
+    }
+}

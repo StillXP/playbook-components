@@ -1,0 +1,198 @@
+@use 'src/styles/_theme-helper' as *;
+
+a {
+    color: inherit;
+}
+
+.list-item {
+    display: flex;
+}
+
+.card {
+    @include font-style($family: 'standard');
+    container-type: inline-size;
+    container-name: self;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 12px;
+    text-decoration: none;
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing-50, 8px);
+    }
+
+    &__horizontal {
+        align-items: center;
+        flex-direction: row;
+
+        .thumbnail {
+            width: 50%;
+        }
+
+        .text {
+            width: 50%;
+            .description {
+                display: none;
+            }
+        }
+    }
+
+    &__vertical {
+        .text {
+            .description {
+                display: none;
+            }
+        }
+    }
+
+    &__hero {
+        text-align: center;
+        .text {
+            align-items: center;
+            .title {
+                font-size: $font-size-200;
+            }
+        }
+    }
+
+    &__subHero {
+        .text {
+            .title {
+                font-size: $font-size-125;
+            }
+            .description {
+                display: none;
+            }
+        }
+    }
+
+    &__text {
+        .text {
+            .title {
+                font-size: $font-size-100;
+            }
+            .description {
+                display: none;
+            }
+        }
+    }
+}
+
+.thumbnail {
+    aspect-ratio: 16 / 9;
+    border-radius: $border-radius-8;
+    background: blue;
+}
+
+.title {
+    font-size: $font-size-125;
+    font-weight: $font-weight-bold;
+    line-height: $line-height-normal;
+}
+
+.description {
+    color: $light-text-secondary;
+    font-size: $font-size-100;
+    font-weight: $font-weight-regular;
+    line-height: $line-height-normal;
+}
+
+.metadata {
+    align-items: center;
+    background: #F5F6F7;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: $spacing-25;
+    height: 20px;
+    padding: 0px 4px;
+    width: min-content;
+}
+
+.tag {
+    color: $light-text-secondary;
+    font-size: 10px;
+    font-weight: $font-weight-regular;
+    line-height: 100%;
+}
+
+.row {
+    container-type: inline-size;
+    container-name: row;
+    display: flex;
+    flex-direction: row;
+    gap: $spacing-200;
+    padding: 0px;
+}
+
+.column {
+    container-type: inline-size;
+    container-name: column;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-200;
+    padding: 0px;
+    width: 75%;
+}
+
+.story {
+    width: 50%;
+}
+
+@container row (width < 800px) {
+    .card {
+    }
+    .title {
+        font-size: $font-size-100;
+    }
+    .description {
+        display: none;
+    }
+}
+
+@container column (width < 500px) {
+    .card {
+        align-items: center;
+        flex-direction: row;
+
+        .thumbnail {
+            width: 50%;
+        }
+
+        .text {
+            width: 50%;
+        }
+    }
+    .title {
+        font-size: $font-size-100;
+    }
+    .description {
+        display: none;
+    }
+}
+
+@container self (width < 343px) {
+
+    .card {
+        &__hero {
+            .text{
+                .title {
+                    font-size: $font-size-150;
+                }
+            }
+        }
+
+        &__subHero {
+            align-items: center;
+            flex-direction: row;
+            .text {
+                .title {
+                    font-size: $font-size-100;
+                }
+            }
+        }
+    }
+}

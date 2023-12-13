@@ -1,5 +1,176 @@
 @use 'sass:math';
+@use 'layout' as *;
 @use 'variables' as *;
+
+$card-radius: 8px;
+$ratio-16-9: math.percentage(math.div(9, 16));
+// @TBD: Need to get these as tokens.
+$solid-black: #000;
+$gradient-darken: #000;
+$gradient-darken: #000;
+$gradient-darken-strength: 25%;
+$gradient-darken-weak: rgba($gradient-darken, $gradient-darken-strength);
+
+@mixin triangle($color, $direction: 'up', $size: 6px) {
+    height: 0;
+    width: 0;
+
+    @if $direction == 'left' {
+        border-bottom: $size solid transparent;
+        border-right: $size solid $color;
+        border-top: $size solid transparent;
+    } @else {
+        border-bottom: $size solid $color;
+        border-left: $size solid transparent;
+        border-right: $size solid transparent;
+    }
+}
+
+@mixin card-hover($theme: 'light', $element: null) {
+    @if ($element) {
+        #{$element} {
+            transition: box-shadow $duration-xfast;
+        }
+    } @else {
+        transition: box-shadow $duration-xfast;
+    }
+
+    &:hover {
+        @if ($element) {
+            #{$element} {        
+                @if $theme == 'dark' {
+                    box-shadow: $dark-elevation-raised;
+                } @else if $theme == 'dynamic' {
+                    box-shadow: $dynamic-elevation-raised;
+                } @else {
+                    box-shadow: $light-elevation-raised;
+                }
+            }
+        } @else {
+            @if $theme == 'dark' {
+                box-shadow: $dark-elevation-raised;
+            } @else if $theme == 'dynamic' {
+                box-shadow: $dynamic-elevation-raised;
+            } @else {
+                box-shadow: $light-elevation-raised;
+            }
+        }
+    }
+}
+
+@mixin video-card-hover($theme: 'light', $layout: null) {
+    $light: $light-elevation-navigation;
+    $dark: $dark-elevation-navigation;
+    $dynamic: $dynamic-elevation-navigation;
+    $transform: scale3d(1.05, 1.05, 1);
+
+    @if ($layout == 'horizontal') {
+        $light: $light-elevation-raised;
+        $dark: $dark-elevation-raised;
+        $dynamic: $dynamic-elevation-raised;
+        $transform: none;
+    }
+
+    @include breakpoint($breakpoint-mobile-max) {
+        .thumb {
+            transition: box-shadow $duration-xfast, transform $duration-xfast;
+        }
+
+        &:hover {
+            .thumb {
+                transform: $transform;
+
+                @if $theme == 'dark' {
+                    box-shadow: $dark;
+                } @else if $theme == 'dynamic' {
+                    box-shadow: $dynamic;
+                } @else {
+                    box-shadow: $light;
+                }
+            }
+        }
+    }
+}
+
+$sport-colors: '7' $leagues-tennis-primary $leagues-tennis-secondary,
+    '8' $leagues-combat-boxing-primary $leagues-combat-boxing-secondary,
+    '38' $leagues-combat-wwe-primary $leagues-combat-wwe-secondary,
+    '1639307' $leagues-combat-mma-primary $leagues-combat-mma-secondary,
+    '556401' $leagues-poker-wsop-primary $leagues-poker-wsop-secondary;
+
+@mixin sport-colors($property, $type: 'primary') {
+    @each $id, $primary, $secondary in $sport-colors {
+        &[data-sport-id='#{$id}'] {
+            @if $type == 'primary' {
+                #{$property}: $primary;
+            } @else {
+                #{$property}: $secondary;
+            }
+        }
+    }
+}
+
+$league-colors: '52' $leagues-baseball-mlb-primary $leagues-baseball-mlb-secondary,
+    '53' $leagues-soccer-mls-primary $leagues-soccer-mls-secondary,
+    '54' $leagues-basketball-nba-primary $leagues-basketball-nba-secondary,
+    '55' $leagues-college-ncaa-primary $leagues-college-ncaa-secondary,
+    '56' $leagues-college-ncaa-primary $leagues-college-ncaa-secondary,
+    '59' $leagues-football-nfl-primary $leagues-football-nfl-secondary,
+    '60' $leagues-hockey-nhl-primary $leagues-hockey-nhl-secondary,
+    '64' $leagues-golf-pga-primary $leagues-golf-pga-secondary,
+    '71' $leagues-soccer-world-cup-primary-light $leagues-soccer-world-cup-secondary-light, 
+    '73' $leagues-basketball-wnba-primary $leagues-basketball-wnba-secondary,
+    '133534' $leagues-motorsports-nascar-primary $leagues-motorsports-nascar-secondary,
+    '1236988' $leagues-soccer-english-premier-league-primary $leagues-soccer-english-premier-league-secondary,
+    '1236989' $leagues-soccer-bundesliga-primary $leagues-soccer-bundesliga-secondary,
+    '1236990' $leagues-soccer-ligue-1-primary $leagues-soccer-ligue-1-secondary,
+    '1236992' $leagues-soccer-la-liga-primary $leagues-soccer-la-liga-secondary,
+    '1236993' $leagues-soccer-serie-a-primary $leagues-soccer-serie-a-secondary,
+    '1236994' $leagues-soccer-champions-league-primary $leagues-soccer-champions-league-secondary,
+    '134873' $leagues-golf-primary $leagues-golf-secondary,
+    '135749' $leagues-soccer-womens-world-cup-primary-light $leagues-soccer-womens-world-cup-secondary-light, 
+    '2093368' $leagues-combat-bellator-primary $leagues-combat-bellator-secondary,
+    '2227253' $leagues-soccer-europa-league-primary $leagues-soccer-europa-league-secondary,
+    '2227254' $leagues-soccer-scottish-professional-football-league-primary $leagues-soccer-scottish-professional-football-league-secondary,
+    '2227255' $leagues-soccer-brasileiro-primary $leagues-soccer-brasileiro-secondary,
+    '2227256' $leagues-soccer-argentina-lpf-primary $leagues-soccer-argentina-lpf-secondary,
+    '2227257' $leagues-soccer-liga-mx-primary $leagues-soccer-liga-mx-secondary,
+    '3117100' $leagues-basketball-big-3-primary $leagues-basketball-big-3-secondary,
+    '3117101' $leagues-soccer-nwsl-primary $leagues-soccer-nwsl-secondary,
+    '3117106' $leagues-soccer-coppa-italia-primary $leagues-soccer-coppa-italia-secondary,
+    '999999999' $leagues-combat-wwe-primary $leagues-combat-wwe-secondary,
+    '8000000002' $leagues-soccer-europa-conference-primary $leagues-soccer-europa-conference-secondary;
+
+@mixin league-colors($property, $type: 'primary') {
+    @each $id, $primary, $secondary in $league-colors {
+        &[data-primpy-id='#{$id}'] {
+            @if $type == 'primary' {
+                #{$property}: $primary;
+            } @else {
+                #{$property}: $secondary;
+            }
+        }
+    }
+}
+
+$headshot-size-map: (
+    200: $headshot-size-200,
+    250: $headshot-size-250,
+    300: $headshot-size-300,
+    400: $headshot-size-400,
+    450: $headshot-size-450,
+    500: $headshot-size-500,
+    600: $headshot-size-600,
+);
+
+@mixin headshot-size($size) {    
+    @each $key, $value in $headshot-size-map {
+        @if $size == $key {
+            height: $value;
+            width: $value;
+        }
+    }
+}
 
 $sports-logo-size-map: (
     100: $logo-sports-size-100,
@@ -22,5 +193,26 @@ $sports-logo-size-map: (
             height: $value;
             width: $value;
         }
+    }
+}
+
+@function css-variable-darken($color) {
+    @return color-mix(
+        in srgb,
+        $color,
+        $gradient-darken $gradient-darken-strength
+    );
+}
+
+@mixin mega-menu-hide {
+    cursor: default;
+    visibility: hidden;
+}
+
+@mixin mega-menu-show {
+    visibility: visible;
+
+    @include breakpoint($breakpoint-desktop-narrow) {
+        transition-delay: $duration-normal;
     }
 }

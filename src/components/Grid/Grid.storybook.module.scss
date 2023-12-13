@@ -1,0 +1,95 @@
+@use '/src/styles/_theme-helper.scss' as *;
+
+.grid-item {
+    @include font-style($family: 'standard');
+    background-color: $light-surface-brand;
+    color: $dynamic-text-primary;
+    padding: $spacing-50;
+}
+
+.main {
+    display: flex;
+    gap: 32px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.rail {
+    display: flex;
+    position: sticky;
+    top: 12px;
+    width: 350px;
+    height: 150px;
+    background-color: red;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 786px) {
+    .rail {
+        display: none;
+    }
+}
+
+.row {
+    width: auto;
+}
+
+.sub-articles {
+    display: flex;
+    flex-direction: row;
+    gap: $spacing-200;
+}
+
+@media screen and (min-width: $breakpoint-desktop-wide) {
+    .sub-articles {
+        display: none;
+    }
+    .divider-assoc {
+        display: none;
+    }
+}
+
+.assoc-articles {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-200;
+}
+
+.list-item {
+    flex-grow: 1;
+}
+
+.divider {
+    height: 1px;
+    align-self: stretch;
+    background: $light-utility-border;
+    margin: 16px 0px;
+}
+
+.divider-assoc {
+    height: 1px;
+    align-self: stretch;
+    background: $light-utility-border;
+    margin: 16px 0px;
+}
+
+.article-list {
+    padding: 0px;
+    margin: 0px;
+    grid-area: side;
+}
+
+.ad {
+    background-color: green;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 90px;
+    grid-area: ad;
+}
